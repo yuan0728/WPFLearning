@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XH.FirstCode"
         mc:Ignorable="d"
+        FontSize="20px" FontFamily="思源黑体"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid>
+            <StackPanel>
+                <TextBlock Text="测试" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <local:UCNode HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,2,3,4"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
