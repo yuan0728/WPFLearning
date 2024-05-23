@@ -10,8 +10,30 @@
     <Grid>
         <Grid>
             <StackPanel>
-                <TextBlock Text="测试" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock >
+                    <TextBlock.Text>
+                        123
+                    </TextBlock.Text>
+                </TextBlock>
+                <Button Height="20" Width="20">
+                    <Button.Content>
+                        <Button Height="20" Width="20">
+                            <Button.Background>
+                                <Brush>
+                                    Green
+                                </Brush>
+                            </Button.Background>
+                        </Button>
+                    </Button.Content>
+                </Button>
                 <local:UCNode HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,2,3,4"/>
+                <local:CustormNode>
+                    <local:CustormNode.Values>
+                        <local:ValueCollection>
+                            12,3
+                        </local:ValueCollection>
+                    </local:CustormNode.Values>
+                </local:CustormNode>
             </StackPanel>
         </Grid>
     </Grid>
