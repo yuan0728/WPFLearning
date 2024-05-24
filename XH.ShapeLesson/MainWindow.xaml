@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Line></Line>
+        <StackPanel>
+            <Line X1="10" Y1="10" X2="100" Y2="100"
+                  Stroke="Red" 
+                  StrokeThickness="2"
+                  Fill="Orange"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top" />
+            <Rectangle Width="100" Height="50" Fill="Orange"  RadiusX="30" RadiusY="30" />
+            <Polyline Points="20 20 30 80 100 20 " Fill="Orange" Stroke="Red" />
+            <Polygon Points="20 20 30 80 100 20 " Fill="Orange" Stroke="Red" />
+        </StackPanel>
+
     </Grid>
 </Window>
