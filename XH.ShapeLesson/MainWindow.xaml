@@ -6,10 +6,31 @@
         xmlns:local="clr-namespace:XH.ShapeLesson"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" ResizeBorderThickness="0"/>
+    </WindowChrome.WindowChrome>
     <Grid>
         <StackPanel>
-            <Line X1="10" Y1="10" X2="100" Y2="100"
+
+            <!--<Button Background="Red" 
+                    Height="20" Width="40" Margin="10,10,10,10" 
+                    VerticalAlignment="Center" HorizontalAlignment="Center"
+                    BorderBrush="Green" BorderThickness="1"
+                    Foreground="White" FontSize="10" FontWeight="Bold">
+                <Button.Content>
+                    <TextBlock Text="anniu" />
+                </Button.Content>
+            </Button>
+            <RadioButton Content="男" GroupName="0" IsChecked="True" />
+            <RadioButton Content="女" GroupName="0" IsChecked="True" />
+            <DataGrid AlternationCount="1" AlternatingRowBackground="AliceBlue">
+                <DataGrid.Columns />
+            </DataGrid>
+            <Line X1="10" Y1="10" X2="100" Y2="100" StrokeDashArray="3,1"
                   Stroke="Red" 
+                  StrokeDashCap="Flat"
+                  StrokeEndLineCap="Round"
+                  StrokeStartLineCap="Square"
                   StrokeThickness="2"
                   Fill="Orange"
                   HorizontalAlignment="Left"
@@ -17,7 +38,56 @@
             <Rectangle Width="100" Height="50" Fill="Orange"  RadiusX="30" RadiusY="30" />
             <Polyline Points="20 20 30 80 100 20 " Fill="Orange" Stroke="Red" />
             <Polygon Points="20 20 30 80 100 20 " Fill="Orange" Stroke="Red" />
-        </StackPanel>
+            <Path Fill="Red" Stroke="Green">
+                <Path.Data>
+                    <GeometryGroup>
+                        <LineGeometry StartPoint="0,1" EndPoint="10,20" />
+                        <RectangleGeometry Rect="10,20,10,10" RadiusX="2" RadiusY="2" />
+                        <EllipseGeometry Center="10,20" RadiusX="10" RadiusY="10"/>
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>-->
+            <Path Stroke="Green" Fill="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="10,5">
+                            <!--<LineSegment Point="10,10" />
+                            <LineSegment Point="10,2" />
+                            <LineSegment Point="1,2" />-->
+                            <ArcSegment Point="0,5" Size="5,5"/>
+                            <LineSegment Point="10,20" />
+                            <LineSegment Point="20,5" />
+                            <ArcSegment Point="10,5" Size="5,5" />
 
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            <Path Stroke="Pink" Fill="Red">
+                <Path.Data>
+                    <GeometryGroup>
+                        <PathGeometry>
+                            <PathFigure StartPoint="20,20">
+                                <ArcSegment Point="10,20" Size="5,5" />
+                                <ArcSegment Point="10,30" Size="5,5" />
+                                <ArcSegment Point="20,30" Size="5,5" />
+                                <ArcSegment Point="20,20" Size="5,5" />
+                            </PathFigure>
+                        </PathGeometry>
+                        <EllipseGeometry Center="15,25" RadiusX="3" RadiusY="3" />
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>
+            <Path Stroke="Green">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="1,1">
+                            <LineSegment Point="4,4" />
+                            <ArcSegment Point="5,10" Size="100,10" RotationAngle="10" SweepDirection="Clockwise" IsLargeArc="False"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </StackPanel>
     </Grid>
 </Window>

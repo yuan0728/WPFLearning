@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.FirstCode", "XH.FirstCode\XH.FirstCode.csproj", "{9D302F1B-019A-48D6-A53F-BEF64913ED7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.ShapeLesson", "XH.ShapeLesson\XH.ShapeLesson.csproj", "{7FC8FE35-16C3-4E24-89CE-53B248B1EAF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.ShapeLesson", "XH.ShapeLesson\XH.ShapeLesson.csproj", "{7FC8FE35-16C3-4E24-89CE-53B248B1EAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.Note", "XH.Note\XH.Note.csproj", "{623C5E7E-EE59-4318-84B5-CF01CFF11595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7FC8FE35-16C3-4E24-89CE-53B248B1EAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC8FE35-16C3-4E24-89CE-53B248B1EAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC8FE35-16C3-4E24-89CE-53B248B1EAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623C5E7E-EE59-4318-84B5-CF01CFF11595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623C5E7E-EE59-4318-84B5-CF01CFF11595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623C5E7E-EE59-4318-84B5-CF01CFF11595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623C5E7E-EE59-4318-84B5-CF01CFF11595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
