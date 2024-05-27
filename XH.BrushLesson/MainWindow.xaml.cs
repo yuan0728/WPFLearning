@@ -19,7 +19,6 @@ namespace XH.BrushLesson
         public MainWindow()
         {
             InitializeComponent();
-            
         }
     }
 }

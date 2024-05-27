@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Border Width="200" Height="100" BorderThickness="2">
+        <!--<Border Width="200" Height="100" BorderThickness="2">
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
                     <GradientStop Color="Green" Offset="0" />
@@ -22,6 +22,15 @@
                     <GradientStop Color="Orange" Offset="1" />
                 </LinearGradientBrush>
             </Border.BorderBrush>
+        </Border>-->
+        <Border Width="150" Height="150">
+            <Border.Background>
+                <VisualBrush Viewport="0,0,10,10" ViewportUnits="Absolute" TileMode="Tile">
+                    <VisualBrush.Visual>
+                        <Path Data="M1 4 0 2 1 0 3 0 4 2 3 4M4 2 6 2" Stroke="Red" StrokeThickness="0.01"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Border.Background>
         </Border>
     </Grid>
 </Window>
