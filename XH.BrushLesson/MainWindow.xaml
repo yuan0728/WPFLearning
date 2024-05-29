@@ -23,7 +23,7 @@
                 </LinearGradientBrush>
             </Border.BorderBrush>
         </Border>-->
-        <Border Width="150" Height="150">
+        <!--<Border Width="150" Height="150">
             <Border.Background>
                 <VisualBrush Viewport="0,0,10,10" ViewportUnits="Absolute" TileMode="Tile">
                     <VisualBrush.Visual>
@@ -31,6 +31,29 @@
                     </VisualBrush.Visual>
                 </VisualBrush>
             </Border.Background>
-        </Border>
+        </Border>-->
+        <StackPanel>
+            <TextBox Text="Hello" Name="tb" Height="30" Width="100" />
+            <Border Height="30" Width="100" RenderTransformOrigin="0.5,0.5">
+                <Border.Background>
+                    <!--<VisualBrush Visual="{Binding ElementName=tb}" />-->
+                    <BitmapCacheBrush>
+                        <BitmapCacheBrush.BitmapCache>
+                            <BitmapCache RenderAtScale="8">
+                                
+                            </BitmapCache>
+                        </BitmapCacheBrush.BitmapCache>
+                    </BitmapCacheBrush>
+                </Border.Background>
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform  Angle="180" />
+                    </TransformGroup>
+                </Border.RenderTransform>
+            </Border>
+            
+            
+            
+        </StackPanel>
     </Grid>
 </Window>
