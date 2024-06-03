@@ -9,7 +9,7 @@
     <StackPanel>
         <Border Width="100" Height="30" Background="Orange">
             <Border.RenderTransform>
-                <!--斜切变形 水平方向的变化  垂直方向的变化-->
+                <!--斜切变形 水平方向的变化  垂直方向的变化 -->
                 <SkewTransform AngleX="10" />
             </Border.RenderTransform>
         </Border>
