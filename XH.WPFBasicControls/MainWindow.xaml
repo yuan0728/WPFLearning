@@ -1,0 +1,391 @@
+﻿<Window x:Class="XH.WPFBasicControls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.WPFBasicControls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<StackPanel>-->
+        <!--<RadioButton Content="RadioButton1" HorizontalAlignment="Center" GroupName="Radio" VerticalAlignment="Center" Checked="RadioButton_Checked" />
+            <RadioButton Content="RadioButton2" HorizontalAlignment="Center" GroupName="Radio" VerticalAlignment="Center" Checked="RadioButton_Checked" />
+            <RadioButton Content="RadioButton3" HorizontalAlignment="Center" GroupName="Radio" VerticalAlignment="Center" Checked="RadioButton_Checked" />-->
+        <!--<TextBox Name="textBox" Width="200" Height="30" TextChanged="TextBox_TextChanged" KeyDown="TextBox_KeyDown" LostFocus="TextBox_LostFocus"/>
+            <TextBox />-->
+        <!--<RichTextBox Name="richTextBox" Width="300" Height="200" 
+                         TextChanged="RichTextBox_TextChanged" 
+                         SelectionChanged="RichTextBox_SelectionChanged" >
+                <RichTextBox.Document>
+                    <FlowDocument>
+                        <Paragraph>
+                            <Run Text="测试" Foreground="Red"></Run>
+                            <Run Text="开发" Foreground="Blue"></Run>
+                        </Paragraph>
+                    </FlowDocument>
+                </RichTextBox.Document>
+            </RichTextBox>-->
+        <!--<CheckBox Name="checkBox" Content="Check me" IsChecked="False" 
+                      HorizontalAlignment="Center" VerticalAlignment="Center"
+                      Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"
+                      IsThreeState="True"
+                      Indeterminate="checkBox_Indeterminate"/>-->
+        <!--<ComboBox Name="comboBox" Width="200" Height="30" 
+                      SelectionChanged="ComboBox_SelectionChanged"
+                      DisplayMemberPath="Id"/>-->
+        <!--<DatePicker Name="datePicker" Width="200" 
+                        SelectedDateFormat ="Long"
+                        DisplayDateStart="2003,1,2"
+                        DisplayDateEnd="2024,1,1"
+                        SelectedDateChanged="DatePicker_SelectedDateChanged" />-->
+        <!--<PasswordBox Name="passwordBox" Width="200" 
+                         Password="123"
+                         PasswordChar="*"
+                         PasswordChanged="PasswordBox_PasswordChanged"/>-->
+        <!--<Slider Name="slider" Width="200" Height="30" 
+                    Minimum="0" Maximum="100" Value="50" 
+                    TickFrequency="10" IsSnapToTickEnabled="True" 
+                    ValueChanged="Slider_ValueChanged"/>-->
+        <!--<ProgressBar Name="progressBar" Width="200" Height="30" Minimum="0" 
+                         Maximum="100" Value="50" IsIndeterminate="False"
+                         ValueChanged="progressBar_ValueChanged"/>
+            <Button Height="30" Width="100" Content="Button" Click="Button_Click_1" />-->
+        <!-- 确定进度的进度条 -->
+        <!--<ProgressBar Name="progressBarDeterminate" Width="200" Height="30" Minimum="0" Maximum="100" Value="50" VerticalAlignment="Top" Margin="0,30,0,0" />-->
+        <!-- 不确定进度的进度条 -->
+        <!--<ProgressBar Name="progressBarIndeterminate" Width="200" Height="30" IsIndeterminate="True" VerticalAlignment="Top" Margin="0,80,0,0" />-->
+        <!-- 控制进度的按钮 -->
+        <!--<Button Content="Increase Determinate Progress" Width="200" Height="30" VerticalAlignment="Top" Margin="0,120,0,0" Click="Button_Click" />-->
+        <!--<Menu>
+                <MenuItem Header="_File" StaysOpenOnClick="True">
+                    <MenuItem Header="_New" InputGestureText ="Ctrl + N"  Click="NewMenuItem_Click" IsChecked="True"/>
+                    <MenuItem Header="_Open" Click="OpenMenuItem_Click" IsCheckable="True"/>
+                    <MenuItem Header="_Save" Click="SaveMenuItem_Click"/>
+                    <Separator/>
+                    <MenuItem Header="_Exit" Click="ExitMenuItem_Click"/>
+                </MenuItem>
+                <MenuItem Header="Edit(_E)" InputGestureText="Alt + E">
+                    <MenuItem Header="_Cut" Click="CutMenuItem_Click"/>
+                    <MenuItem Header="_Copy" Click="CopyMenuItem_Click"/>
+                    <MenuItem Header="_Paste" Click="PasteMenuItem_Click"/>
+                </MenuItem>
+            </Menu>-->
+        <!--<TextBox x:Name="textBox" Width="200" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <TextBox.ContextMenu>
+                    <ContextMenu Opened="ContextMenu_Opened">
+                        <MenuItem Header="Cut" Click="CutMenuItem_Click"/>
+                        <MenuItem Header="Copy" Click="CopyMenuItem_Click"/>
+                        <MenuItem Header="Paste" Click="PasteMenuItem_Click"/>
+                    </ContextMenu>
+                </TextBox.ContextMenu>
+            </TextBox>
+
+            <Button x:Name="button" Content="按钮" Width="200" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <Button.ContextMenu>
+                    <ContextMenu Closed="ContextMenu_Closed">
+                        <MenuItem Header="Cut" Click="CutMenuItem_Click"/>
+                        <MenuItem Header="Copy" Click="CopyMenuItem_Click"/>
+                        <Separator/>
+                        <MenuItem Header="Paste" Click="PasteMenuItem_Click"/>
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>-->
+        <!--<DockPanel>
+                -->
+        <!-- ToolBarTray 用于容纳多个 ToolBar -->
+        <!--
+                <ToolBarTray DockPanel.Dock="Top">
+                    -->
+        <!-- 定义一个 ToolBar -->
+        <!--
+                    <ToolBar Loaded="ToolBar_Loaded" Unloaded="ToolBar_Unloaded">
+                        <Button Content="New" Click="NewButton_Click">
+                            <Button.ToolTip>
+                                <ToolTip Content="Create a new file"/>
+                            </Button.ToolTip>
+                        </Button>
+                        <Button Content="Open" Click="OpenButton_Click">
+                            <Button.ToolTip>
+                                <ToolTip Content="Open an existing file"/>
+                            </Button.ToolTip>
+                        </Button>
+                        <Button Content="Save" Click="SaveButton_Click">
+                            <Button.ToolTip>
+                                <ToolTip Content="Save the current file"/>
+                            </Button.ToolTip>
+                        </Button>
+                        <Separator/>
+                        <ToggleButton Content="Bold" Click="BoldButton_Click">
+                            <ToggleButton.ToolTip>
+                                <ToolTip Content="Toggle bold text"/>
+                            </ToggleButton.ToolTip>
+                        </ToggleButton>
+                        <Separator/>
+                        <ComboBox Width="100" SelectionChanged="FontComboBox_SelectionChanged">
+                            <ComboBoxItem Content="Arial"/>
+                            <ComboBoxItem Content="Calibri"/>
+                            <ComboBoxItem Content="Times New Roman"/>
+                        </ComboBox>
+                    </ToolBar>
+                </ToolBarTray>
+
+                -->
+        <!-- 主内容区域 -->
+        <!--
+                <TextBox Name="textBox" Margin="10" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+            </DockPanel>-->
+        <!--<TreeView x:Name="treeView" SelectedItemChanged="treeView_SelectedItemChanged">
+                <TreeViewItem Header="Root">
+                    <TreeViewItem Header="C-01">
+                        <TreeViewItem Header="C-01-01" />
+                        <TreeViewItem Header="C-01-02" />
+                    </TreeViewItem>
+                    <TreeViewItem Header="C-02" />
+                    <TreeViewItem Header="C-03" />
+                </TreeViewItem>
+            </TreeView>-->
+        <!--<TabControl x:Name="tabControl" SelectionChanged="TabControl_SelectionChanged">
+                <TabItem Header="Tab01">
+                    <TextBlock Text="01"/>
+                </TabItem>
+                <TabItem Header="Tab02">
+                    <TextBlock Text="02"/>
+                </TabItem>
+            </TabControl>
+            <TextBlock x:Name="tb" Height="30" Width="100" />-->
+        <!--<Expander Header="Details" IsExpanded="True" Expanded="Expander_Expanded" Collapsed="Expander_Collapsed">
+                <TextBlock Text="Expander" />
+            </Expander>-->
+        <!--<Button Content="按钮" Name="btn" Click="Button_Click_2"/>
+            <Popup x:Name="popup" PlacementTarget="{Binding ElementName=btn}" Placement="Bottom">
+                <TextBlock Text="textBlock" Background="AliceBlue" />
+            </Popup>-->
+        <!--<Button Content="Print" Click="Button_Click_3" />-->
+        <!--<Button Content="按钮" ToolTip="button" />-->
+        <!--</StackPanel>-->
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Content="btn1" Background="Red" Grid.Row="0" Grid.Column="0" />
+            <Button Content="btn2" Background="Black" Grid.Row="0" Grid.Column="1" />
+            <Button Content="btn3" Background="Green" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
+        </Grid>-->
+        <!--<StackPanel Orientation="Vertical">
+            <Button Content="btn1" Background="Red" />
+            <Button Content="btn2" Background="Black" />
+            <Button Content="btn3" Background="Green" />
+        </StackPanel>-->
+        <!--<DockPanel>
+            <Button Content="Top" Background="Red" DockPanel.Dock="Top"/>
+            <Button Content="Bottom" Background="Black" DockPanel.Dock="Bottom"/>
+            <Button Content="Left" Background="Blue" DockPanel.Dock="Left"/>
+            <Button Content="Right" Background="OrangeRed" DockPanel.Dock="Right"/>
+            <Button Content="Fill" Background="Green"/>
+        </DockPanel>-->
+        <!--<WrapPanel Orientation="Vertical">
+            <Button Content="Button 1" Background="AliceBlue"/>
+            <Button Content="Button 2" Background="Green"/>
+            <Button Content="Button 3" Background="Red"/>
+            <Button Content="Button 4" Background="Orange"/>
+            <Button Content="Button 5" Background="Yellow"/>
+            <Button Content="Button 6" Background="Blue"/>
+            <Button Content="Button 7" Background="PowderBlue"/>
+        </WrapPanel>-->
+        <!--<Canvas>
+            <Button Content="Button 1" Background="Red" Canvas.Left="50" Canvas.Top="50"/>
+            <Button Content="Button 2" Background="Orange" Canvas.Left="150" Canvas.Top="100"/>
+            <Button Content="Button 3" Background="Yellow" Canvas.Left="250" Canvas.Top="150"/>
+        </Canvas>-->
+        <!--<UniformGrid Rows="2" Columns="3">
+            <Button Content="Button 1" Background="Red"/>
+            <Button Content="Button 2" Background="Orange"/>
+            <Button Content="Button 3" Background="Yellow"/>
+            <Button Content="Button 4" Background="Green"/>
+            <Button Content="Button 5" Background="AliceBlue"/>
+            <Button Content="Button 6" Background="Red"/>
+        </UniformGrid>-->
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Top Content" Grid.Row="0" HorizontalAlignment="Center"/>
+            <GridSplitter Grid.Row="0" ResizeDirection="Rows" ResizeBehavior="CurrentAndNext" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Center" />
+            <TextBlock Text="Bottom Centent" Grid.Row="1" HorizontalAlignment="Center"/>
+        </Grid>-->
+            <!--<Line X1="10" Y1="10" X2="100" Y2="100" Stroke="AliceBlue" StrokeThickness="2"/>-->
+            <!--<Rectangle Width="100" Height="50" Fill="LightBlue" Stroke="Black" StrokeThickness="2"/>-->
+            <!--<Ellipse Width="100" Height="50" Fill="LightGreen" Stroke="Black" StrokeThickness="2"/>-->
+            <!--<Polyline Points="10,10 50,50 100,20" Stroke="Black" StrokeThickness="2"/>-->
+            <!--<Polygon Points="10,10 50,50 100,20" Fill="LightBlue" Stroke="Black" StrokeThickness="2"/>-->
+            <!--<Path Stroke="Black" StrokeThickness="2">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathGeometry.Figures>
+                            <PathFigureCollection>
+                                <PathFigure StartPoint="10,10">
+                                    <LineSegment Point="50,50"/>
+                                    <LineSegment Point="100,20"/>
+                                    <LineSegment Point="10,10"/>
+                                </PathFigure>
+                            </PathFigureCollection>
+                        </PathGeometry.Figures>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>-->
+            <!--<Path Stroke="Black" StrokeThickness="2" Fill="LightBlue" 
+              Data="M 10,10 
+                    L 50,50 
+                    Q 100,20 150,50 
+                    A 50,30 45 1 1 200,100 
+                    C 250,50 300,150 350,100 
+                    Z"/>-->
+            <!--<ScrollViewer HorizontalScrollBarVisibility="Visible" 
+                          VerticalScrollBarVisibility="Visible"
+                          ScrollChanged="ScrollViewer_ScrollChanged">
+                <StackPanel>
+                    <TextBlock Text="Item 1" FontSize="16"/>
+                    <TextBlock Text="Item 2" FontSize="16"/>
+                    <TextBlock Text="Item 3" FontSize="16"/>
+                    <TextBlock Text="Item 4" FontSize="16"/>
+                    <TextBlock Text="Item 5" FontSize="16"/>
+                    <TextBlock Text="Item 6" FontSize="16"/>
+                    <TextBlock Text="Item 7" FontSize="16"/>
+                    <TextBlock Text="Item 8" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 9" FontSize="16"/>
+                    <TextBlock Text="Item 10" FontSize="16"/>
+                </StackPanel>
+            </ScrollViewer>-->
+        <!--<StackPanel>
+            <GroupBox Header="User Information" Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Name:" Margin="5"/>
+                    <TextBox Width="200" Margin="5"/>
+                    <TextBlock Text="Age:" Margin="5"/>
+                    <TextBox Width="50" Margin="5"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Address" Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Street:" Margin="5"/>
+                    <TextBox Width="200" Margin="5"/>
+                    <TextBlock Text="City:" Margin="5"/>
+                    <TextBox Width="150" Margin="5"/>
+                    <TextBlock Text="Country:" Margin="5"/>
+                    <TextBox Width="150" Margin="5"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>-->
+        <!--<Viewbox Stretch="Uniform" StretchDirection="UpOnly">
+            <StackPanel>
+                <TextBlock Text="Hello, ViewBox!" FontSize="20"/>
+                <Button Content="Click Me" Width="100" Height="30"/>
+            </StackPanel>
+        </Viewbox>-->
+        <!--<TextBlock Height="50" Width="50" HorizontalAlignment="Right" Name="tb" />-->
+        <!--<RepeatButton Content="RepeatButton" Height="50" Width="100" Interval="10" Click="RepeatButton_Click" />-->
+        <!--<Button Content="按钮" Height="50" Width="100" Click="Button_Click" />-->
+        <!--<StackPanel>
+            --><!--<TextBlock Text="Hello, WPF!" 
+                   Foreground="Blue" 
+                   FontSize="20" 
+                   FontWeight="Bold" 
+                   Margin="10"/>--><!--
+            <Label Content="Username:"/>
+            <TextBox Width="200" Height="30" Margin="0,5"/>
+            <Label Content="Password:"/>
+            <PasswordBox Width="200" Height="30" Margin="0,5"/>
+            <Button Content="Login" Width="100" Height="30" Margin="0,10"/>
+        </StackPanel>-->
+        <!--<Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label Content="_Username:" Target="{Binding ElementName=usernameTextBox}" VerticalAlignment="Center"/>
+            <TextBox x:Name="usernameTextBox" Grid.Column="1" Width="200" Height="30" Margin="5"/>
+
+            <Label Content="_Password:" Target="{Binding ElementName=passwordBox}" Grid.Row="1" VerticalAlignment="Center"/>
+            <PasswordBox x:Name="passwordBox" Grid.Column="1" Grid.Row="1" Width="200" Height="30" Margin="5"/>
+        </Grid>-->
+        <ListBox Width="200" Height="100">
+            <ListBoxItem>Item 1</ListBoxItem>
+            <ListBoxItem>Item 2</ListBoxItem>
+            <ListBoxItem>Item 3</ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
