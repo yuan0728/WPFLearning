@@ -1,0 +1,25 @@
+﻿<Window x:Class="XH.ThreeDLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.ThreeDLesson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Viewport3D>
+            <ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Geometry>
+                            <!--一个面 四个点-->
+                            <MeshGeometry3D Positions="0,0,0 3,0,0 3,2,0 0,2,0" 
+                                            TriangleIndices="0,3,2 0,1,2"
+                                            />
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>
+        </Viewport3D>
+    </Grid>
+</Window>
