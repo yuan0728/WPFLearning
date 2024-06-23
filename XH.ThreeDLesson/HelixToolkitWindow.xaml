@@ -1,0 +1,65 @@
+﻿<Window x:Class="XH.ThreeDLesson.HelixToolkitWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.ThreeDLesson"
+        mc:Ignorable="d"
+        xmlns:h="http://helix-toolkit.org/wpf"
+        Title="HelixToolkitWindow" Height="450" Width="800">
+    <Grid>
+        <!--ShowViewCube 右下角的放块是否显示
+            ShowCoordinateSystem 坐标系-->
+        <h:HelixViewport3D ShowViewCube="True"
+                           ViewCubeWidth="200"
+                           ViewCubeHeight="200"
+                           ViewCubeVerticalPosition="Top"
+                           ViewCubeHorizontalPosition="Left"
+                           ViewCubeFrontText="前"
+                           ViewCubeTopText="上"
+                           ViewCubeBottomText="下"
+                           ShowCoordinateSystem="True"
+                           CoordinateSystemLabelForeground="#5000"
+                           CoordinateSystemHorizontalPosition="Center"
+                           CoordinateSystemVerticalPosition="Center">
+            <!--相机-->
+            <h:HelixViewport3D.Camera>
+                <PerspectiveCamera Position="10 10 10" LookDirection="-1 -1 -1"
+                                   FieldOfView="10"
+                                   UpDirection="0 1 0"
+                                   FarPlaneDistance="1000"
+                                   NearPlaneDistance="1" />     
+            </h:HelixViewport3D.Camera>
+            <!--旋转用什么键进行操作-->
+            <h:HelixViewport3D.RotateGesture>
+                <MouseGesture MouseAction="LeftClick" />
+            </h:HelixViewport3D.RotateGesture>
+            <!--平移用什么建进行操作-->
+            <h:HelixViewport3D.PanGesture>
+                <MouseGesture MouseAction="RightClick" />
+            </h:HelixViewport3D.PanGesture>
+            <!--光源-->
+            <h:DefaultLights />
+            <!--模型 材质-->
+            <!--<ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial Brush="Red"/>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.BackMaterial>
+                            <DiffuseMaterial Brush="Blue"/>
+                        </GeometryModel3D.BackMaterial>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D Positions="3,2,1 3,2,0 3,0,0 3,0,1" 
+                                            TriangleIndices="0,3,1 1,3,2"/>
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+            <ModelVisual3D x:Name="model">
+                
+            </ModelVisual3D>
+        </h:HelixViewport3D>
+    </Grid>
+</Window>

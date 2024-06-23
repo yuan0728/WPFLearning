@@ -1,0 +1,69 @@
+﻿<Window x:Class="XH.ThreeDLesson.EarthWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.ThreeDLesson"
+        mc:Ignorable="d"
+        Title="EarthWin" Height="450" Width="800">
+    <!--动画 使地球转起来-->
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard RepeatBehavior="Forever">
+                    <DoubleAnimation Duration="0:0:7" 
+                                 Storyboard.TargetName="aar" 
+                                 Storyboard.TargetProperty="Angle" 
+                                 From="0" 
+                                 To="360" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Viewport3D>
+            <Viewport3D.Camera>
+                <PerspectiveCamera Position="100 100 100" LookDirection="-1 -1 -1"
+                               FieldOfView="100"
+                               UpDirection="0 1 0"
+                               FarPlaneDistance="1000"
+                               NearPlaneDistance="1"/>
+            </Viewport3D.Camera>
+
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <AmbientLight Color="White"/>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+
+            <!--地球-->
+            <ModelUIElement3D>
+                <ModelUIElement3D.Transform>
+                    <Transform3DGroup>
+                        <RotateTransform3D CenterX="0" CenterY="0" CenterZ="0">
+                            <RotateTransform3D.Rotation>
+                                <AxisAngleRotation3D Axis="1,0,0" Angle="-90" />
+                            </RotateTransform3D.Rotation>
+                        </RotateTransform3D>
+                        <RotateTransform3D CenterX="0" CenterY="0" CenterZ="0">
+                            <RotateTransform3D.Rotation>
+                                <AxisAngleRotation3D Axis="0,1,0" x:Name="aar" />
+                            </RotateTransform3D.Rotation>
+                        </RotateTransform3D>
+                    </Transform3DGroup>
+                </ModelUIElement3D.Transform>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D x:Name="gm">
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial>
+                                <DiffuseMaterial.Brush>
+                                    <ImageBrush ImageSource="Earth.jpg"/>
+                                </DiffuseMaterial.Brush>
+                            </DiffuseMaterial>
+                        </GeometryModel3D.Material>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>
+        </Viewport3D>
+    </Grid>
+</Window>
