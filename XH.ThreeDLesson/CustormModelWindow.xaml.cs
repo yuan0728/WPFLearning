@@ -11,6 +11,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.Media3D;
 using System.Windows.Shapes;
 
 namespace XH.ThreeDLesson
@@ -30,8 +31,11 @@ namespace XH.ThreeDLesson
         {
             ModelImporter importer = new ModelImporter();
 
+            Model3DGroup group = new Model3DGroup();
 
-            model.Content = importer.Load("D:\\Users\\yhl18\\Desktop\\无标题.obj");
+            group.Children.Add(importer.Load("D:\\Users\\yhl18\\Desktop\\无标题.obj"));
+
+            model.Content = group;
         }
     }
 }
