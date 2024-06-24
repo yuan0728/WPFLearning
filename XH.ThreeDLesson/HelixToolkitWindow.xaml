@@ -98,6 +98,18 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>-->
 
+            <ModelUIElement3D>
+                <ModelUIElement3D.Transform>
+                    <Transform3DGroup>
+                        <Transform3DGroup>
+                            <Transform3DGroup>
+
+                            </Transform3DGroup>
+                        </Transform3DGroup>
+                    </Transform3DGroup>
+                </ModelUIElement3D.Transform>
+            </ModelUIElement3D>
+
             <!--<ModelUIElement3D />-->
             <!--###########################HelixViewport3D对象的内容（结束）#############################-->
 

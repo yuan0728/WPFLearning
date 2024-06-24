@@ -31,7 +31,7 @@ namespace XH.ThreeDLesson
             ModelImporter importer = new ModelImporter();
 
 
-            model.Content = importer.Load("D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\XH.ThreeDLesson\\bin\\Debug\\net7.0-windows\\3D_Models\\无标题.obj");
+            model.Content = importer.Load("D:\\Users\\yhl18\\Desktop\\无标题.obj");
         }
     }
 }

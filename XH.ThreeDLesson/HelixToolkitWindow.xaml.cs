@@ -71,6 +71,12 @@ namespace XH.ThreeDLesson
                 //    currentMUI = mui;
                 //}
 
+                //if (file.IndexOf("LINK1_CAD") > -1)
+                //{
+                //    geo.Material = NormalMaterial(Brushes.Green);
+                //    geo.BackMaterial = NormalMaterial(Brushes.Green);
+                //}
+
                 this.hv.Children.Add(mui);
 
                 models.Add(mui);
@@ -84,7 +90,7 @@ namespace XH.ThreeDLesson
 
         private void Mui_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if(currentModel != null)
+            if (currentModel != null)
             {
                 currentModel.Material = NormalMaterial(Brushes.White);
                 currentModel.BackMaterial = NormalMaterial(Brushes.White);
