@@ -4,16 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XH.ThreeDLesson"
-        mc:Ignorable="d"
+        mc:Ignorable="d" 
         xmlns:h="http://helix-toolkit.org/wpf"
         Title="CustormModelWindow" Height="450" Width="800">
     <Grid>
-        <h:HelixViewport3D>
+        <h:HelixViewport3D Name="hv" >
             <h:HelixViewport3D.Camera>
-                    <PerspectiveCamera Position="100 100 100" LookDirection="-1 -1 -1"
+                    <PerspectiveCamera Position="1000 1000 1000" LookDirection="-1 -1 -1"
                            FieldOfView="5"
                            UpDirection="0 1 0"
-                           FarPlaneDistance="1000"
+                           FarPlaneDistance="10000"
                            NearPlaneDistance="1" />
                 </h:HelixViewport3D.Camera>
 
@@ -25,6 +25,7 @@
                             </Model3DGroup>
                         </ModelVisual3D.Content>
                     </ModelVisual3D>-->
+            
                 <h:DefaultLights/>
 
             <ModelVisual3D x:Name="model" />

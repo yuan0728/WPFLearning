@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Kitware.mummy.Runtime">
+      <HintPath>..\packages\PCL\x64\Kitware.mummy.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Kitware.VTK">
+      <HintPath>..\packages\PCL\x64\Kitware.VTK.dll</HintPath>
+    </Reference>
+    <Reference Include="PclCSharp">
+      <HintPath>..\packages\PCL\x64\PclCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PointCloudSharpDll">
+      <HintPath>..\packages\PCL\x64\PointCloudSharpDll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
