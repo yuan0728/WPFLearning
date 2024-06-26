@@ -8,4 +8,13 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Microsoft.Ink">
+      <HintPath>..\packages\Libs\Microsoft.Ink.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ink.Analysis">
+      <HintPath>..\packages\Libs\Microsoft.Ink.Analysis.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

@@ -44,9 +44,7 @@
                 <RowDefinition />
             </Grid.RowDefinitions>
 
-            <Grid ShowGridLines="True" Grid.Row="2" Grid.Column="1">
-
-            </Grid>
+            <Grid ShowGridLines="True" Grid.Row="2" Grid.Column="1" />
 
             <Button Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2"  Grid.RowSpan="2"/>
         </Grid>
