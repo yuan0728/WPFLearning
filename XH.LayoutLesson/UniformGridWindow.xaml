@@ -14,18 +14,19 @@
             如果只设置行 则内容列均分
             如果行列都设置 则内容超出界面显示区域 但是也绘制
             使用场景：9宫格的功能区域、图表（柱状图）-->
-        <UniformGrid Columns="3" Visibility="Collapsed">
+        <UniformGrid Columns="3" Rows="3" Visibility="Collapsed">
             <Button Content="Button1"/>
             <Button Content="Button2"/>
             <Button Content="Button3"/>
-            <Button Content="Button3"/>
-            <Button Content="Button3"/>
-            <Button Content="Button3"/>
             <Button Content="Button4"/>
             <Button Content="Button5"/>
+            <Button Content="Button6"/>
+            <Button Content="Button7"/>
+            <Button Content="Button8"/>
+            <Button Content="Button9"/>
         </UniformGrid>
 
-        <UniformGrid Rows="1">
+        <UniformGrid Rows="1" Visibility="Visible">
             <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
                 <Border Height="150" Width="10" Background="Gray" VerticalAlignment="Bottom"/>
                 <Border Height="100" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
