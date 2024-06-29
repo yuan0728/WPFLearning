@@ -7,11 +7,14 @@
         mc:Ignorable="d" FontSize="50"
         Title="TestWindow" Height="450" Width="800">
     <Grid>
-        <local:XHPanel>
-            <Button Content="B1"/>
-            <Button Content="B2"/>
-            <Button Content="B3"/>
-            <Button Content="B4"/>
+        <local:XHPanel ColumnSpace="2" RowSpace="2">
+            <Border Background="Gray">
+                <TextBlock Text="B1B1BB11BB1B1B1B1B11B11BB1B1BB11BB1B1B1B1B11B11B" FontSize="20" TextWrapping="Wrap"/>
+            </Border>
+            <Button Content="B1" Height="40"/>
+            <Button Content="B2" Height="90"/>
+            <Button Content="B3" Height="90"/>
+            <Button Content="B4" Height="90"/>
         </local:XHPanel>
     </Grid>
 </Window>

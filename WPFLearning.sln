@@ -46,7 +46,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.PclLesson", "XH.PclLesso
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20240625_WPF布局控件", "20240625_WPF布局控件", "{25B8A20F-FEDD-46B4-9BA8-4096319C3BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.LayoutLesson", "XH.LayoutLesson\XH.LayoutLesson.csproj", "{1346DBD2-1491-4693-B66B-8EFA0C467F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.LayoutLesson", "XH.LayoutLesson\XH.LayoutLesson.csproj", "{1346DBD2-1491-4693-B66B-8EFA0C467F33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
