@@ -8,6 +8,5 @@
         Title="ColorWindow" Height="450" Width="800">
     <Grid Background="#FF0090FF">
         <Border Width="100" Height="50" Background="#44FF0000"/>
-
     </Grid>
 </Window>
