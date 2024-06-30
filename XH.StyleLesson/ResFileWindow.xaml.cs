@@ -23,5 +23,10 @@ namespace XH.StyleLesson
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.resDic.Source = new Uri("Assets/Res/Th_en.xaml",UriKind.Relative);
+        }
     }
 }

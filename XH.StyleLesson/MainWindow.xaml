@@ -20,10 +20,17 @@
         使用区别：希望资源在运行过程中指定：使用动态；如果固定资源：使用静态。
             性能上：首推静态，能用静态不使用动态-->
     <Window.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Width" Value="{DynamicResource value}"/>
+        <sys:Double x:Key="value">120</sys:Double>
+        <SolidColorBrush x:Key="brush">red</SolidColorBrush>
+        <!--<Style TargetType="Button" x:Key="btnStyle">
+            <Setter Property="Width" Value="{StaticResource value}"/>
             <Setter Property="Height" Value="200"/>
-            <Setter Property="Background" Value="{DynamicResource brush}"/>
+            <Setter Property="Background" Value="{StaticResource brush}"/>
+        </Style>-->
+        <Style TargetType="Button" x:Key="btnStyle">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Height" Value="200"/>
+            <Setter Property="Background" Value="{StaticResource brush}"/>
         </Style>
     </Window.Resources>
     <Grid>
@@ -32,6 +39,7 @@
             <sys:String x:Key="str">Hello</sys:String>
             <SolidColorBrush Color="Green" x:Key="brush"/>-->
         </Grid.Resources>
+        <Button Style="{StaticResource btnStyle}"/>
         <!--Style 设置指定对象的属性
             为什么需要Style？和属性指定有什么区别？
             TargetType 引用在哪个类型上面
@@ -49,7 +57,7 @@
             <MultiDataTrigger/> 数据触发 需要Binding
             <DataTrigger/>  数据触发 需要Binding
             <EventTrigger/> 事件触发器-->
-        <Button Panel.ZIndex="1" Content="{DynamicResource str}">
+        <Button Panel.ZIndex="1" Content="{DynamicResource str}" Visibility="Collapsed">
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Width" Value="{DynamicResource value}"/>
@@ -64,7 +72,7 @@
 
         <!--Setter 优先级：内联属性 > Style
             Trigger 优先级：后面的覆盖前面的-->
-        <Button FontSize="50" x:Name="btn">
+        <Button FontSize="50" x:Name="btn" Visibility="Collapsed">
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Width" Value="200"/>
@@ -136,5 +144,75 @@
             </Button.Style>
         </Button>
 
+
+        <Button Visibility="Collapsed">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <!--<Style.Setters> 可以省略-->
+                    <Style.Setters>
+                        <Setter Property="Content" Value="Btn"/>
+                        <Setter Property="FontSize" Value="20"/>
+                        <Setter Property="Height" Value="100"/>
+                        <Setter Property="Width" Value="200"/>
+                        <Setter Property="Background" Value="Orange"/>
+                    </Style.Setters>
+                    <Style.Triggers>
+                        <Trigger Property="Background" Value="Orange">
+                            <!--<Trigger.Setters> 可以省略-->
+                            <Trigger.Setters>
+                                <!--<Setter Property="Content" Value="被Trigger改变了"/>-->
+                            </Trigger.Setters>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="Background" Value="Orange"/>
+                                <Condition Property="Content" Value="Btn"/>
+                            </MultiTrigger.Conditions>
+                            <!--两个都满足才会触发-->
+                            <!--<MultiTrigger.Setters> 可以省略-->
+                            <MultiTrigger.Setters>
+                                <Setter Property="Foreground" Value="Green"/>
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                        <!--<EventTrigger RoutedEvent="MouseMove">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Duration="0:0:0.5" To="200"
+                                                     Storyboard.TargetProperty="Width" />
+                                    <DoubleAnimation Duration="0:0:0.5" To="400"
+                                                     Storyboard.TargetProperty="Height" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>-->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <!--EnterActions 开始触发-->
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.5" To="400"
+                                                         Storyboard.TargetProperty="Width"/>
+                                        <DoubleAnimation Duration="0:0:0.5" To="400"
+                                                         Storyboard.TargetProperty="Height"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <!--ExitActions 退出触发-->
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.5" To="200"
+                                                         Storyboard.TargetProperty="Width"/>
+                                        <DoubleAnimation Duration="0:0:0.5" To="100"
+                                                         Storyboard.TargetProperty="Height"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
     </Grid>
+
+
 </Window>

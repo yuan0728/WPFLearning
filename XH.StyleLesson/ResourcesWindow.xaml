@@ -37,17 +37,33 @@
             <Setter Property="Height" Value="100"/>
             <Setter Property="Background" Value="Gray"/>
         </Style>
+
+        <Style TargetType="Button" x:Key="preStyle">
+            <Setter Property="Height" Value="80"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Background" Value="Orange"/>
+        </Style>
+        <Style TargetType="Button" x:Key="sunStyle" BasedOn="{StaticResource preStyle}">
+            <Setter Property="Foreground" Value="Red"/>
+        </Style>
+
     </Window.Resources>
     <!--Style="{x:Null} 将这个控件的Style置空-->
     <StackPanel>
-        <Button Content="Button" Style="{StaticResource 11}" Height="10"/>
-        <Button Style="{StaticResource btn}" Height="10"/>
-        <Button Height="10" Style="{StaticResource bo}"/>
-        <Button Content="Button4" Style="{x:Null}" Height="10" />
+        <Button Content="PreBtn" Style="{StaticResource preStyle}" />
+        <Button Content="SunBtrn" Style="{StaticResource sunStyle}"/>
 
-        <TextBlock Style="{StaticResource tb}"/>
+
+
+
+        <Button Content="Button" Style="{StaticResource 11}" Height="10" Visibility="Collapsed"/>
+        <Button Style="{StaticResource btn}" Height="10" Visibility="Collapsed"/>
+        <Button Height="10" Style="{StaticResource bo}" Visibility="Collapsed"/>
+        <Button Content="Button4" Style="{x:Null}" Height="10" Visibility="Collapsed"/>
+
+        <TextBlock Style="{StaticResource tb}" Visibility="Collapsed"/>
         <!--系统资源使用方式 静态使用-->
         <TextBlock Text="Hello" FontSize="{x:Static SystemFonts.CaptionFontSize}"
-                   Foreground="{x:Static SystemColors.ActiveBorderBrush}"/>
+                   Foreground="{x:Static SystemColors.ActiveBorderBrush}" Visibility="Collapsed"/>
     </StackPanel>
 </Window>
