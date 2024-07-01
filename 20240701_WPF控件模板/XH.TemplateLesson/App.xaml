@@ -1,7 +1,7 @@
-﻿<Application x:Class="XH.ShapeLesson.App"
+﻿<Application x:Class="XH.TemplateLesson.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:XH.ShapeLesson"
+             xmlns:local="clr-namespace:XH.TemplateLesson"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

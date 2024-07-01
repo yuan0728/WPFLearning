@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace XH.ShapeLesson
+namespace XH.TemplateLesson
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace XH.TransformLesson
+namespace XH.TemplateLesson
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

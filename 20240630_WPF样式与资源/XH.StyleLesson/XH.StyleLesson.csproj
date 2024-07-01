@@ -9,17 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Fonts\iconfont.ttf" />
     <None Remove="Assets\Fonts\iconfont01.ttf" />
     <None Remove="Assets\Fonts\iconfont02.ttf" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\XH.Assets\XH.Assets.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Assets\Fonts\iconfont01.ttf" />
-    <Resource Include="Assets\Fonts\iconfont02.ttf" />
+    <Resource Include="Assets\Fonts\iconfont.ttf" />
   </ItemGroup>
 
   <ItemGroup>
