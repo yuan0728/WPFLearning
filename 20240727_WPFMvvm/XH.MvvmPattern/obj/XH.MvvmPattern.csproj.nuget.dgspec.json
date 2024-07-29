@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240724_WPF自定义控件\\XH.CustomLesson\\XH.CustomLesson.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240724_WPF自定义控件\\XH.CustomLesson\\XH.CustomLesson.csproj",
+        "projectName": "XH.CustomLesson",
+        "projectPath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240724_WPF自定义控件\\XH.CustomLesson\\XH.CustomLesson.csproj",
+        "packagesPath": "C:\\Users\\yhl18\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240724_WPF自定义控件\\XH.CustomLesson\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yhl18\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "HandyControl": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "ScottPlot.WPF": {
+              "target": "Package",
+              "version": "[4.1.67, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj",
+        "projectName": "XH.MvvmPattern",
+        "projectPath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj",
+        "packagesPath": "C:\\Users\\yhl18\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yhl18\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240724_WPF自定义控件\\XH.CustomLesson\\XH.CustomLesson.csproj": {
+                "projectPath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240724_WPF自定义控件\\XH.CustomLesson\\XH.CustomLesson.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.122, )"
+            },
+            "ScottPlot.WPF": {
+              "target": "Package",
+              "version": "[4.1.67, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

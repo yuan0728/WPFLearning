@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "aM6l842HShcBR+a0zalZzn/pMFB/1ANaFy++fMMvmm+Bvcodu+Ija7zat9zuWeAO5wzbb5MaTLBKuvK0dNVGPg==",
+  "success": true,
+  "projectFilePath": "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\GroupElementTester\\GroupElementTester.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yhl18\\.nuget\\packages\\cyotek.drawing.bitmapfont\\2.0.0\\cyotek.drawing.bitmapfont.2.0.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\helixtoolkit\\2.23.0\\helixtoolkit.2.23.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\helixtoolkit.wpf.sharpdx\\2.23.0\\helixtoolkit.wpf.sharpdx.2.23.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\sharpdx\\4.2.0\\sharpdx.4.2.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\sharpdx.d3dcompiler\\4.2.0\\sharpdx.d3dcompiler.4.2.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\sharpdx.direct2d1\\4.2.0\\sharpdx.direct2d1.4.2.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\sharpdx.direct3d11\\4.2.0\\sharpdx.direct3d11.4.2.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\sharpdx.direct3d9\\4.2.0\\sharpdx.direct3d9.4.2.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\sharpdx.dxgi\\4.2.0\\sharpdx.dxgi.4.2.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\sharpdx.mathematics\\4.2.0\\sharpdx.mathematics.4.2.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

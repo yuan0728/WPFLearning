@@ -1,0 +1,60 @@
+﻿<Window x:Class="XH.PropertyLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.PropertyLesson"
+        mc:Ignorable="d"
+        FontSize="30"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--依赖属性的意义和作用
+                核心模块
+                内存共享、节省空间
+                数据绑定、样式、模板、动画。。。。
+                如果没有依赖属性，这个框架就相当于是Winform
+            依赖属性的基本定义
+                基本过程：声明、注册、包装
+                代码片段：propdp（tab）-->
+        <!--<local:DependencyPropertyStudy Tag="123" />
+        <local:DependencyPropertyStudy Tag="456" />-->
+        <!--<local:XHPanel RowSpace="10" ColumnSpace="20">
+            <Border Background="Orange" Height="100"/>
+            <Border Background="Green" Height="20"/>
+            <Border Background="Blue" Height="200"/>
+            <Border Background="Green" Height="200"/>
+        </local:XHPanel>-->
+
+        <local:XHPanel Test="12" ColumnSpace="20" RowSpace="20" Visibility="Collapsed">
+            <Border Height="100" Background="Red" local:XHPanel.Index="1" />
+            <Border Height="100" Background="Orange" local:XHPanel.Index="2" />
+            <Border Height="100" Background="Yellow" local:XHPanel.Index="3"/>
+            <Border Height="100" Background="Green" local:XHPanel.Index="4"/>
+            <Border Height="100" Background="LightGreen" local:XHPanel.Index="5"/>
+            <Border Height="100" Background="Blue" local:XHPanel.Index="6"/>
+            <local:DependencyPropertyStudy local:XHPanel.Index="7" x:Name="dps" Background="Purple" Height="100"/>
+        </local:XHPanel>
+        <Button Width="200" Height="30" Content="测试依赖属性继承" Visibility="Collapsed" FontSize="20" Click="Button_Click"/>
+        <PasswordBox PasswordChar="*" Password="123456" Height="30" Width="100" 
+                     local:PWHelper.Password="{Binding }"
+                     local:PWHelper.Attached="1"/>
+
+
+
+
+        <!--关于附加属性的使用
+            1、用来辅助布局（布局控件与子控件的关系）
+               一般容器控件提供给子控件使用的，如果Grid.Row
+               使用方式：在容器控件中检查每个子项，从子项中获取附加属性的值 容器对象调用对应的GetValue方法，传入给被附加对象
+            2、用来扩展绑定属性（单独应对对象功能）
+               一般对接特定对象，比如PasswordBox
+               使用方法：定义一个类，在类定义相关附加属性，利用这些附加属性进行数据与控件属性的转接-->
+
+        <TextBlock Text="Hello" 
+                   VerticalAlignment="Center" 
+                   HorizontalAlignment="Center"
+                   FontSize="100"
+                   Foreground="Black"
+                   Visibility="Collapsed"/>
+    </Grid>
+</Window>

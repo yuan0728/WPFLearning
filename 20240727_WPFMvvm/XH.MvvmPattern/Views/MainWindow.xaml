@@ -1,0 +1,58 @@
+﻿<Window x:Class="XH.MvvmPattern.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.MvvmPattern.Views"
+        xmlns:vm="clr-namespace:XH.MvvmPattern.ViewModels"
+        mc:Ignorable="d" FontSize="20"
+        Title="MainWindow" Height="450" Width="800">
+    <!--MVVM 各层对象之间尽量隔开
+            简单的项目：命名空间隔离
+            复杂项目：程序集进行隔离-->
+    <Window.Resources>
+        <vm:MainViewModel x:Key="mvm" />
+    </Window.Resources>
+    <Window.DataContext>
+        <!--<vm:MainViewModel />-->
+        <StaticResource ResourceKey="mvm" />
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <TextBox Text="{Binding _model.Value1,UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="+" />
+            <TextBox Text="{Binding _model.Value2,UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="=" />
+            <TextBox Text="{Binding _model.Value3}" />
+            <Button Content="计算" Command="{Binding BtnCommand}" CommandParameter="BtnParameter"/>
+            <Button Content="检查状态" Command="{Binding BtnCheckCommand}" />
+        </StackPanel>
+        <ListBox Grid.Column="1" ItemsSource="{Binding ResultList}" Name="lb">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Background="Transparent">
+                        <StackPanel.ContextMenu>
+                            <ContextMenu>
+                                <!--第一种方式 Source={x:Reference Name=lb}-->
+                                <!--<MenuItem Header="删除" CommandParameter="{Binding}" Command="{Binding DataContext.BtnDelCommand,Source={x:Reference Name=lb}}"/>-->
+                                <!--第二种方式 把数据源当做资源调用 Source 即可-->
+                                <!--原因：ContextMenu在窗体之上，不在窗体之内，所以找不到窗体的数据源，需要明确指定数据源
+                                    注意：命令的数据源的指定-->
+                                <MenuItem Header="删除" CommandParameter="{Binding}" Command="{Binding BtnDelCommand,Source={StaticResource mvm}}"/>
+                            </ContextMenu>
+                        </StackPanel.ContextMenu>
+                        <TextBlock Text="{Binding}" />
+                        <!--<TextBlock Text="{Binding State}" />-->
+                        <!--只写个Binding 是绑定当前数据源-->
+                        <Button Content="删除" CommandParameter="{Binding}"
+                                Command="{Binding DataContext.BtnDelCommand,RelativeSource={RelativeSource AncestorType=Window}}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

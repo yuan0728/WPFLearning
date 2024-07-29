@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvmpattern\\viewmodels\\commandviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvmpattern\\viewmodels\\commandviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_wpfmvvm\\xh.mvvmpattern\\views\\commandwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvmpattern\\views\\commandwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_wpfmvvm\\xh.mvvmpattern\\controls\\datetimepicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvmpattern\\controls\\datetimepicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateTimePicker.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAIwIQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T14:40:18.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wBwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T14:40:36.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommandWindow.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T14:36:59.322Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 97,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1335,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

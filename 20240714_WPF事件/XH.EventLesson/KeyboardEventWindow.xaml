@@ -1,0 +1,16 @@
+﻿<Window x:Class="XH.EventLesson.KeyboardEventWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.EventLesson"
+        mc:Ignorable="d"
+        Title="KeyboardEventWindow" Height="450" Width="800">
+    <StackPanel>
+        <!--TextBox触发不了TextInput事件，如果想要监听数据变化事件请用：TextChanged-->
+        <TextBox TextInput="TextBox_TextInput"
+                 PreviewTextInput="TextBox_PreviewTextInput"
+                 TextChanged="TextBox_TextChanged"/>
+        <TextBox />
+    </StackPanel>
+</Window>

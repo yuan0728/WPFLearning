@@ -1,0 +1,27 @@
+﻿<Window x:Class="XH.BindingLesson.DataSource.DODataSourceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.DataSource"
+        mc:Ignorable="d" FontSize="30"
+        Title="DODataSourceWindow" Height="450" Width="800">
+    <StackPanel>
+        <!--目标对象：TextBlock-->
+        <!--目标属性：Text-->
+        <!--绑定数据源：tb_source-->
+        <!--绑定路径：Text-->
+        <TextBox Text="Hello" Name="tb_source" Foreground="Red" />
+        <TextBox Text="{Binding ElementName=tb_source,Path=Text}" />
+        
+        <TextBlock Text="{Binding ElementName=tb_source,Path=Text}" />
+
+        <!--因为Password不是依赖属性，所以不会根据值改变而UI改变-->
+        <PasswordBox Password="12345678" x:Name="pb"/>
+        <TextBlock Text="{Binding ElementName=pb,Path=Password}" />
+        
+        <!--1、如果绑定的源是依赖对象的依赖属性，那么这个依赖属性发生实时变化的时候，会同步到绑定目标
+            2、如果绑定的源是非依赖属性，那么这个属性发生变化的时候，不会同步到绑定目标
+            3、被绑定的数据源，需要是属性-->
+    </StackPanel>
+</Window>

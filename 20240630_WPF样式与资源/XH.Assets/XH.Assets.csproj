@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\a070a0d807c9042c9d123597d83797f0.jpg" />
+    <None Remove="Images\R.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\a070a0d807c9042c9d123597d83797f0.jpg" />
+    <Resource Include="Images\R.jpg" />
+  </ItemGroup>
+
+</Project>

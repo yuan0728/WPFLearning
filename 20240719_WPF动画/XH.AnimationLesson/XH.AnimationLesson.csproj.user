@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AnimationControlWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AnimationProperty2Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AnimationPropertyWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AnimationStateWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AnimationTriggerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Demo\AntLineWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Demo\DrawerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Demo\LoadingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Demo\RobotWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Demo\WaterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KeyFrameAnimationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LinearAnimationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PathAnimationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="U_uload.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AnimationControlWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AnimationProperty2Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AnimationPropertyWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AnimationStateWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AnimationTriggerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Demo\AntLineWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Demo\DrawerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Demo\LoadingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Demo\RobotWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Demo\WaterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KeyFrameAnimationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LinearAnimationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PathAnimationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="U_uload.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BorderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CanvasWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ColorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DockPanelWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExampleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RecognizeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StackPanelWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UniformGridWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WrapPanelWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BorderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CanvasWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ColorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DockPanelWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExampleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GridWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RecognizeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StackPanelWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UniformGridWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WrapPanelWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

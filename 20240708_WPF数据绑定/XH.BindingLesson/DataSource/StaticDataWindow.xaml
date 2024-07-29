@@ -1,0 +1,16 @@
+﻿<Window x:Class="XH.BindingLesson.DataSource.StaticDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.DataSource"
+        mc:Ignorable="d"
+        Title="StaticDataWindow" Height="450" Width="800">
+    <StackPanel>
+        <!--静态属性的绑定方式 固定写法-->
+        <!--只会显示一次 后续字段刷新不会显示-->
+        <TextBlock Text="{Binding Source={x:Static local:GlobalDatas.Value},Path=.}"/>
+        <!--推荐 这种写法 可以绑定刷新-->
+        <TextBlock Text="{Binding Path=(local:GlobalDatas.Value)}"/>
+    </StackPanel>
+</Window>

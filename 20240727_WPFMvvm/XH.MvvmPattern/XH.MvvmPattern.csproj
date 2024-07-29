@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.122" />
+    <PackageReference Include="ScottPlot.WPF" Version="4.1.67" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\20240724_WPF自定义控件\XH.CustomLesson\XH.CustomLesson.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="XH.BindingLesson.DataSource.ObjectDataProviderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.DataSource"
+        mc:Ignorable="d"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        Title="ObjectDataProviderWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!--{Source = 对象方法 Path = 方法} 资源标签-->
+        <ObjectDataProvider x:Key="odp"
+                            ObjectType="{x:Type local:MethodObject}"
+                            MethodName="Calculator">
+            <ObjectDataProvider.MethodParameters>
+                <sys:String>2.0</sys:String>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Text="{Binding Source={StaticResource odp},Path=.}"/>
+        <!--BindsDirectlyToSource 获取或设置一个值，该值指示是相对于数据项-->
+        <!--这个绑定特殊 特殊在绑定的源是ObjectDataProvider的参数
+            TextBox 绑定默认是String -->
+        <TextBox Text="{Binding Source={StaticResource odp},Path=MethodParameters[0],BindsDirectlyToSource=True}" />
+        <TextBox />
+    </StackPanel>
+</Window>

@@ -1,0 +1,17 @@
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\bin\Debug\net7.0-windows\XH.PclLesson.exe
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\bin\Debug\net7.0-windows\XH.PclLesson.deps.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\bin\Debug\net7.0-windows\XH.PclLesson.runtimeconfig.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\bin\Debug\net7.0-windows\XH.PclLesson.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\bin\Debug\net7.0-windows\XH.PclLesson.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.Form1.resources
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.csproj.GenerateResource.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.AssemblyInfoInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.AssemblyInfo.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.csproj.CoreCompileInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.sourcelink.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\refint\XH.PclLesson.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\XH.PclLesson.genruntimeconfig.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\XH.PclLesson\obj\Debug\net7.0-windows\ref\XH.PclLesson.dll

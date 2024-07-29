@@ -1,0 +1,52 @@
+﻿<Window x:Class="XH.EventLesson.DragDropEventWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.EventLesson"
+        mc:Ignorable="d"
+        Title="DragDropEventWindow" Height="450" Width="800">
+    <Grid>
+        <!--DragEnter：拖拽进入当前对象
+            Drop：拖过来的鼠标松开的那一刻触发-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Border Background="Red" Height="30" Margin="10" 
+                    MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
+            <Border Background="Orange" Height="30" Margin="10"
+                    MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
+            <Border Background="Yellow" Height="30" Margin="10" 
+                    MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
+            <Border Background="Green" Height="30" Margin="10" 
+                    MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
+            <Border Background="Blue" Height="30" Margin="10" 
+                    MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
+            <Border Background="Purple" Height="30" Margin="10"
+                    MouseLeftButtonDown="Border_MouseLeftButtonDown"/>
+        </StackPanel>
+
+        <!--AllowDrop：允许接受拖拽-->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel Background="Transparent" Grid.Row="0"
+                        AllowDrop="True"
+                        DragEnter="StackPanel_DragEnter" 
+                        DragLeave="StackPanel_DragLeave"
+                        DragOver="StackPanel_DragOver"
+                        Drop="StackPanel_Drop"/>
+            <StackPanel Background="Transparent" Grid.Row="1"
+                        AllowDrop="True"
+                        DragEnter="StackPanel_DragEnter" 
+                        DragLeave="StackPanel_DragLeave"
+                        DragOver="StackPanel_DragOver"
+                        Drop="StackPanel_Drop"/>
+        </Grid>
+
+    </Grid>
+</Window>

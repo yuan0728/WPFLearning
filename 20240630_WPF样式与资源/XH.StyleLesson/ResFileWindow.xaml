@@ -1,0 +1,100 @@
+﻿<Window x:Class="XH.StyleLesson.ResFileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.StyleLesson"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="ResFileWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!--<ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="assets/res/textboxStyles.xaml" />
+                <ResourceDictionary Source="assets/res/buttonStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="TextBlock">
+                <Setter Property="Foreground" Value="Black"/>
+            </Style>
+        </ResourceDictionary>-->
+        
+        <!--<FontFamily x:Key="iconfont">assets/fonts/#iconfont</FontFamily>-->
+        <ResourceDictionary Source="Assets/Res/Th_cn.xaml" x:Name="resDic"/>
+        <!--如果有多个字体图标库 不指定文件就行，直接指定字体名称-->
+        <!--<ResourceDictionary>
+            --><!--合并资源--><!--
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Assets/Res/ButtonStyles.xaml" />
+                <ResourceDictionary Source="Assets/Res/TextBoxStyles.xaml"/>
+                --><!--合并会导致渲染TabItem的时候，第一个Tab渲染不上去-->
+                <!--<ResourceDictionary>
+                
+                </ResourceDictionary>--><!--
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="TextBox" x:Key="tbs">
+                <Setter Property="Background" Value="Red"/>
+            </Style>
+            <Style TargetType="TabItem">
+                <Setter Property="Width" Value="90"/>
+                <Setter Property="Foreground" Value="Orange"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </ResourceDictionary>-->
+    </Window.Resources>
+    <StackPanel>
+        <!--练习-->
+        <!--<TextBox Text="TextBox" />-->
+        <!--<Image Source="/assets/images/r.jpg" Height="80" Width="100"/>
+        <Image Source="pack://siteoforigin:,,,/assets/images/2.jpg" Height="80" Width="100"/>
+        <Image Source="https://img-home.csdnimg.cn/images/20201124032511.png" Height="80" Width="100"/>
+        <Image Source="pack://application:,,,/XH.Assets;component/Images/R.jpg" Height="80" Width="100"/>-->
+        <!--<TextBlock Text="&#xe662;" FontFamily="{StaticResource iconfont}" HorizontalAlignment="Center"/>-->
+
+        <!--只能满足当前程序集使用-->
+        <!--<Image Source="assets/images/R.jpg" Width="80" Height="40" />-->
+        <!--跨程序集、本地文件使用不了，特殊的引用方式-->
+        <!--不是资源 但是在你本地文件 可以这样请求，使用-->
+        <!--特殊的协议头：pack://siteoforigin:,,, 本地必须加协议头-->
+        <!--<Image Source="pack://siteoforigin:,,,/assets/images/R.jpg" Width="80" Height="40" />-->
+        <!--加载本地图片-->
+        <!--<Image Source="pack://siteoforigin:,,,/assets/images/a070a0d807c9042c9d123597d83797f0.jpg" Width="40" Height="40" />-->
+        <!--网络图片-->
+        <!--<Image Source="https://img-home.csdnimg.cn/images/20201124032511.png" Width="80" Height="40" />-->
+        <!--跨程序集处理方式-->
+        <!--必须创建程序集：WPF类库 WPF用户控件库 WPF自定义控件库-->
+        <!--跨程序集的协议头：pack://application:,,,
+            完整写法：[pack://application:,,,]/程序集名称;[版本号;][公钥;]component/路径
+                [可省略]-->
+        <!--需要把使用的程序集添加引用到当前程序集中，程序集中的图片也要生成资源操作
+            直接拖拽不带协议头，也可以使用-->
+        <!--<Image Source="pack://application:,,,/XH.Assets;component/Images/R.jpg" Width="80" Height="40" />-->
+        <!--表示包含音频和/或视频的控件 Gif 音视频只能本地访问的方式进行-->
+        <!--<MediaElement Source="pack://siteoforigin:,,,/assets/audio/1.mp4" Height="40"/>-->
+        <!--字体图标库 assets/Fonts/[iconfont.ttf]#iconfont
+            文件名称可以省略 但是后面的字体名称不可以省略
+            用字体图标的好处：可以无限放大和缩小而不失真
+                占内存小，比存图片小-->
+        <!--<TextBlock Text="{StaticResource AddIcon}" 
+                   FontFamily="{StaticResource iconfont}" 
+                   HorizontalAlignment="Center"
+                   FontSize="20"/>-->
+        <!--Button Content="&#xe662;" Visibility="Collapsed"
+                FontFamily="{StaticResource iconfont}"
+                FontSize="20"/>-->
+        <!--<TextBlock Text="&#xe8c9;" FontFamily="{StaticResource iconfont}" HorizontalAlignment="Center" />-->
+        <!--<Button Style="{StaticResource BtnStyle}" Visibility="Collapsed" />-->
+        <!--<TextBox Text="Hello World"/>-->
+
+        <!--<TextBox Style="{StaticResource tbs}" />-->
+        <!--<TabControl>
+            <TabItem Header="AAA" />
+            <TabItem Header="BBB" />
+            <TabItem Header="CCC" />
+        </TabControl>-->
+
+        <TextBlock Height="40" Text="{DynamicResource title}" Background="{DynamicResource titleBackground}" Foreground="{DynamicResource titleForeground}" />
+        <Button Content="切换主题/语言" Click="Button_Click" />
+
+
+    </StackPanel>
+</Window>

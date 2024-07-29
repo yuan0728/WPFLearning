@@ -1,0 +1,71 @@
+﻿<Window x:Class="XH.LayoutLesson.GridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.LayoutLesson"
+        mc:Ignorable="d"
+        Title="GridWindow" Height="450" Width="800">
+    <Grid Grid.IsSharedSizeScope="True">
+
+        <Grid ShowGridLines="True" Visibility="Hidden">
+            <!--Grid控件
+            ColumnDefinitions 列集合 
+            表示有几列下面就写几个ColumnDefinition
+            Width 宽：如果写具体数字则表示具体的宽度
+                  没有写具体的值的话 剩余宽度平均分配 会根据屏幕的大小自动分配
+                  * 代表比列
+        `         auto 代表自动填充最大宽度
+            RowDefinitions 行集合
+            表示有几行下面就写几个RowDefinition
+            Height 高：如果写具体数字则表示具体的高度
+                   没有写具体的值的话 剩余高度平均分配 会根据屏幕的大小自动分配
+                   * 代表比列
+                   auto 代表自动填充最大宽度
+            在Grid中，其他的控件想要放几行几列 需要另外设置：
+                Grid.Column = "几列" Grid.Row="几行" 没有设置默认 0列 0行
+            合并单元格
+                Grid.ColumnSpan = "合并几行" Grid.RowSpan="合并几列"  
+                这里不是指定哪一列，而是指定合并多少列
+            Grid.IsSharedSizeScope="True" 共享列宽
+            
+            Grid中可以嵌套Grid-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid ShowGridLines="True" Grid.Row="2" Grid.Column="1" />
+
+            <Button Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2"  Grid.RowSpan="2"/>
+        </Grid>
+
+        <Grid Height="30" ShowGridLines="True" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition SharedSizeGroup="A" Width="100"/>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <GridSplitter HorizontalAlignment="Right" Width="5" Background="Red"/>
+        </Grid>
+        
+        <Grid Height="200" ShowGridLines="True" VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition SharedSizeGroup="A"/>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </Grid>
+</Window>

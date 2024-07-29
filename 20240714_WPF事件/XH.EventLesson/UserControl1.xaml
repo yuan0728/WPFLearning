@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="XH.EventLesson.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:XH.EventLesson"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!--有ButtonBase.Click的时候，不触发MouseLeftButtonDown事件，如果想要触发，则写PreviewMouseLeftButtonDown事件
+        触发时机：PreviewMouseLeftButtonDown > ButtonBase.Click > MouseLeftButtonDown-->
+    <StackPanel MouseLeftButtonDown="Grid_MouseLeftButtonDown"
+          PreviewMouseLeftButtonDown="Grid_PreviewMouseLeftButtonDown"
+          Background="Transparent"
+          ButtonBase.Click="Grid_Click">
+        <!--<Border Width="200" Height="40" Background="Orange" MouseLeftButtonDown="Border_MouseLeftButtonDown" />-->
+        <!--Button中不处理MouseLeftButtonDown-->
+        <Button Width="200" Height="40" Background="Orange" Click="Button_Click" />
+        <TextBox TextInput="TextBox_TextInput" />
+    </StackPanel>
+</UserControl>

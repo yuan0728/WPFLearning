@@ -1,0 +1,122 @@
+﻿<Window x:Class="XH.TemplateLesson.DataGridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.TemplateLesson"
+        mc:Ignorable="d"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        Title="DataGridWindow" Height="450" Width="800"
+    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+    <Window.Resources>
+        <x:Array Type="sys:String" x:Key="dropdowndatas">
+            <sys:String>男</sys:String>
+            <sys:String>女</sys:String>
+        </x:Array>
+
+        <Style x:Key="ColumnHeaderGripperStyle" TargetType="{x:Type Thumb}">
+            <Setter Property="Width" Value="8"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Cursor" Value="SizeWE"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Thumb}">
+                        <Border Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                        <Grid>
+                            <theme:DataGridHeaderBorder Background="green" 
+                                                        Grid.Row="0"
+                                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                                        BorderThickness="{TemplateBinding BorderThickness}" 
+                                                        IsPressed="{TemplateBinding IsPressed}" 
+                                                        IsHovered="{TemplateBinding IsMouseOver}" 
+                                                        IsClickable="{TemplateBinding CanUserSort}"
+                                                        Padding="{TemplateBinding Padding}"
+                                                        SortDirection="{TemplateBinding SortDirection}"
+                                                        SeparatorVisibility="{TemplateBinding SeparatorVisibility}"
+                                                        SeparatorBrush="{TemplateBinding SeparatorBrush}">
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
+                                                  RecognizesAccessKey="True" 
+                                                  TextElement.Foreground="White"
+                                                  SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
+                                                  VerticalAlignment="{TemplateBinding VerticalAlignment}"/>
+                            </theme:DataGridHeaderBorder>
+                            <!--合并单元格-->
+                            <!--<Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="AAA" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                <TextBlock Text="BBB" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Grid>-->
+
+                            <Thumb Grid.RowSpan="2" x:Name="PART_LeftHeaderGripper" HorizontalAlignment="Left" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+                            <Thumb Grid.RowSpan="2" x:Name="PART_RightHeaderGripper" HorizontalAlignment="Right" Style="{StaticResource ColumnHeaderGripperStyle}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <!--表格控件
+            AutoGenerateColumns 是否自动创建列
+            CanUserAddRows 是否允许用户增加列-->
+        <DataGrid ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle}" 
+                  x:Name="dg" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="文本" Binding="{Binding Name}" Width="*"/>
+                <DataGridCheckBoxColumn Header="选择" Binding="{Binding IsSelected}" Width="*"/>
+                <!--合并单元格-->
+                <DataGridHyperlinkColumn Binding="{Binding Target}" Width="*">
+                    <DataGridHyperlinkColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="超链接" Grid.Row="0" Grid.ColumnSpan="2"/>
+                                <!--合并单元格-->
+                                <TextBlock Text="AAA" Grid.Row="1"/>
+                                <TextBlock Text="BBB" Grid.Row="1" Grid.Column="1"/>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridHyperlinkColumn.HeaderTemplate>
+                </DataGridHyperlinkColumn>
+                <DataGridComboBoxColumn Header="下拉列表" ItemsSource="{StaticResource dropdowndatas}" SelectedValueBinding="{Binding Gender}" Width="*"/>
+                <DataGridTemplateColumn Header="模板列" Width="*">
+                    <!--自定义列-->
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding Value}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Value}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

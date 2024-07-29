@@ -1,0 +1,73 @@
+﻿<Window x:Class="XH.AnimationLesson.LinearAnimationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.AnimationLesson"
+        mc:Ignorable="d" FontSize="20"
+        Title="LinearAnimationWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <Storyboard x:Key="sb">
+            <!--对象的尺寸变化对象-->
+            <!--<DoubleAnimation Duration="0:0:5" From="100" To="300" 
+                     Storyboard.TargetName="border"
+                     Storyboard.TargetProperty="Width"/>
+            <DoubleAnimation Duration="0:0:5" From="50" To="350"
+                     Storyboard.TargetName="border"
+                     Storyboard.TargetProperty="Height"/>-->
+
+            <!--对象的位移变化对象-->
+            <!--<ThicknessAnimation Duration="0:0:5" From="0 0 0 0" To="100 50 0 0"
+                                Storyboard.TargetName="border"
+                                Storyboard.TargetProperty="Margin"/>-->
+            <!--<DoubleAnimation Duration="0:0:5" From="0" To="100" 
+                                 Storyboard.TargetProperty="X" 
+                                 Storyboard.TargetName="tt"/>-->
+            <!--<DoubleAnimation Duration="0:0:5" From="10" To="100" 
+                             Storyboard.TargetProperty="(Border.RenderTransform).(TranslateTransform.X)" 
+                             Storyboard.TargetName="border"/>-->
+
+            <!--对象的颜色变化对象
+                不可以直接变化资源对象 会报错：找不到对象名称-->
+            <!--<ColorAnimation Duration="0:0:5" From="Orange" To="Green"
+                            Storyboard.TargetName="border"
+                            Storyboard.TargetProperty="Background.Color"/>-->
+            <!--<ColorAnimation Duration="0:0:3" From="Orange" To="Green"
+                            Storyboard.TargetName="border"
+                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"/>-->
+            <!--BeginTime：多久开始执行-->
+            <!--<ColorAnimation Duration="0:0:3" From="Green" To="Red"
+                            BeginTime="0:0:3"
+                            Storyboard.TargetName="border"
+                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"/>-->
+            
+            <!--对象的显示与隐藏-->
+            <!--<DoubleAnimation Duration="0:0:5" From="1" To="0"
+                             Storyboard.TargetName="border"
+                             Storyboard.TargetProperty="Opacity"/>-->
+                    
+        </Storyboard>
+    </Window.Resources>
+
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Button.Click" SourceName="btn">
+            <BeginStoryboard Storyboard="{StaticResource sb}" />
+        </EventTrigger>
+    </Window.Triggers>
+
+    <Grid>
+        <Border x:Name="border" Background="Orange" 
+                Height="50" Width="100" Margin="0 0 0 0" Canvas.Left="0"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Opacity="1">
+            <Border.RenderTransform>
+                <!--<TranslateTransform X="10" Y="50" x:Name="tt"/>-->
+                <ScaleTransform ScaleX="2" ScaleY="2" />
+            </Border.RenderTransform>
+        </Border>
+
+        <Button Content="开始" Name="btn" Canvas.Left="200" VerticalAlignment="Bottom" />
+        <!--<Button Content="开始" Name="btn" VerticalAlignment="Bottom" Click="Button_Click" />-->
+
+    </Grid>
+</Window>

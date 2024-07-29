@@ -1,0 +1,24 @@
+﻿<Window x:Class="XH.AnimationLesson.Demo.AntLineWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.AnimationLesson.Demo"
+        mc:Ignorable="d" Name="win"
+        Title="AntLineWindow" Height="450" Width="800">
+    <!--蚂蚁线-->
+    <Window.Resources>
+        <Storyboard x:Key="sb" RepeatBehavior="Forever">
+            <DoubleAnimation Duration="0:0:2" From="6" To="0" Storyboard.TargetName="path" Storyboard.TargetProperty="StrokeDashOffset"/>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded" SourceName="win">
+            <BeginStoryboard Storyboard="{StaticResource sb}" />
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Path Data="M0 0 100 100A50 50 0 0 0 200 150" Stroke="Orange" StrokeThickness="5" 
+              StrokeDashArray="3 3" StrokeDashOffset="0" Name="path"/>
+    </Grid>
+</Window>

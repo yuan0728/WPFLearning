@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BindingProperties\PropertyWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataCollection\CollectionControlWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataCollection\ComboBoxWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataCollection\DataCollectionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\ADODataSourceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\DataContextWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\DODataSourceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\LinqDataSource.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\NormalDataSourceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\ObjectDataProviderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\ObjectDataSourceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\StaticDataWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSource\XMLDataProviderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataValidation\ValidationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Example\AutoWidthWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Example\ColumnChartWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Example\MulitDataSourceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OtherBindings\MultiBindingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OtherBindings\PriorityBindingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BindingProperties\PropertyWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataCollection\CollectionControlWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataCollection\ComboBoxWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataCollection\DataCollectionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\ADODataSourceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\DataContextWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\DODataSourceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\LinqDataSource.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\NormalDataSourceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\ObjectDataProviderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\ObjectDataSourceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\StaticDataWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSource\XMLDataProviderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataValidation\ValidationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Example\AutoWidthWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Example\ColumnChartWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Example\MulitDataSourceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OtherBindings\MultiBindingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OtherBindings\PriorityBindingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

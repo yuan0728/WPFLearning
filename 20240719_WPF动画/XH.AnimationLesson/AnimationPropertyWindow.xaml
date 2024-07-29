@@ -1,0 +1,92 @@
+﻿<Window x:Class="XH.AnimationLesson.AnimationPropertyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.AnimationLesson"
+        mc:Ignorable="d" Name="win"
+        Title="AnimationPropertyWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Storyboard x:Key="sb">
+            <!--动态控制窗口的位置-->
+            <!--<DoubleAnimation Duration="0:0:4" Storyboard.TargetName="win" Storyboard.TargetProperty="Left"
+                             From="0" To="300" />-->
+            <!--SpeedRatio：速率 默认为1，需要大于0，小于1变慢，大于1变快-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border1" Storyboard.TargetProperty="Margin"
+                                From="0" To="400 0 0 0"/>
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border2" Storyboard.TargetProperty="Margin"
+                                From="0" To="400 0 0 0"
+                                SpeedRatio="2"/>
+            <!--AccelerationRatio：百分比，百分之多少的路程加速运动 和DecelerationRatio之和必须小于1
+                DecelerationRatio：百分比，百分之多少的路程减速速运动 和AccelerationRatio之和必须小于1-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border3" Storyboard.TargetProperty="Margin"
+                                From="0" To="400 0 0 0"
+                                AccelerationRatio="0.3"
+                                DecelerationRatio="0.7"/>
+            <!--AutoReverse：是否执行相反的动画 默认False，先执行一遍，再反着执行一遍-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border4" Storyboard.TargetProperty="Margin"
+                                From="0" To="400 0 0 0"
+                                AutoReverse="True"/>
+            <!--FillBehavior：获取保持的行为方式
+                              HoldEnd：保持最后到最后
+                              Stop：不保持，动画直接结束-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border5" Storyboard.TargetProperty="Margin"
+                                From="0" To="400 0 0 0"
+                                FillBehavior="Stop"/>
+            <!--RepeatBehavior：Forever 永远执行 重复动画
+                                numx 例如2x 重复2次 指定重复的次数 只能小写x
+                                时:分:秒 例如：0:0:5 执行5秒结束 指定重复执行的时间-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border6" Storyboard.TargetProperty="Margin"
+                                From="0" To="400 0 0 0"
+                                RepeatBehavior="0:0:5" 
+                                AutoReverse="True"/>
+            <!--IsAdditive：分段加载 可以当前位置继续动画，无视From-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border7" Storyboard.TargetProperty="Margin"
+                                From="0" To="200 0 0 0"
+                                IsAdditive="True"/>
+            <!--不指定From是从默认位置出发-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border8" Storyboard.TargetProperty="Margin"
+                                To="200 0 0 0"
+                                IsAdditive="True"/>
+            <!--IsCumulative：累计计算 在使用RepeatBehavior的时候累计动画-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border9" Storyboard.TargetProperty="Margin"
+                                From="0" To="200 0 0 0"
+                                IsCumulative="True"
+                                RepeatBehavior="2x"/>
+            <!--没有From也不会累计-->
+            <ThicknessAnimation Duration="0:0:4" Storyboard.TargetName="border10" Storyboard.TargetProperty="Margin"
+                                To="200 0 0 0"
+                                IsCumulative="True"/>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Button.Click" SourceName="btn">
+            <BeginStoryboard Storyboard="{StaticResource sb}" />
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <StackPanel>
+            <Border x:Name="border1" Background="Red" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border2" Background="Orange" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border3" Background="Yellow" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border4" Background="Green" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border5" Background="GreenYellow" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border6" Background="Blue" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border7" Background="Purple" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border8" Background="Purple" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border9" Background="Aqua" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+            <Border x:Name="border10" Background="Aqua" Height="30" Width="80" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 0" />
+        </StackPanel>
+        <Button Content="开始" Name="btn" Canvas.Left="200" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

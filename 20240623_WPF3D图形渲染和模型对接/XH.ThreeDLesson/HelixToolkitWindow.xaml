@@ -1,0 +1,126 @@
+﻿<Window x:Class="XH.ThreeDLesson.HelixToolkitWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.ThreeDLesson"
+        mc:Ignorable="d"
+        xmlns:h="http://helix-toolkit.org/wpf"
+        Title="HelixToolkitWindow" Height="450" Width="800">
+    <Grid>
+        <!--ShowViewCube 右下角的放块是否显示
+            ShowCoordinateSystem 坐标系
+            RotateAroundMouseDownPoint 根据鼠标点为中点旋转轴-->
+        <h:HelixViewport3D x:Name="hv"
+                           ShowViewCube="True"
+                           ViewCubeWidth="100"
+                           ViewCubeHeight="100"
+                           ViewCubeVerticalPosition="Top"
+                           ViewCubeHorizontalPosition="Left"
+                           ViewCubeFrontText="前"
+                           ViewCubeTopText="上"
+                           ViewCubeBottomText="下"
+                           ViewCubeBackText="后"
+                           ViewCubeLeftText="左"
+                           ViewCubeRightText="右"
+                           ShowCoordinateSystem="True"
+                           CoordinateSystemLabelForeground="#5000"
+                           CoordinateSystemHorizontalPosition="Left"
+                           CoordinateSystemVerticalPosition="Bottom"
+                           RotateAroundMouseDownPoint="False">
+
+            <!--###########################HelixViewport3D对象的属性（必须在内容之前）#############################-->
+            
+            <!--背景颜色-->
+            <h:HelixViewport3D.Background>
+                <LinearGradientBrush StartPoint="0 0" EndPoint="0 1">
+                    <GradientStop Color="#555" Offset="0"/>
+                    <GradientStop Color="Blue" Offset="1"/>
+                </LinearGradientBrush>
+            </h:HelixViewport3D.Background>
+            <!--相机-->
+            <h:HelixViewport3D.Camera>
+                <PerspectiveCamera Position="-1571 4801 3774" 
+                                   LookDirection="2038 -5200 -2930"
+                                   FieldOfView="50"
+                                   UpDirection="-0.145 0.372 0.917"
+                                   FarPlaneDistance="10000"
+                                   NearPlaneDistance="1" />     
+            </h:HelixViewport3D.Camera>
+            <!--旋转用什么键进行操作-->
+            <h:HelixViewport3D.RotateGesture>
+                <MouseGesture MouseAction="LeftClick" />
+            </h:HelixViewport3D.RotateGesture>
+            <!--平移用什么建进行操作-->
+            <h:HelixViewport3D.PanGesture>
+                <MouseGesture MouseAction="RightClick" />
+            </h:HelixViewport3D.PanGesture>
+
+            <!--###########################HelixViewport3D对象的属性（结束）#############################-->
+            
+            <!--###########################HelixViewport3D对象的内容（必须在属性配置之后）#############################-->
+            <!--光源-->
+            <h:DefaultLights />
+
+            <!--网格线呈现
+                MinorDistance 小框宽度
+                MajorDistance 大框宽度-->
+            <h:GridLinesVisual3D Width="16000" Length="16000" Thickness="1" Fill="Gray" MinorDistance="100" MajorDistance="400" />
+
+            <!--模型 材质-->
+            <!--<ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial Brush="Red"/>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.BackMaterial>
+                            <DiffuseMaterial Brush="Blue"/>
+                        </GeometryModel3D.BackMaterial>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D Positions="3,2,1 3,2,0 3,0,0 3,0,1" 
+                                            TriangleIndices="0,3,1 1,3,2"/>
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+            <!--<ModelVisual3D x:Name="model">
+                <ModelVisual3D.Content>
+                    <Model3DGroup>
+                        <GeometryModel3D>
+                            
+                        </GeometryModel3D>
+                        
+                        <GeometryModel3D>
+                            
+                        </GeometryModel3D>
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>-->
+
+            <ModelUIElement3D>
+                <ModelUIElement3D.Transform>
+                    <Transform3DGroup>
+                        <Transform3DGroup>
+                            <Transform3DGroup>
+
+                            </Transform3DGroup>
+                        </Transform3DGroup>
+                    </Transform3DGroup>
+                </ModelUIElement3D.Transform>
+            </ModelUIElement3D>
+
+            <!--<ModelUIElement3D />-->
+            <!--###########################HelixViewport3D对象的内容（结束）#############################-->
+
+        </h:HelixViewport3D>
+        <StackPanel VerticalAlignment="Top">
+            <Slider Minimum="0" Maximum="360" ValueChanged="Slider_ValueChanged" Tag="1"/>
+            <Slider Minimum="0" Maximum="360" ValueChanged="Slider_ValueChanged" Tag="2"/>
+            <Slider Minimum="0" Maximum="360" ValueChanged="Slider_ValueChanged" Tag="3"/>
+            <Slider Minimum="0" Maximum="360" ValueChanged="Slider_ValueChanged" Tag="8"/>
+            <Slider Minimum="0" Maximum="360" ValueChanged="Slider_ValueChanged" Tag="9"/>
+            <Slider Minimum="0" Maximum="360" ValueChanged="Slider_ValueChanged" Tag="10"/>
+        </StackPanel>
+    </Grid>
+</Window>

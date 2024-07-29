@@ -1,0 +1,88 @@
+﻿<Window x:Class="XH.AnimationLesson.PathAnimationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.AnimationLesson"
+        mc:Ignorable="d"
+        Title="PathAnimationWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!--DoubleAnimationUsingPath：位移（TranslateTransform、Canvas.LeftTop）、旋转（RoateTrasnform）-->
+        <!--PointAnimationUsingPath：位移-->
+        <!--MatrixAnimationUsingPath：合体 上面两个都包含-->
+        <Storyboard x:Key="sb">
+            <!--Source：Path中的X值：X点位
+                Storyboard.TargetProperty：需要变化的属性-->
+            <DoubleAnimationUsingPath Duration="0:0:4" Storyboard.TargetName="tt" Storyboard.TargetProperty="X"
+                                      Source="X">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M0 0 60,100 A100 50 0 0 1 400 150" />
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            
+            <DoubleAnimationUsingPath Duration="0:0:4" Storyboard.TargetName="tt" Storyboard.TargetProperty="Y"
+                                      Source="Y">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M0 0 60,100 A100 50 0 0 1 400 150" />
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            
+            <DoubleAnimationUsingPath Duration="0:0:4" Storyboard.TargetName="rt" Storyboard.TargetProperty="Angle"
+                                      Source="Angle">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M0 0 60,100 A100 50 0 0 1 400 150" />
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+
+            <PointAnimationUsingPath Duration="0:0:4" Storyboard.TargetName="eg" Storyboard.TargetProperty="Center">
+                <PointAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M0 0 60,100 A100 50 0 0 1 400 150" />
+                </PointAnimationUsingPath.PathGeometry>
+            </PointAnimationUsingPath>
+
+            <MatrixAnimationUsingPath Duration="0:0:4" Storyboard.TargetName="mt" Storyboard.TargetProperty="Matrix"
+                                      DoesRotateWithTangent="True">
+                <!--DoesRotateWithTangent：是否沿着路径旋转-->
+                <MatrixAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M0 0 60,100 A100 50 0 0 1 400 150" />
+                </MatrixAnimationUsingPath.PathGeometry>
+            </MatrixAnimationUsingPath>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Button.Click" SourceName="btn">
+            <BeginStoryboard Storyboard="{StaticResource sb}" />
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Path Data="M0 0 60,100 A100 50 0 0 1 400 150" Stroke="Gray" StrokeThickness="2" />
+        <Path Fill="Orange" Visibility="Collapsed">
+            <Path.Data>
+                <EllipseGeometry Center="0 0" RadiusX="40" RadiusY="40" x:Name="eg"/>
+            </Path.Data>
+        </Path>
+
+
+        <Border x:Name="border" Background="Orange"
+                Height="50" Width="100" Visibility="Collapsed"
+                RenderTransformOrigin="0.5 0.5" Margin="-50 -25 0 0"
+                HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="0" x:Name="rt" />
+                    <TranslateTransform X="0" Y="0" x:Name="tt"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        
+        <Border Background="Orange" Height="50" Width="100" Visibility="Visible"
+                RenderTransformOrigin="0.5 0.5" Margin="-50 -25 0 0"
+                HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Border.RenderTransform>
+                <MatrixTransform x:Name="mt" />
+            </Border.RenderTransform>
+        </Border>
+
+        <Button Content="开始" Name="btn" Canvas.Left="200" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

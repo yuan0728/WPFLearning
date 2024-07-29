@@ -1,0 +1,117 @@
+﻿<Window x:Class="XH.TemplateLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.TemplateLesson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!--TemplateBinding 绑定使用的属性 默认的属性
+            ControlTemplate：需要指定：TargetType 否则绑定会出现问题 不存在
+            如果是复杂类型，需要使用ContentPresenter 占位
+            属性传递：用一个无关大雅的属性可以给ControlTemplate 传值
+            样式包含模板 但是不必须-->
+        <ControlTemplate x:Key="btnDemoTemplate" TargetType="Button">
+            <Border BorderBrush="Orange" 
+                    BorderThickness="2" 
+                    Background="{TemplateBinding Background}" 
+                    CornerRadius="10"
+                    x:Name="border">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <ContentPresenter ContentSource="Tag" />
+                    <ContentPresenter Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="border" Property="Background" Value="Green"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <Style TargetType="Button">
+            <Setter Property="Template" Value="{StaticResource btnDemoTemplate}" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <ControlTemplate x:Key="btnTemplate" TargetType="Button">
+            <Border BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}" 
+                    Background="{TemplateBinding Background}" 
+                    CornerRadius="5"
+                    x:Name="border">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="{TemplateBinding Tag}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <ContentPresenter Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <!--可以在触发器中写TargetName 进行设置控件的属性-->
+                    <Setter TargetName="border" Property="Background" Value="Red"/>
+                </Trigger>
+                <!--<EventTrigger RoutedEvent="Click">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Duration="0:0:0.5" To="200" Storyboard.TargetProperty="Width"/>
+                            <DoubleAnimation Duration="0:0:0.5" To="200" Storyboard.TargetProperty="Height" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>-->
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <Style TargetType="Button" x:Key="btnStyle">
+            <Setter Property="Template" Value="{StaticResource btnTemplate}"/>
+            <Setter Property="Background" Value="Orange"/>
+            <Style.Triggers>
+                <!--如果Style和模板都设置了触发器，优先相应模板的触发器-->
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <!--所有控件渲染和逻辑分离的方式 进行-->
+        <Button Tag="A" Content="Button1" Background="Orange" Width="80" 
+                BorderBrush="Red" Height="30" Template="{StaticResource btnTemplate}" Visibility="Collapsed"/>
+        <Button Tag="B" Content="Button2" Width="80" BorderThickness="2" Height="30" Visibility="Collapsed"
+                Template="{StaticResource btnTemplate}"/>
+        <Button Tag="C" Width="80" BorderThickness="2" Height="50" Template="{StaticResource btnTemplate}" Visibility="Collapsed">
+            <Button.Content>
+                <Border Background="AntiqueWhite">
+                    <StackPanel>
+                        <TextBlock Text="Button3"/>
+                        <TextBlock Text="A"/>
+                    </StackPanel>
+                </Border>
+            </Button.Content>
+        </Button>
+        <Button Width="100" Height="30" Content="Button3" Style="{StaticResource btnStyle}" Visibility="Collapsed"/>
+        <Button Width="100" Height="30" Content="Button4" Style="{StaticResource btnStyle}" Visibility="Collapsed"/>
+        <!--Demo-->
+        <Button Height="30" Background="Red" Width="100" Template="{StaticResource btnDemoTemplate}">
+            <Button.Content>
+                <Button Content="CeShi" />
+            </Button.Content>
+            <Button.Tag>
+                <Button Content="A" FontSize="12" />
+            </Button.Tag>
+        </Button>
+
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,95 @@
+﻿<Window x:Class="XH.BindingLesson.DataSource.XMLDataProviderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.DataSource"
+        mc:Ignorable="d" FontSize="30"
+        Title="XMLDataProviderWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!--前提是xml文件 xml字符串不行 必须是文件-->
+        <XmlDataProvider x:Key="xdp" 
+                         Source="pack://application:,,,/XH.BindingLesson;component/DataSource/simple.xml">
+
+        </XmlDataProvider>
+    </Window.Resources>
+    <ScrollViewer>
+
+        <StackPanel>
+            <!--下标是从1开始的
+            XPath是路径 层级关系
+            绑定属性 ： @ + 属性-->
+            <!--使用场景：
+                XML的数据配置，从文件加载出XML之后，在界面做显示
+                数据接口获取数据，数据绑定采用的XML结构，直接把数据绑定在界面进行显示
+                大部分Json：序列化与反序列化-->
+            <!--C#进行XML，需要XmlDocument进行处理，这个对象可以转Linq-->
+            <TextBlock Text="{Binding Source={StaticResource xdp},XPath=breakfast_menu/food[3]/@attr}" 
+                   TextWrapping="Wrap" 
+                   Visibility="Visible"/>
+            <TextBlock Text="{Binding Source={StaticResource xdp},XPath=breakfast_menu/food[1]/@prop}" 
+                   TextWrapping="Wrap" 
+                   Visibility="Visible"/>
+
+            <ListBox ItemsSource="{Binding Source={StaticResource xdp},XPath=breakfast_menu/food}" Visibility="Visible">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="名称：" />
+                            <TextBlock Grid.Column="1" Text="{Binding XPath=name}" />
+                            <TextBlock Grid.Column="2" Text="单价：" />
+                            <TextBlock Grid.Column="3" Text="{Binding XPath=price}" />
+                            <TextBlock Grid.Column="4" Text="简介：" />
+                            <TextBlock Grid.Column="5" Text="{Binding XPath=description}" />
+                            <TextBlock Grid.Column="6" Text="热量：" />
+                            <TextBlock Grid.Column="7" Text="{Binding XPath=calories}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+
+            <Grid Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="名称" />
+                <TextBlock Grid.Column="1" Text="单价" />
+                <TextBlock Grid.Column="2" Text="简介" />
+                <TextBlock Grid.Column="3" Text="热量" />
+            </Grid>
+            <ItemsControl ItemsSource="{Binding Source={StaticResource xdp},XPath=breakfast_menu/food}" 
+                      Visibility="Visible">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="{Binding XPath=name}" />
+                            <TextBlock Grid.Column="1" Text="{Binding XPath=price}" />
+                            <TextBlock Grid.Column="2" Text="{Binding XPath=description}" />
+                            <TextBlock Grid.Column="3" Text="{Binding XPath=calories}" />
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

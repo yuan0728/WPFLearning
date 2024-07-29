@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="ChartLib\LiveChartsTestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChartLib\ScottPlotTestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\Instrument.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UILib\UITestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ChartLib\LiveChartsTestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChartLib\ScottPlotTestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Instrument.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UILib\UITestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,157 @@
+﻿<Window x:Class="XH.AnimationLesson.KeyFrameAnimationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.AnimationLesson"
+        mc:Ignorable="d" FontSize="20"
+        Title="KeyFrameAnimationWindow" Height="450" Width="800">
+    <!--四大帧对象类型：
+            线性关键帧（有插补过程）、
+            离散关键帧（不插补 不连续变化）、
+            样条关键帧（样条函数 二次贝塞尔曲线-Path）、
+            缓冲式关键帧（使用简单动画时介绍的缓动效果）-->
+    <Window.Resources>
+        <Storyboard x:Key="sb" RepeatBehavior="Forever">
+            <!--1、如果动画对象的Duration时长大于子帧的时长，多出来的时间无变化-->
+            <!--2、如果动画对象的Duration时长小于子帧的时长，以对象的事件为准，超出的子帧时间不执行-->
+            <!--3、如果不指定动画对象的Duration时长，以关键帧时间全部执行-->
+            <!--注意：关键帧的时间没有先后顺序要求，严格按照时间轴进行执行-->
+            <!--<ColorAnimationUsingKeyFrames Storyboard.TargetName="border"
+                                          Storyboard.TargetProperty="Background.Color">
+                <LinearColorKeyFrame Value="Orange" KeyTime="0:0:0" />
+                <LinearColorKeyFrame Value="Green" KeyTime="0:0:2" />
+                <LinearColorKeyFrame Value="Red" KeyTime="0:0:4" />
+                <DiscreteColorKeyFrame Value="Blue" KeyTime="0:0:6" />
+            </ColorAnimationUsingKeyFrames>-->
+            <!--String 变化只有DiscreteStringKeyFrame离散关键帧变化-->
+            <!--<StringAnimationUsingKeyFrames Duration="0:0:5"
+                                           Storyboard.TargetName="tb"
+                                           Storyboard.TargetProperty="Text">
+                <DiscreteStringKeyFrame Value="你好" KeyTime="0:0:2" />
+            </StringAnimationUsingKeyFrames>-->
+
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="ellipse1" 
+                                              Duration="0:0:2"
+                                              Storyboard.TargetProperty="Margin"
+                                              RepeatBehavior="Forever"
+                                              BeginTime="0:0:0">
+                <SplineThicknessKeyFrame Value="0 0 0 0" KeyTime="0:0:0" />
+                <SplineThicknessKeyFrame KeyTime="00:00:02" Value="800 0 0 0" KeySpline="0.2 0.8 0.8 0.2">
+                    <!--可以简写-->
+                    <!--<SplineThicknessKeyFrame.KeySpline>
+                        <KeySpline ControlPoint1="0,1" ControlPoint2="1,0"/>
+                    </SplineThicknessKeyFrame.KeySpline>-->
+                </SplineThicknessKeyFrame>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="ellipse2" 
+                                              Duration="0:0:2"
+                                              Storyboard.TargetProperty="Margin"
+                                              RepeatBehavior="Forever"
+                                              BeginTime="0:0:0.1">
+                <SplineThicknessKeyFrame Value="0 0 0 0" KeyTime="0:0:0" />
+                <SplineThicknessKeyFrame KeyTime="00:00:02" Value="800 0 0 0" KeySpline="0.2 0.8 0.8 0.2">
+                </SplineThicknessKeyFrame>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="ellipse3" 
+                                              Duration="0:0:2"
+                                              Storyboard.TargetProperty="Margin"
+                                              RepeatBehavior="Forever"
+                                              BeginTime="0:0:0.2">
+                <SplineThicknessKeyFrame Value="0 0 0 0" KeyTime="0:0:0" />
+                <SplineThicknessKeyFrame KeyTime="00:00:02" Value="800 0 0 0" KeySpline="0.2 0.8 0.8 0.2">
+                </SplineThicknessKeyFrame>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="ellipse4" 
+                                              Duration="0:0:2"
+                                              Storyboard.TargetProperty="Margin"
+                                              RepeatBehavior="Forever"
+                                              BeginTime="0:0:0.3">
+                <SplineThicknessKeyFrame Value="0 0 0 0" KeyTime="0:0:0" />
+                <SplineThicknessKeyFrame KeyTime="00:00:02" Value="800 0 0 0" KeySpline="0.2 0.8 0.8 0.2">
+                </SplineThicknessKeyFrame>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="ellipse5" 
+                                              Duration="0:0:2"
+                                              Storyboard.TargetProperty="Margin"
+                                              RepeatBehavior="Forever"
+                                              BeginTime="0:0:0.4">
+                <SplineThicknessKeyFrame Value="0 0 0 0" KeyTime="0:0:0" />
+                <SplineThicknessKeyFrame KeyTime="00:00:02" Value="800 0 0 0" KeySpline="0.2 0.8 0.8 0.2">
+                </SplineThicknessKeyFrame>
+            </ThicknessAnimationUsingKeyFrames>
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="ellipse6" 
+                                              Duration="0:0:2"
+                                              Storyboard.TargetProperty="Margin"
+                                              RepeatBehavior="Forever"
+                                              BeginTime="0:0:0.5">
+                <SplineThicknessKeyFrame Value="0 0 0 0" KeyTime="0:0:0" />
+                <SplineThicknessKeyFrame KeyTime="00:00:02" Value="800 0 0 0" KeySpline="0.2 0.8 0.8 0.2">
+                </SplineThicknessKeyFrame>
+            </ThicknessAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="ease_sb">
+            <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="Margin">
+                <LinearThicknessKeyFrame Value="0 0 0 0" KeyTime="0:0:0" />
+                <LinearThicknessKeyFrame Value="100 0 0 0" KeyTime="0:0:2"/>
+                <LinearThicknessKeyFrame Value="100 0 0 0" KeyTime="0:0:3"/>
+                <EasingThicknessKeyFrame Value="300 0 0 0" KeyTime="0:0:5">
+                    <EasingThicknessKeyFrame.EasingFunction>
+                        <!--EasingMode：在起始或者末尾哪个地方适用此缓冲-->
+                        <!--BackEase：路径中进行动画处理之前略微收回动画的动作-->
+                        <BackEase EasingMode="EaseInOut"/>
+                    </EasingThicknessKeyFrame.EasingFunction>
+                </EasingThicknessKeyFrame>
+            </ThicknessAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="obj_sb">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="border" Storyboard.TargetProperty="Visibility"
+                                           RepeatBehavior="Forever">
+                <!--只能离散形式的动画效果-->
+                <DiscreteObjectKeyFrame KeyTime="0:0:0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Hidden</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Button.Click" SourceName="btn">
+            <BeginStoryboard Storyboard="{StaticResource sb}" />
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Border x:Name="border" Background="Orange" Margin="0 0 0 0"
+                Height="50" Width="100" Visibility="Collapsed"
+                HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Hello" Name="tb" Visibility="Collapsed"/>
+
+        <Ellipse Width="20" Height="20" Fill="Red" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Margin="0 0 0 0" Name="ellipse1"/>
+        <Ellipse Width="20" Height="20" Fill="Red" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Margin="0 0 0 0" Name="ellipse2"/>
+        <Ellipse Width="20" Height="20" Fill="Red" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Margin="0 0 0 0" Name="ellipse3"/>
+        <Ellipse Width="20" Height="20" Fill="Red" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Margin="0 0 0 0" Name="ellipse4"/>
+        <Ellipse Width="20" Height="20" Fill="Red" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Margin="0 0 0 0" Name="ellipse5"/>
+        <Ellipse Width="20" Height="20" Fill="Red" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Margin="0 0 0 0" Name="ellipse6"/>
+
+        <Button Content="开始" Name="btn" Canvas.Left="200" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iQpXrjoB4Z4B7gjRcwbU//dQMz/WqyMBLDD3t4lrhpjAdGvgLoFRbr63eqQ32SzG4iA3k3dCGhFbrlgASLPyqg==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240714_WPF事件\\XH.EventLesson\\XH.EventLesson.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yhl18\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.122\\microsoft.xaml.behaviors.wpf.1.1.122.nupkg.sha512"
+  ],
+  "logs": []
+}

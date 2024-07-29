@@ -1,0 +1,91 @@
+﻿<Window x:Class="XH.TemplateLesson.ProgressBarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.TemplateLesson"
+        mc:Ignorable="d"
+        Title="ProgressBarWindow" Height="450" Width="800">
+    <Window.Resources>
+        <SolidColorBrush x:Key="ProgressBar.Progress" Color="#FF06B025"/>
+        <SolidColorBrush x:Key="ProgressBar.Background" Color="#FFE6E6E6"/>
+        <SolidColorBrush x:Key="ProgressBar.Border" Color="#FFBCBCBC"/>
+        <Style x:Key="ProgressBarStyle" TargetType="{x:Type ProgressBar}">
+            <Setter Property="Foreground" Value="{StaticResource ProgressBar.Progress}"/>
+            <Setter Property="Background" Value="{StaticResource ProgressBar.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource ProgressBar.Border}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ProgressBar}">
+                        <Grid x:Name="TemplateRoot">
+                            <!--状态切换 动画 一直滚动动画-->
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Determinate"/>
+                                    <VisualState x:Name="Indeterminate">
+                                        <!--AutoReverse="True" 来回-->
+                                        <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Animation" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.25"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.25"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <PointAnimationUsingKeyFrames Storyboard.TargetName="Animation" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)">
+                                                <EasingPointKeyFrame KeyTime="0" Value="-0.5,0.5"/>
+                                                <EasingPointKeyFrame KeyTime="0:0:1" Value="0.5,0.5"/>
+                                                <EasingPointKeyFrame KeyTime="0:0:2" Value="1.5,0.5"/>
+                                            </PointAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border Background="{TemplateBinding Background}" 
+                                    BorderBrush="{TemplateBinding BorderBrush}" 
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="5"/>
+                            <Rectangle x:Name="PART_Track"/>
+                            <Grid x:Name="PART_Indicator" ClipToBounds="true" HorizontalAlignment="Left">
+                                <Rectangle x:Name="Indicator" Fill="{TemplateBinding Foreground}" RadiusX="5" RadiusY="5"/>
+                                <!--动画显示区域-->
+                                <Rectangle x:Name="Animation" Fill="{TemplateBinding Foreground}"
+                                           RadiusX="5" 
+                                           RadiusY="5" 
+                                           RenderTransformOrigin="0.5,0.5">
+                                    <Rectangle.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Rectangle.RenderTransform>
+                                </Rectangle>
+                            </Grid>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="Orientation" Value="Vertical">
+                                <Setter Property="LayoutTransform" TargetName="TemplateRoot">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="-90"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsIndeterminate" Value="true">
+                                <Setter Property="Visibility" TargetName="Indicator" Value="Collapsed"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <!--IsIndeterminate 滚动显示 没有刻度-->
+        <ProgressBar Style="{DynamicResource ProgressBarStyle}" 
+                     Width="200" Height="30"  Value="30" Minimum="0"
+                     Maximum="100"
+                     IsIndeterminate="True"
+                     Background="Orange" Foreground="Red"/>
+    </Grid>
+</Window>

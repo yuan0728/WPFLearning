@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "3jfAaSZAKd86Q+Wx7GE9zgZO3L1qTVl4xlua8674dVo76YaoTh+laPR1MGdJF0f+LOiozB8BNWpXq3UnXV2vPg==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240623_WPF3D图形渲染和模型对接\\XH.ThreeDLesson\\XH.ThreeDLesson.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yhl18\\.nuget\\packages\\3dtools\\1.0.0\\3dtools.1.0.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\helixtoolkit.wpf\\2.25.0\\helixtoolkit.wpf.2.25.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net7.0-windows7.0”还原包“HelixToolkit.Wpf 2.25.0”。此包可能与项目不完全兼容。",
+      "libraryId": "HelixToolkit.Wpf",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

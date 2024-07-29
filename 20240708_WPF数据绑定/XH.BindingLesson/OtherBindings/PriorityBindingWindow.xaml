@@ -1,0 +1,35 @@
+﻿<Window x:Class="XH.BindingLesson.OtherBindings.PriorityBindingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.OtherBindings"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="PriorityBindingWindow" Height="450" Width="800">
+
+    <Window.DataContext>
+        <local:Data />
+    </Window.DataContext>
+    
+    <StackPanel>
+        <!--优先级绑定;PriorityBinding 了解：允许一次绑定多个属性，在顺序上哪个先得到就显示哪个-->
+
+        <!--<TextBlock>
+            <TextBlock.Text>
+                <PriorityBinding>
+                    <Binding Path="Value2" IsAsync="True" />
+                    <Binding Path="Value3" IsAsync="True" />
+                    <Binding Path="Value1" IsAsync="True" />
+                </PriorityBinding>
+            </TextBlock.Text>
+        </TextBlock>-->
+
+        <!--数据源-->
+        <TextBox Text="Hello" Name="input_tb" />
+        <!--目标对象-->
+        <TextBox Name="tb" Text="{Binding Text, ElementName=input_tb, UpdateSourceTrigger=PropertyChanged}"/>
+        
+        <!--TextBlock Text 默认是OneWay绑定 修改之后，绑定关系不在，除非修改绑定关系-->
+        <!--TextBox   Text 默认是TwoWay绑定 修改之后，绑定关系还在-->
+    </StackPanel>
+</Window>

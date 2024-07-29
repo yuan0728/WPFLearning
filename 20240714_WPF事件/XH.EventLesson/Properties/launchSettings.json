@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "XH.EventLesson": {
+      "commandName": "Project",
+      "commandLineArgs": "AAA BBB"
+    }
+  }
+}

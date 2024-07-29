@@ -1,0 +1,26 @@
+﻿<Window x:Class="XH.LayoutLesson.WrapPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.LayoutLesson"
+        mc:Ignorable="d"
+        Title="WrapPanelWindow" Height="450" Width="800">
+    <Grid>
+        <!--唯一一个不可以被Grid替代的布局控件，水平方向排列，过程中当前子项出界了，进行换行。
+            Orientation 调整排列方向 默认值为水平方向 
+                        如果是水平排列 最大高度为所在行的最大高度为定
+                        如果是垂直排列 最大宽度为所在行的最大宽度为定
+            使用场景：电脑桌面式图标排列、浏览器搜索历史关键词排列信息 -->
+        <WrapPanel Orientation="Horizontal">
+            <Button Content="Button1" Width="100" Height="30" />
+            <Button Content="Button1" Width="100" Height="30" />
+            <Button Content="Button1" Width="100" Height="30" Margin="10" />
+            <Button Content="Button1" Width="100" Height="30" />
+            <Button Content="Button1" Width="100" Height="30" />
+            <Button Content="Button1" Width="100" Height="40" />
+            <Button Content="Button1" Width="100" Height="30" />
+            <Button Content="Button1" Width="200" Height="30" />
+        </WrapPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Arrow.png" />
+    <None Remove="Earth.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="3DTools" Version="1.0.0" />
+    <PackageReference Include="HelixToolkit.Wpf" Version="2.25.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Arrow.png" />
+    <Resource Include="Earth.jpg" />
+  </ItemGroup>
+
+</Project>

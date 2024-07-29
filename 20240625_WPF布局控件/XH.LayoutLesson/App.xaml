@@ -1,0 +1,9 @@
+﻿<Application x:Class="XH.LayoutLesson.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:XH.LayoutLesson"
+             StartupUri="TestWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

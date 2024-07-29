@@ -1,0 +1,205 @@
+﻿<Window x:Class="XH.BindingLesson.BindingProperties.PropertyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.BindingProperties"
+        mc:Ignorable="d" FontSize="12"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        Title="PropertyWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:Data />
+    </Window.DataContext>
+    <Window.Resources>
+        <!--自定义转换器-->
+        <local:CharConvert x:Key="cc"/>
+        <local:VisibleConvert x:Key="vc"/>
+        <local:GenderConverter x:Key="gc"/>
+
+        <!--系统默认的转换器-->
+        <BooleanToVisibilityConverter x:Key="btv"/>
+        <!--主要针对GroupBox的边框处理 不常用-->
+        <BorderGapMaskConverter x:Key="bgmc"/>
+        <!--主要针对斑马线-->
+        <AlternationConverter x:Key="ac">
+            <SolidColorBrush>Red</SolidColorBrush>
+            <SolidColorBrush>Green</SolidColorBrush>
+            <SolidColorBrush>Orange</SolidColorBrush>
+        </AlternationConverter>
+
+        <!--数据源-->
+        <x:Array Type="sys:Int32" x:Key="adatas">
+            <sys:Int32>1</sys:Int32>
+            <sys:Int32>2</sys:Int32>
+            <sys:Int32>3</sys:Int32>
+            <sys:Int32>4</sys:Int32>
+            <sys:Int32>5</sys:Int32>
+        </x:Array>
+
+        <Style TargetType="ListBoxItem">
+            <Setter Property="Background" Value="{Binding RelativeSource={RelativeSource Mode=Self},Path=(ItemsControl.AlternationIndex),Converter={StaticResource ac}}" />
+        </Style>
+    </Window.Resources>
+    <TabControl>
+        <TabItem Header="Mode">
+            <StackPanel>
+                <!--###################################################Mode###################################################-->
+                <!--Mode：绑定对象的属性
+                TwoWay：绑定的双方，数值可以相互传递
+                OneWay：绑定后，数据从源到目标
+                OneTime：绑定的双方，在初始化的时候，数据同步一次 
+                OneWayToSource：单向绑定，数据从普通目标到源 与 OneWay 相反
+                Default：默认模式，没有Mode属性一样，默认是什么形式就是什么形式-->
+                <!--TextBlock的Text属性，默认是单向绑定 
+            TextBox的Text属性，默认是双向绑定-->
+                <TextBlock Text="{Binding Value,Mode=TwoWay}" Visibility="Visible"/>
+                <!--只读的时候，不可以单独使用Binding 
+            原因：TextBlock只做显示，TextBox可以做编辑（页面输入的时候，信息会回写，写到Value属性中去） 
+            这里的问题与属性问题无关  
+            如果不写Mode的时候，是否双向绑定还是根据默认的来设置的
+            TextBox的Text属性推送给资源的时机是控件失去焦点-->
+                <TextBox Text="{Binding Value,Mode=OneTime}" Visibility="Visible"/>
+                <TextBox Text="{Binding Value,Mode=Default}" Visibility="Visible"/>
+                <TextBox Text="{Binding Value,Mode=OneWayToSource}" Visibility="Visible"/>
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="UpdateSourceTrigger">
+            <StackPanel>
+                <!--###################################################UpdateSourceTrigger###################################################-->
+                <!--UpdateSourceTrigger 更新源触发器
+                        Default：控件默认 
+                        PropertyChanged：属性修改时触发
+                        LostFocus：失去焦点 更新源
+                        Explicit：明确的告诉进行更新-->
+                <Button Content="Button" Click="Button_Click" />
+                <TextBox Text="{Binding Value,Mode=TwoWay,UpdateSourceTrigger=Default}" />
+                <TextBox Text="{Binding Value,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+                <TextBox Text="{Binding Value,Mode=TwoWay,UpdateSourceTrigger=Explicit}" Name='tb'/>
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="Delay">
+            <!--变化的时候做什么逻辑
+                    UpdataSource 的时候，每次变化都会触发Set，如果Set有逻辑， 则跟不上
+                    希望每次输入都更新，而且不需要失去焦点，又不希望每个字符都更新
+                    可以让更新的时机稍等下 Delay
+                    Text 属性被连续更新后多少毫秒，如果连续输入不会触发，输入完开始计时-->
+            <StackPanel>
+                <!--这里更新的时候失去焦点，Delay无效，不会等待2000-->
+                <TextBox Text="{Binding Value,Mode=TwoWay,Delay=2000}" />
+                <!--实时同步更新源的时候，可以等待-->
+                <TextBox Text="{Binding Value,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,Delay=2000}" />
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="StringFormat" FontSize="12">
+            <StackPanel>
+                <!--https://www.cnblogs.com/chonglu/p/16913433.html-->
+                <!--00000：至少显示五位数，不够前面补0-->
+                <TextBlock Text="{Binding IntValue,StringFormat={}{0:00000}}" />
+                <!--P2：显示百分比 二位小数-->
+                <TextBlock Text="{Binding IntValue,StringFormat={}{0:P2}}" />
+                <!--0.00 保留两位小数 四舍五入-->
+                <TextBlock Text="{Binding FloatValue,StringFormat={}{0:0.00}}" />
+                <!--ConverterCulture=ZH-CN 中文钱符号-->
+                <!--C3 钱符号， 保留三位小数-->
+                <TextBlock Text="{Binding FloatValue,StringFormat={}{0:C3},ConverterCulture=ZH-CN}" />
+
+                <TextBlock Text="{Binding DateTimeValue}" />
+                <!--时间格式化-->
+                <TextBlock Text="{Binding DateTimeValue,StringFormat={}{0:yyyy-MM-dd HH:mm:ss}}" />
+
+                <Border Height="1" Background="Red" />
+                <!--{}{} 和 \{}\ 一样-->
+                <TextBlock Text="{Binding IntValue,StringFormat=\{0:00000\}}" />
+                <TextBlock Text="{Binding IntValue,StringFormat=\{0:P2\}}" />
+
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="Convert">
+            <StackPanel>
+                <StackPanel.Resources>
+                    <local:CharConvert x:Key="cc" />
+                </StackPanel.Resources>
+                <!--只有继承MarkupExtension才可以使用{}处理-->
+                <TextBlock Text="{Binding CodeValue,Converter={local:CharConvert}}"/>
+                <!--简写方式 需要提前定义资源-->
+                <TextBlock Text="{Binding CodeValue,Converter = {StaticResource cc}}" />
+                <!--完整方式 可以不用定义资源-->
+                <TextBlock>
+                    <TextBlock.Text>
+                        <Binding Path="CodeValue">
+                            <Binding.Converter>
+                                <local:CharConvert/>
+                            </Binding.Converter>
+                        </Binding>
+                    </TextBlock.Text>
+                </TextBlock>
+
+                <TextBox Text="{Binding CodeValue,UpdateSourceTrigger=PropertyChanged,Converter={StaticResource cc}}" />
+
+                <CheckBox Content="展开" Name="cb" IsChecked="{x:Null}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Border Height="30" Background="Orange" Visibility="{Binding Checked,Converter={StaticResource btv}}" />
+
+                <ListBox ItemsSource="{StaticResource adatas}" 
+                         AlternationCount="2">
+
+                    <!--<ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <DataTemplate.Triggers>
+                                <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                                    <Setter Property="Border.Background" Value="Red"/>
+                                </Trigger>
+                                <Trigger Property="ItemsControl.AlternationIndex" Value="2">
+                                    <Setter Property="Border.Background" Value="Green"/>
+                                </Trigger>
+                            </DataTemplate.Triggers>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>-->
+                </ListBox>
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="ConvertParameter">
+            <!--ConvertParameter 在Converter的时候，传入参数，object 类型
+                    可以写参数参与到转换器逻辑中，但是不支持动态绑定值-->
+            <StackPanel>
+                <TextBlock Text="{Binding CodeValue,Converter={StaticResource cc},ConverterParameter=0}" />
+                <TextBlock Text="{Binding CodeValue,Converter={StaticResource cc},ConverterParameter=2}" />
+                <TextBlock Text="{Binding CodeValue,Converter={StaticResource cc},ConverterParameter=4}" />
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="Demo">
+            <StackPanel>
+                <!--用户编辑窗口，里面有个属性叫性别（可以下拉 RadioButton 单选，选项是4个或4个以内用单选，多于4个下拉）-->
+                <!--如何区分这两个信息 -> 数据中的同一个属性中-->
+                <RadioButton Content="男" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Gender,Converter={StaticResource gc},ConverterParameter=1}"/>
+                <RadioButton Content="女" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Gender,Converter={StaticResource gc},ConverterParameter=2}"/>
+            </StackPanel>
+        </TabItem>
+
+        <!--##################辅助属性#####################-->
+        <TabItem Header="FailbackValue">
+            <StackPanel>
+                <!--FailbackValue无法绑定的时候（绑定错误的时候），显示个默认值
+                        1、找不到数据源
+                        2、Path路径无效-->
+                <TextBlock Text="{Binding ElementName=cb,Path=aaa,FallbackValue = 绑定失败 }"  />
+            </StackPanel>
+        </TabItem>
+
+        <TabItem Header="TargetNullValue">
+            <StackPanel>
+                <!--TargetNullValue 数据源属性的值为null的时候，目标属性中需要显示的信息-->
+                <TextBlock Text="{Binding ElementName=cb,Path=IsChecked,FallbackValue = 绑定失败 ,TargetNullValue= 空值}"  />
+                <TextBlock Text="{local:MyBinding ElementName=cb,Path=IsChecked,FallbackValue = 绑定失败 ,TargetNullValue= 空值}"  />
+                <TextBlock Text="{local:MyBinding ElementName=cb,Path=IsChecked}"  />
+            </StackPanel>
+        </TabItem>
+
+        
+    </TabControl>
+</Window>

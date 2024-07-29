@@ -1,0 +1,89 @@
+﻿<Window x:Class="XH.BindingLesson.DataValidation.ValidationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.DataValidation"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" FontSize="20"
+        Title="ValidationWindow" Height="450" Width="800" MouseDown="Window_MouseDown">
+    <Window.DataContext>
+        <local:Data />
+    </Window.DataContext>
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="3" />
+            <Setter Property="Height" Value="35" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" 
+                                Background="{TemplateBinding Background}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <Grid>
+                                <ScrollViewer Name="PART_ContentHost" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+                                <TextBlock Text="{Binding Path=(Validation.Errors)[0].ErrorContent,RelativeSource={RelativeSource Mode=TemplatedParent}}"
+                                           HorizontalAlignment="Right" 
+                                           Name="error"
+                                           Visibility="Collapsed"
+                                           Foreground="Red"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="Validation.HasError" Value="True">
+                                <Setter TargetName="error" Property="Visibility" Value="Visible" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <!--数据验证和异常捕获-->
+    <StackPanel Margin="20">
+        <!--ValidationRules 校验规则-->
+        <TextBox Name="tb1" Text="{Binding Value,UpdateSourceTrigger=PropertyChanged}" />
+
+        <TextBox Name="tb2">
+            <TextBox.Text>
+                <Binding Path="Value" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <ExceptionValidationRule />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <!--捕获到框架自带的异常-->
+        <TextBlock Text="{Binding ElementName=tb2,Path=(Validation.Errors)[0].ErrorContent}" Foreground="Red"/>
+        <Button Content="Get exception" Click="Button_Click" />
+
+        <!--自定义验证规则-->
+        <!--<TextBox Name="tb3">
+            <TextBox.Text>
+                <Binding Path="Value" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <local:ValueValidation />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>-->
+        <TextBox Name="tb3">
+            <TextBox.Text>
+                <Binding Path="Value" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <local:ValueValidation />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <TextBlock Text="{Binding ElementName=tb3,Path=(Validation.Errors)[0].ErrorContent}" Foreground="Red"/>
+
+        <!--ValidatesOnDataErrors 打开类中的IDataErrorInfo的属性验证 -->
+        <TextBox Name="tb4" Text="{Binding Value,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" />
+        <TextBox Name="tb5" Text="{Binding MyProperty,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" />
+        <TextBox Name="tb6" Text="{Binding MyProperty1,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" />
+        <TextBlock Text="{Binding ElementName=tb4,Path=(Validation.Errors)[0].ErrorContent}" Foreground="Red"/>
+        <TextBlock Text="{Binding ElementName=tb5,Path=(Validation.Errors)[0].ErrorContent}" Foreground="Red"/>
+        <TextBlock Text="{Binding ElementName=tb6,Path=(Validation.Errors)[0].ErrorContent}" Foreground="Red"/>
+    </StackPanel>
+</Window>

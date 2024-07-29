@@ -1,0 +1,298 @@
+﻿<Window x:Class="XH.ThreeDLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.ThreeDLesson"
+        mc:Ignorable="d"
+        xmlns:t="clr-namespace:_3DTools;assembly=3DTools"
+        Title="MainWindow" Height="450" Width="800">
+    <!--动画 使地球转起来-->
+    <!--<Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard RepeatBehavior="Forever">
+                    <DoubleAnimation Duration="0:0:7" 
+                                     Storyboard.TargetName="aar" 
+                                     Storyboard.TargetProperty="Angle" 
+                                     From="0" 
+                                     To="360" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Slider Minimum="0" Maximum="360" Value="0" ValueChanged="Slider_ValueChanged" />
+        <Slider Minimum="0" Maximum="360" Value="0" Grid.Row="1" ValueChanged="Slider_ValueChanged_1" />
+
+        <!--鼠标右键缩放 左边旋转-->
+        <t:TrackballDecorator Grid.Row="2">
+            <!--不推荐鼠标命中HitTest-->
+            <Viewport3D MouseLeftButtonDown="Viewport3D_MouseLeftButtonDown">
+                <!--相机 
+                PerspectiveCamera 透视 遵循近大远小的透视规则
+                OrthographicCamera 正交 按实际比例显示，没有透视变形-->
+                <Viewport3D.Camera>
+                    <!--PerspectiveCamera 透视相机
+                    Position 位置 相机的三维空间坐标(X Y Z)
+                    LookDirection 观察方向 相机观察口朝向 
+                                  向量方向 = (Position - 原点)Length
+                                  如果三个点位结果一样，不关心长度的话 写-1也一样 随便写三个一样的就可以。 
+                    FieldOfView 视野范围（焦距） 数值越大视野越远 一个值
+                    UpDirection 相机上方方向 控制相机观察口旋转
+                    FarPlaneDistance 远景范围 大于距离不渲染 盲区
+                    NearPlaneDistance 近景范围 小于距离不渲染 盲区
+                    -->
+                    <PerspectiveCamera Position="100 100 100" LookDirection="-1 -1 -1"
+                                   FieldOfView="5"
+                                   UpDirection="0 1 0"
+                                   FarPlaneDistance="1000"
+                                   NearPlaneDistance="1">
+                        <PerspectiveCamera.Transform>
+                            <Transform3DGroup>
+                                <!--旋转 CenterX Y Z X方向旋转角度 Axis：旋转轴-->
+                                <RotateTransform3D CenterX="3" CenterY="0" CenterZ="0">
+                                    <RotateTransform3D.Rotation>
+                                        <AxisAngleRotation3D Angle="0" Axis="0,1,0" x:Name="aar"/>
+                                    </RotateTransform3D.Rotation>
+                                </RotateTransform3D>
+                                <!--平移 OffsetX Y Z方向偏移-->
+                                <TranslateTransform3D OffsetX="0" OffsetY="0" OffsetZ="0" x:Name="tt" />
+                                <!--缩放 ScaleX Y Z方向缩放 缩放的是坐标轴-->
+                                <ScaleTransform3D ScaleX="1" ScaleY="1" ScaleZ="1" />
+                                <!--矩阵-->
+                                <MatrixTransform3D />
+                            </Transform3DGroup>
+                        </PerspectiveCamera.Transform>
+                    </PerspectiveCamera>
+                    <!--OrthographicCamera 正交
+                    特殊属性：Width 宽度 像素宽度 视野范围（焦距） 数值越大视野越远 一个值-->
+                    <!--<OrthographicCamera Position="100 100 100"
+                                    LookDirection="-1 -1 -1" 
+                                    Width="50"
+                                    UpDirection="0 1 0"
+                                    FarPlaneDistance="1000"
+                                    NearPlaneDistance="1"/>-->
+                </Viewport3D.Camera>
+
+                <!--光源
+                AmbientLight 环境光
+                PointLight 点光源 
+                    Range 照射范围 
+                    Position 位置
+                DirectionalLight 平行光 
+                    Direction 平行方向
+                SpotLight 聚光灯
+                    InnerConeAngle 内光柱照射角度
+                    OuterConeAngle 外光柱照射角度-->
+                <ModelVisual3D>
+                    <ModelVisual3D.Content>
+                        <AmbientLight Color="White"/>
+                        <!--<DirectionalLight Color="White" Direction="0,-1,-1"/>-->
+                        <!--<PointLight Color="White" Position="100 100 100" Range="171"/>-->
+                        <!--<SpotLight Color="Orange" 
+                               InnerConeAngle="20"
+                               OuterConeAngle="40" 
+                               Position="100,100,100" 
+                               Direction="-1,-1,-1"
+                               Range="1000"/>-->
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+
+                <!--第一个面-->
+                <ModelUIElement3D MouseLeftButtonDown="ModelUIElement3D_MouseLeftButtonDown">
+                    <ModelUIElement3D.Model>
+                        <GeometryModel3D>
+                            <!--材质
+                            DiffuseMaterial 漫反射 反射场景光效果
+                            EmissiveMaterial 自发光 类似于点灯 需要Group和DiffuseMaterial放在一起并且关闭光源才可以显示 
+                                             如果光源打开 则两个颜色合并一起
+                            SpecularMaterial 全反射 可以映射场景 有具体方向 向应用于网格的其他材料添加颜色，而不是减去它-->
+                            <GeometryModel3D.Material>
+                                <MaterialGroup>
+                                    <!--<DiffuseMaterial Brush="Orange"/>-->
+                                    <DiffuseMaterial>
+                                        <DiffuseMaterial.Brush>
+                                            <ImageBrush ImageSource="Arrow.png"/>
+                                        </DiffuseMaterial.Brush>
+                                    </DiffuseMaterial>
+                                    <!--<EmissiveMaterial Brush="Green"/>-->
+                                    <SpecularMaterial Brush="Blue" />
+                                </MaterialGroup>
+                            </GeometryModel3D.Material>
+                            <!--背面材质的处理-->
+                            <GeometryModel3D.BackMaterial>
+                                <DiffuseMaterial Brush="Green"/>
+                            </GeometryModel3D.BackMaterial>
+                            <GeometryModel3D.Geometry>
+                                <!--一个面 四个点 TextureCoordinates 控制切图方位-->
+                                <MeshGeometry3D Positions="0,0,0 3,0,0 3,2,0 0,2,0" 
+                                            TriangleIndices="0,2,3 0,1,2"
+                                            TextureCoordinates="0,1 0,0 1,0 1,1"/>
+                            </GeometryModel3D.Geometry>
+                        </GeometryModel3D>
+                    </ModelUIElement3D.Model>
+                </ModelUIElement3D>
+
+                <!--在3D界面上写2D界面-->
+                <Viewport2DVisual3D>
+                    <Viewport2DVisual3D.Material>
+                        <!--Viewport2DVisual3D.IsVisualHostMaterial="True" 将2D界面渲染在3D上-->
+                        <DiffuseMaterial Viewport2DVisual3D.IsVisualHostMaterial="True" />
+                    </Viewport2DVisual3D.Material>
+                    <Viewport2DVisual3D.Geometry>
+                        <MeshGeometry3D Positions="0,0,1 3,0,1 3,2,1 0,2,1" 
+                                    TriangleIndices="0,2,3 0,1,2"
+                                    TextureCoordinates="0,1 0,0 1,0 1,1"/>
+                    </Viewport2DVisual3D.Geometry>
+                    <Border Background="Black">
+                        <Button Content="test" Click="Button_Click"/>
+                    </Border>
+                </Viewport2DVisual3D>
+
+                <!--第二个面-->
+                <ModelUIElement3D>
+                    <ModelUIElement3D.Model>
+                        <GeometryModel3D>
+                            <GeometryModel3D.Material>
+                                <DiffuseMaterial Brush="Red"/>
+                            </GeometryModel3D.Material>
+                            <GeometryModel3D.BackMaterial>
+                                <DiffuseMaterial Brush="Blue"/>
+                            </GeometryModel3D.BackMaterial>
+                            <GeometryModel3D.Geometry>
+                                <MeshGeometry3D Positions="3,2,1 3,2,0 3,0,0 3,0,1" 
+                                            TriangleIndices="0,3,1 1,3,2"/>
+                            </GeometryModel3D.Geometry>
+                        </GeometryModel3D>
+                    </ModelUIElement3D.Model>
+                </ModelUIElement3D>
+
+                <!--<ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Material>
+                            <MaterialGroup>
+                                <DiffuseMaterial>
+                                    <DiffuseMaterial.Brush>
+                                        <VisualBrush>
+                                            <VisualBrush.Visual>
+                                                <Border Background="Orange" Height="10" Width="10">
+                                                    <Button Content="text" FontSize="2" Click="Button_Click" />
+                                                </Border>
+                                            </VisualBrush.Visual>
+                                        </VisualBrush>
+                                    </DiffuseMaterial.Brush>
+                                </DiffuseMaterial>
+                                <SpecularMaterial Brush="Blue" />
+                            </MaterialGroup>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.BackMaterial>
+                            <DiffuseMaterial Brush="Green"/>
+                        </GeometryModel3D.BackMaterial>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D Positions="0,0,1 3,0,1 3,2,1 0,2,1" 
+                                 TriangleIndices="0,2,3 0,1,2"
+                                 TextureCoordinates="0,1 0,0 1,0 1,1"/>
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+
+                <!--第三个面-->
+                <!--<ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial Brush="Blue"/>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D Positions="0,0,0 0,2,0 0,2,1 0,0,1" 
+                                            TriangleIndices="0,1,2 0 2 3"/>
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+
+                <!--第四个面-->
+                <!--<ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial Brush="AliceBlue"/>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D Positions="0,2,1 3,2,1 3,0,1 0,0,1" 
+                                            TriangleIndices="3,1,0 3 2 1"/>
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+
+                <!--第五个面-->
+                <!--<ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial Brush="Black"/>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D Positions="0,2,0 3,2,0 3,2,1 0,2,1" 
+                                            TriangleIndices="3,1,0 3 2 1"/>
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+
+                <!--第六个面-->
+                <!--<ModelUIElement3D>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D>
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial Brush="Yellow"/>
+                        </GeometryModel3D.Material>
+                        <GeometryModel3D.Geometry>
+                            <MeshGeometry3D Positions="0,0,0 3,0,0 3,0,1 0,0,1" 
+                                TriangleIndices="0,2,1 0 3 2"/>
+                        </GeometryModel3D.Geometry>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+
+                <!--地球-->
+                <!--<ModelUIElement3D>
+                <ModelUIElement3D.Transform>
+                    <Transform3DGroup>
+                        <RotateTransform3D CenterX="0" CenterY="0" CenterZ="0">
+                            <RotateTransform3D.Rotation>
+                                <AxisAngleRotation3D Axis="1,0,0" Angle="-90" />
+                            </RotateTransform3D.Rotation>
+                        </RotateTransform3D>
+                        <RotateTransform3D CenterX="0" CenterY="0" CenterZ="0">
+                            <RotateTransform3D.Rotation>
+                                <AxisAngleRotation3D Axis="0,1,0" x:Name="aar" />
+                            </RotateTransform3D.Rotation>
+                        </RotateTransform3D>
+                    </Transform3DGroup>
+                </ModelUIElement3D.Transform>
+                <ModelUIElement3D.Model>
+                    <GeometryModel3D x:Name="gm">
+                        <GeometryModel3D.Material>
+                            <DiffuseMaterial>
+                                <DiffuseMaterial.Brush>
+                                    <ImageBrush ImageSource="Earth.jpg"/>
+                                </DiffuseMaterial.Brush>
+                            </DiffuseMaterial>
+                        </GeometryModel3D.Material>
+                    </GeometryModel3D>
+                </ModelUIElement3D.Model>
+            </ModelUIElement3D>-->
+            </Viewport3D>
+        </t:TrackballDecorator>
+    </Grid>
+</Window>

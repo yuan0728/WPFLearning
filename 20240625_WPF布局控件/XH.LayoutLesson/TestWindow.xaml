@@ -1,0 +1,20 @@
+﻿<Window x:Class="XH.LayoutLesson.TestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.LayoutLesson"
+        mc:Ignorable="d" FontSize="50"
+        Title="TestWindow" Height="450" Width="800">
+    <Grid>
+        <local:XHPanel ColumnSpace="2" RowSpace="2">
+            <Border Background="Gray">
+                <TextBlock Text="B1B1BB11BB1B1B1111111111111111111111B1B11B11BB1B1BB11BB1B1B1B1B11B11B" FontSize="20" TextWrapping="Wrap"/>
+            </Border>
+            <Button Content="B1" Height="40"/>
+            <Button Content="B2" Height="90"/>
+            <Button Content="B3" Height="90"/>
+            <Button Content="B4" Height="90"/>
+        </local:XHPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="XH.EventLesson.BehaviorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.EventLesson"
+        mc:Ignorable="d"
+        xmlns:b ="http://schemas.microsoft.com/xaml/behaviors"
+        Title="BehaviorWindow" Height="450" Width="800">
+    <Canvas Name="canvas">
+        <Border Width="100" Height="30" Background="Orange" Canvas.Left="0" Canvas.Top="0">
+            <!--把所需要的事件，包装为Behaviors对象-->
+            <b:Interaction.Behaviors>
+                <local:DragMoveBehavior />
+            </b:Interaction.Behaviors>
+        </Border>
+        <Border Width="100" Height="30" Background="Green" Canvas.Left="100" Canvas.Top="30">
+            <b:Interaction.Behaviors>
+                <local:DragMoveBehavior />
+            </b:Interaction.Behaviors>
+        </Border>
+        <Label Content="Label" Width="100" Height="30" Background="Gray" Canvas.Left="0" Canvas.Top="30">
+            <b:Interaction.Behaviors>
+                <local:DragMoveBehavior />
+            </b:Interaction.Behaviors>
+        </Label>
+        <!--目前封装的Behaviors不适用button-->
+    </Canvas>
+</Window>

@@ -1,0 +1,124 @@
+﻿<Window x:Class="XH.BindingLesson.Example.ColumnChartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.Example"
+        mc:Ignorable="d"
+        Title="ColumnChartWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ItemsControl Grid.Row="0" ItemsSource="{Binding datas}" Visibility="Visible">
+            <!--修改 数据显示的排列模板ItemsPanel-->
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="1" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding Value}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Foreground="Red"/>
+                        <Border Grid.Row="1" Background="Gray" Height="1" VerticalAlignment="Bottom"/>
+                        <Border Grid.Row="1" Height="{Binding Value}" Width="12" Background="Green" VerticalAlignment="Bottom"/>
+                        <TextBlock Text="{Binding LabelText}" Grid.Row="2" HorizontalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!--ListBox 比 ItemsControl 多一层属性：ListBoxItem ，每一个ListBoxItem都做了水平垂直居中处理-->
+        <ListBox Grid.Row="1"
+                 ItemsSource="{Binding datas}" 
+                 Visibility="Visible"
+                 ScrollViewer.VerticalScrollBarVisibility="Hidden"  
+                 ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+            <!--<ListBox.Resources>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="VerticalContentAlignment" Value="Bottom"/>
+                </Style>
+            </ListBox.Resources>-->
+            <!--两个写法一样 ，没有区别-->
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <!--<Setter Property="VerticalContentAlignment" Value="Bottom"/>-->
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <Border Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="{TemplateBinding VerticalAlignment}"
+                                                      HorizontalAlignment="{TemplateBinding HorizontalAlignment}">
+
+                                    </ContentPresenter>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="Gray"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <!--修改 数据显示的排列模板ItemsPanel-->
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="1" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding Value}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Foreground="Red"/>
+                        <Border Grid.Row="1" Background="Gray" Height="1" VerticalAlignment="Bottom"/>
+                        <Border Grid.Row="1" Height="{Binding Value}" Width="12" Background="Green" VerticalAlignment="Bottom"/>
+                        <TextBlock Text="{Binding LabelText}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!--没有显示-->
+        <ListView Grid.Row="2" Visibility="Collapsed">
+            <!--修改 数据显示的排列模板ItemsPanel-->
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="1" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding Value}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Foreground="Red"/>
+                        <Border Grid.Row="1" Background="Gray" Height="1" VerticalAlignment="Bottom"/>
+                        <Border Grid.Row="1" Height="{Binding Value}" Width="12" Background="Green" VerticalAlignment="Bottom"/>
+                        <TextBlock Text="{Binding LabelText}" Grid.Row="2" HorizontalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!--<TextBlock Text="Hello" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Green" />-->
+    </Grid>
+</Window>

@@ -1,0 +1,63 @@
+﻿<Window x:Class="XH.AnimationLesson.Demo.WaterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.AnimationLesson.Demo"
+        mc:Ignorable="d"
+        Title="WaterWindow" Height="450" Width="800">
+    <!--水液面-->
+    <Window.Resources>
+        <Storyboard x:Key="sb">
+            <DoubleAnimation RepeatBehavior="Forever" Duration="0:0:1" From="0" To="-100" Storyboard.TargetName="tt" Storyboard.TargetProperty="X"/>
+            <DoubleAnimation RepeatBehavior="Forever" BeginTime="0:0:0.3" Duration="0:0:1.3" From="0" To="-100" Storyboard.TargetName="tt_2" Storyboard.TargetProperty="X"/>
+            <DoubleAnimation RepeatBehavior="Forever" BeginTime="0:0:0.6" Duration="0:0:1.6" From="-100" To="0" Storyboard.TargetName="tt_3" Storyboard.TargetProperty="X"/>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard Storyboard="{StaticResource sb}" />
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Border Width="100" Height="100" Background="#ddd">
+            <Border.Clip>
+                <EllipseGeometry Center="50 50" RadiusX="50" RadiusY="50" />
+            </Border.Clip>
+            <Canvas>
+                <Path Data="M0 0
+                            A40 40 0 0 0 50 0
+                            A40 40 0 0 1 100 0
+                            A40 40 0 0 0 150 0 
+                            A40 40 0 0 1 200 0 
+                            L 200 100 0 100" Fill="Orange">
+                    <Path.RenderTransform>
+                        <TranslateTransform X="-100" Y="40" x:Name="tt" />
+                    </Path.RenderTransform>
+                </Path>
+                
+                <Path Data="M0 0
+                            A40 40 0 0 0 50 0
+                            A40 40 0 0 1 100 0
+                            A40 40 0 0 0 150 0 
+                            A40 40 0 0 1 200 0 
+                            L 200 100 0 100" Fill="#9f90">
+                    <Path.RenderTransform>
+                        <TranslateTransform X="-100" Y="40" x:Name="tt_2" />
+                    </Path.RenderTransform>
+                </Path>
+                
+                <Path Data="M0 0
+                            A40 40 0 0 0 50 0
+                            A40 40 0 0 1 100 0
+                            A40 40 0 0 0 150 0 
+                            A40 40 0 0 1 200 0 
+                            L 200 100 0 100" Fill="#9f80">
+                    <Path.RenderTransform>
+                        <TranslateTransform X="0" Y="40" x:Name="tt_3" />
+                    </Path.RenderTransform>
+                </Path>
+            </Canvas>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="XH.LayoutLesson.UniformGridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.LayoutLesson"
+        mc:Ignorable="d"
+        Title="UniformGridWindow" Height="450" Width="800">
+    <Grid>
+        <!--均分 1*1 2*2 3*3 均分
+            Columns 一共最多多少列 不存在指定列宽
+            Rows 一共最多多少行 不存在指定列高
+            如果只设置列 则内容行均分
+            如果只设置行 则内容列均分
+            如果行列都设置 则内容超出界面显示区域 但是也绘制
+            使用场景：9宫格的功能区域、图表（柱状图）-->
+        <UniformGrid Columns="3" Rows="3" Visibility="Collapsed">
+            <Button Content="Button1"/>
+            <Button Content="Button2"/>
+            <Button Content="Button3"/>
+            <Button Content="Button4"/>
+            <Button Content="Button5"/>
+            <Button Content="Button6"/>
+            <Button Content="Button7"/>
+            <Button Content="Button8"/>
+            <Button Content="Button9"/>
+        </UniformGrid>
+
+        <UniformGrid Rows="1" Visibility="Visible">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
+                <Border Height="150" Width="10" Background="Gray" VerticalAlignment="Bottom"/>
+                <Border Height="100" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+            </StackPanel>
+            <Border Height="150" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+            <Border Height="120" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+            <Border Height="100" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+            <Border Height="100" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+            <Border Height="200" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+            <Border Height="100" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+            <Border Height="100" Width="10" Background="Orange" VerticalAlignment="Bottom"/>
+        </UniformGrid>
+    </Grid>
+</Window>

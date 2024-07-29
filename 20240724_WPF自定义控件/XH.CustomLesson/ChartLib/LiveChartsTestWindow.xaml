@@ -1,0 +1,96 @@
+﻿<Window x:Class="XH.CustomLesson.ChartLib.LiveChartsTestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.CustomLesson.ChartLib"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="LiveChartsTestWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--liveCahrt 长时间持续更新的情况下 会导致内存溢出
+            数据加载量 不能太大 （所有序列在1000点之内）-->
+        <lvc:CartesianChart>
+            <!--一个图表对应多个序列
+            PointGeometrySize：折线图上的白点大小
+            LineSmoothness：折线图圆滑曲线
+            ScalesYAt：对齐到哪个Y轴-->
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="23, 11, 99, 70, 87, 87, 84, 91, 55, 27, 79, 70, 70, 10, 14, 24, 27, 89, 61, 39" 
+                        Stroke="Orange" Fill="#1F00" PointGeometrySize="0" LineSmoothness="0" 
+                        Title="折线图"/>
+                <lvc:ColumnSeries Values="23, 11, 99, 70, 87, 87, 84, 91, 55, 27, 79, 70, 70, 10, 14, 24, 27, 89, 61, 39"
+                          Title="柱状图" ScalesYAt="0" MaxColumnWidth="20" Fill="Green"/>
+            </lvc:CartesianChart.Series>
+
+            <!--设置X坐标
+                需要Labels数量和Values数量保持一致-->
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Labels="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v">
+                    <!--Separator：设置步长-->
+                    <lvc:Axis.Separator>
+                        <lvc:Separator Step="1" Stroke="Red" StrokeDashArray="3,3"/>
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <!--CartesianChart：设置坐标
+                    AxisY：纵坐标一般设置做大数值和最小数值
+                    Separator：设置步长
+                    Sections：设置预警线-->
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis MinValue="0" MaxValue="100">
+                    <lvc:Axis.Separator>
+                        <lvc:Separator Step="20" Stroke="Green" StrokeDashArray="3,3" />
+                    </lvc:Axis.Separator>
+                    <lvc:Axis.Sections>
+                        <lvc:AxisSection Value="75" Stroke="Red" StrokeThickness="1" />
+                    </lvc:Axis.Sections>
+                </lvc:Axis>
+
+                <lvc:Axis MinValue="0" MaxValue="2" LabelFormatter="{Binding YLableFormatter}" Position="RightTop">
+                    <lvc:Axis.Separator>
+                        <!--Double类型会导致精度丢失-->
+                        <lvc:Separator Step="0.4" StrokeDashArray="3,3" StrokeThickness="0" />
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+            
+        </lvc:CartesianChart>
+
+        <lvc:CartesianChart Series="{Binding SeriesList}" Grid.Row="1" />
+
+        <!--Gauge：环形图 
+            Uses360Mode：是否使用360度
+            From：从多少开始
+            To：到多少结束
+            Value：值多少-->
+        <lvc:Gauge Grid.Row="0" Grid.Column="1" Uses360Mode="True" From="0" To="100" Value="85" />
+
+        <!--AngularGauge：仪表盘
+            Sections：仪表警戒线
+            FromValue：从多少位置开始
+            ToValue：到多少位置结束
+            LabelsStep：每一个的步长
+            TicksStep：小格的步长
+            Wedge：整个的角度
+            TicksForeground：刻度线的颜色
+            Foreground：字体颜色
+            SectionsInnerRadius：环形圆角度
+            Value：值-->
+        <lvc:AngularGauge Grid.Row="1" Grid.Column="1" FromValue="50" ToValue="250" LabelsStep="50" TicksStep="25" Wedge="270" TicksForeground="White"
+                          Foreground="White" FontWeight="Bold" FontSize="16" SectionsInnerRadius="0.5" Value="180">
+            <lvc:AngularGauge.Sections>
+                <lvc:AngularSection FromValue="50" ToValue="200" Fill="Orange" />
+                <lvc:AngularSection FromValue="200" ToValue="260" Fill="Red" />
+            </lvc:AngularGauge.Sections>
+        </lvc:AngularGauge>
+    </Grid>
+</Window>

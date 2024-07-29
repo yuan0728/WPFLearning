@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\GroupElementTester\\GroupElementTester.csproj": {}
+  },
+  "projects": {
+    "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\DemoCore\\DemoCore.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\DemoCore\\DemoCore.csproj",
+        "projectName": "DemoCore",
+        "projectPath": "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\DemoCore\\DemoCore.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\GroupElementTester\\GroupElementTester.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\GroupElementTester\\GroupElementTester.csproj",
+        "projectName": "GroupElementTester",
+        "projectPath": "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\GroupElementTester\\GroupElementTester.csproj",
+        "packagesPath": "C:\\Users\\yhl18\\.nuget\\packages\\",
+        "outputPath": "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\GroupElementTester\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yhl18\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\DemoCore\\DemoCore.csproj": {
+                "projectPath": "F:\\Study\\WPF+上位机\\WPF+上位机+工业互联第三期--vip\\20230509WPF上位机03Course009WPF3D模型对接\\20230509WPF上位机03Course009WPF3D模型对接\\src\\Zhaoxi.Demo3D\\DemoCore\\DemoCore.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "HelixToolkit": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "HelixToolkit.Wpf.SharpDX": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "SharpDX.Direct3D11": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Mathematics": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

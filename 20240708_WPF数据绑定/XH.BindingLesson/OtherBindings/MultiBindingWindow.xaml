@@ -1,0 +1,66 @@
+﻿<Window x:Class="XH.BindingLesson.OtherBindings.MultiBindingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.OtherBindings"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="MultiBindingWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:Data />
+    </Window.DataContext>
+    <Window.Resources>
+        <local:CombinValueConverter x:Key="cvc" />
+        <local:WidthValueConverter x:Key="wvc" />
+    </Window.Resources>
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <!--多重绑定-->
+            <TextBlock Text="{Binding Value}" />
+            <TextBlock Text="{Binding Value2}" />
+        </StackPanel>
+
+        <TextBlock>
+            <TextBlock.Text>
+                <!--多重绑定 可以根据下表进行顺序显示-->
+                <MultiBinding StringFormat="{}{1}{0}">
+                    <Binding Path="Value" />
+                    <Binding Path="Value2" />
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+
+        <TextBlock>
+            <TextBlock.Text>
+                <!--绑定显示转换器-->
+                <MultiBinding Converter="{StaticResource cvc}">
+                    <Binding Path="Value" />
+                    <Binding Path="Value2" />
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+
+        <TextBox>
+            <TextBox.Text>
+                <!--绑定显示转换器-->
+                <MultiBinding Converter="{StaticResource cvc}">
+                    <Binding Path="Value" />
+                    <Binding Path="Value2" />
+                </MultiBinding>
+            </TextBox.Text>
+        </TextBox>
+
+        <!--多重绑定实现子控件长度是父控件的百分比-->
+        <Border Height="20" Background="Gray" Margin="30 10" Name="bor" >
+            <Border Background="Orange" HorizontalAlignment="Left">
+                <Border.Width>
+                    <MultiBinding Converter="{StaticResource wvc}">
+                        <Binding Path="ProgressValue" />
+                        <Binding ElementName="bor" Path="ActualWidth" />
+                    </MultiBinding>
+                </Border.Width>
+            </Border>
+        </Border>
+        <TextBox />
+    </StackPanel>
+</Window>

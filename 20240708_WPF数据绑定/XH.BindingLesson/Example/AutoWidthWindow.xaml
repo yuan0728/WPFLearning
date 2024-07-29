@@ -1,0 +1,26 @@
+﻿<Window x:Class="XH.BindingLesson.Example.AutoWidthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.Example"
+        mc:Ignorable="d"
+        Title="AutoWidthWindow" Height="450" Width="800">
+    <Grid Margin="30" x:Name="grid">
+        <!--ActualWidth 渲染宽度 一般绑定都指定这个宽度-->
+        <!--这个控件希望有三分之一的宽度
+            1、拿到Grid的三分之一宽度
+            2、放到Width中-->
+        <Grid ShowGridLines="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  x:Name="cd"/>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Border x:Name="bor" Grid.ColumnSpan="2"/>
+            <!--拉动窗格-->
+            <GridSplitter HorizontalAlignment="Right" Background="Red" Width="5" Visibility="Collapsed" />
+        </Grid>
+        <Border Background="Orange" Width="{Binding ElementName=bor,Path=ActualWidth}" Visibility="Visible"/>
+    </Grid>
+</Window>

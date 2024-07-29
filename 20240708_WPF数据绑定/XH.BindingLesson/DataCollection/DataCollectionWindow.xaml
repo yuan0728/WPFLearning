@@ -1,0 +1,89 @@
+﻿<Window x:Class="XH.BindingLesson.DataCollection.DataCollectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.BindingLesson.DataCollection"
+        mc:Ignorable="d" FontSize="20"
+        Title="DataCollectionWindow" Height="450" Width="800">
+    <!--<Window.DataContext>
+        <local:DataSource />
+    </Window.DataContext>-->
+    <Window.Resources>
+        <DataTemplate x:Key="dt1" DataType="ListBox">
+            <StackPanel Orientation="Horizontal" TextBlock.Foreground="Gray" Name="sp">
+                <TextBlock Text="{Binding Id}" Margin="10,0"/>
+                <TextBlock Text="{Binding Header}" Margin="10,0"/>
+                <!--ListBox的数据源是Window.DataContext
+                    ListItem中的数据源是ListBox中ItemsSource确定-->
+                <TextBlock Text="{Binding DataContext.Name,RelativeSource={RelativeSource AncestorType=ListBox}}" Margin="10,0"/>
+                <TextBlock Text="{Binding DataContext.Name,ElementName=lb}" Margin="10,0"/>
+                <TextBlock Text="{Binding State}" Margin="10,0"/>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="dt2" DataType="ListBox">
+            <StackPanel Orientation="Horizontal" TextBlock.Foreground="Red" Name="sp">
+                <TextBlock Text="{Binding Id}" Margin="10,0"/>
+                <TextBlock Text="{Binding Header}" Margin="10,0"/>
+                <!--ListBox的数据源是Window.DataContext
+                    ListItem中的数据源是ListBox中ItemsSource确定-->
+                <TextBlock Text="{Binding DataContext.Name,RelativeSource={RelativeSource AncestorType=ListBox}}" Margin="10,0"/>
+                <TextBlock Text="{Binding DataContext.Name,ElementName=lb}" Margin="10,0"/>
+                <TextBlock Text="{Binding State}" Margin="10,0"/>
+                <Button Content="处理" Name="btn" Click= "btn_Click"/>
+            </StackPanel>
+        </DataTemplate>
+
+        <local:MyDataTempkateSelector x:Key="mdts" NormalTemplate="{StaticResource dt1}" WarningTemplate="{StaticResource dt2}" />
+    </Window.Resources>
+    <StackPanel>
+        <!--集合控件-->
+        <!--<ItemsControl />
+        <ListView />
+        <ListBox />
+        <DataGrid />
+        <ComboBox />
+        <TabControl />
+        <Menu />
+        <TreeView /> -->
+
+        <TextBlock Text="{Binding Name}" />
+        <ListBox x:Name="lb" ItemsSource="{Binding List}" Grid.ColumnSpan="2" >
+            <!--子项模板-->
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" TextBlock.Foreground="Gray" Name="sp">
+                        <TextBlock Text="{Binding Id}" Margin="10,0"/>
+                        <TextBlock Text="{Binding Header}" Margin="10,0"/>
+                        <!--ListBox的数据源是Window.DataContext
+                            ListItem中的数据源是ListBox中ItemsSource确定-->
+                        <TextBlock Text="{Binding DataContext.Name,RelativeSource={RelativeSource AncestorType=ListBox}}" Margin="10,0"/>
+                        <TextBlock Text="{Binding DataContext.Name,ElementName=lb}" Margin="10,0"/>
+                        <TextBlock Text="{Binding State}" Margin="10,0"/>
+                        <Button Content="处理" Name="btn" Visibility="Collapsed" Click= "btn_Click"/>
+                    </StackPanel>
+                    <DataTemplate.Triggers>
+                        <!--Trigger 判断对象的基本属性-->
+                        <!--DataTrigger 判断的是数据源中的数据属性-->
+                        <!--数据触发 如果state是1 则变红色-->
+                        <!--数据模板选择器-->
+                        <DataTrigger Binding="{Binding State}" Value="1">
+                            <Setter TargetName="sp" Property="TextBlock.Foreground" Value="Red"/>
+                            <Setter TargetName="btn" Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </DataTemplate.Triggers>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Click="Button_Click" Height="30" Content="Button"/>
+
+        <ListBox ItemsSource="{Binding List}">
+            <!--数据模板选择器-->
+            <ListBox.ItemTemplateSelector>
+                <local:MyDataTempkateSelector WarningTemplate="{StaticResource dt2}" NormalTemplate="{StaticResource dt1}"/>
+            </ListBox.ItemTemplateSelector>
+        </ListBox>
+
+        <ListBox ItemsSource="{Binding List}" ItemTemplateSelector="{StaticResource mdts}" />
+    </StackPanel>
+</Window>
