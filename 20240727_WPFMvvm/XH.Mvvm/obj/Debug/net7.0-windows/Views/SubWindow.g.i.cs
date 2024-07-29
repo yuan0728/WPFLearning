@@ -54,7 +54,7 @@ namespace XH.Mvvm.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.Mvvm;component/views/subwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.Mvvm;V1.0.0.0;component/views/subwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\SubWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

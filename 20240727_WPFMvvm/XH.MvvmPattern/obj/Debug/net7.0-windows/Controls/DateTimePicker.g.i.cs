@@ -110,7 +110,7 @@ namespace XH.MvvmPattern.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.MvvmPattern;V1.0.0.0;component/controls/datetimepicker.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.MvvmPattern;component/controls/datetimepicker.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\DateTimePicker.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
