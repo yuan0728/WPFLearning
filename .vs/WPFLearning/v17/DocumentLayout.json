@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\base\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\base\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_wpfmvvm\\xh.mvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\base\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\base\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_wpfmvvm\\xh.mvvm\\viewmodels\\subviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ActionManager.cs",
               "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
               "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
@@ -130,15 +130,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
               "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAlwEQAAAAJAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAtwEoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T13:32:10.132Z"
+              "WhenOpened": "2024-07-29T13:32:10.132Z",
+              "EditorCaption": ""
             }
           ]
         },
