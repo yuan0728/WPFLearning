@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.MvvmPattern")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af7d648022082607464a3ea88bb4c756d7ea3881")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72b5c447d1980af59a80334d7c0f30e1e658532d")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.MvvmPattern")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.MvvmPattern")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

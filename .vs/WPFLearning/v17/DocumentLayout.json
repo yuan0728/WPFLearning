@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,10 +55,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -104,7 +100,7 @@
               "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
               "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
               "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T13:37:19.093Z",
               "EditorCaption": ""
