@@ -101,7 +101,7 @@ namespace XH.AnimationLesson {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;V1.0.0.0;component/pathanimationwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;component/pathanimationwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PathAnimationWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

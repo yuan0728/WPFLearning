@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.Assets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1edd02015978b61dc003905af1c1f0fb3d9f63d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+257479b4f114b3329b4fdc1f5e50bd18b535e3f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.Assets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.Assets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

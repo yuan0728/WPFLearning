@@ -61,7 +61,7 @@ namespace XH.AnimationLesson {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;V1.0.0.0;component/animationtriggerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;component/animationtriggerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AnimationTriggerWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

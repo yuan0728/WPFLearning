@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvmpattern\\viewmodels\\commandviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvmpattern\\viewmodels\\commandviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\base\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\base\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_wpfmvvm\\xh.mvvmpattern\\views\\commandwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvmpattern\\views\\commandwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_wpfmvvm\\xh.mvvmpattern\\controls\\datetimepicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1C02C9-8831-4FB3-8241-E3C5B460E9D1}|20240727_WPFMvvm\\XH.MvvmPattern\\XH.MvvmPattern.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvmpattern\\controls\\datetimepicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\viewmodels\\subviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\viewmodels\\subviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\views\\subwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\views\\subwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\base\\windowprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\base\\windowprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\base\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\base\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.mvvm\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57857E95-9D44-4A1E-95BF-106D0775348A}|20240727_WPFMvvm\\XH.Mvvm\\XH.Mvvm.csproj|solutionrelative:20240727_wpfmvvm\\xh.mvvm\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +58,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DateTimePicker.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.MvvmPattern\\Controls\\DateTimePicker.xaml.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAIwIQAAAAJAAAA",
+              "DocumentIndex": 5,
+              "Title": "Command.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\Command.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\Base\\Command.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\Command.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\Base\\Command.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T14:40:18.033Z"
+              "WhenOpened": "2024-07-29T14:42:47.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowProvider.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\WindowProvider.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\Base\\WindowProvider.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\WindowProvider.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\Base\\WindowProvider.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAewBMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:32:06.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:43:58.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CommandViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.MvvmPattern\\ViewModels\\CommandViewModel.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA3wBwAAAAbAAAA",
+              "Title": "ActionManager.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\Base\\ActionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T14:40:36.637Z",
+              "WhenOpened": "2024-07-29T13:37:19.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubWindow.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Views\\SubWindow.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\Views\\SubWindow.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\Views\\SubWindow.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\Views\\SubWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-29T13:38:48.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\SubViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\SubViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\SubViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\SubViewModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:36:33.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CommandWindow.xaml",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.MvvmPattern\\Views\\CommandWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-28T14:36:59.322Z"
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.Mvvm\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAlwEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:32:10.132Z",
+              "EditorCaption": ""
             }
           ]
         },

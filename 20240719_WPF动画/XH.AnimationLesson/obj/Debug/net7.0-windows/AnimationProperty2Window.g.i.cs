@@ -277,7 +277,7 @@ namespace XH.AnimationLesson {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;V1.0.0.0;component/animationproperty2window.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;component/animationproperty2window.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AnimationProperty2Window.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

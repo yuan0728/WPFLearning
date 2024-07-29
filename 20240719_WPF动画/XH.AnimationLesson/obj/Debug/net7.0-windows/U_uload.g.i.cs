@@ -53,7 +53,7 @@ namespace XH.AnimationLesson {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;V1.0.0.0;component/u_uload.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.AnimationLesson;component/u_uload.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\U_uload.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
