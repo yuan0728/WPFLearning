@@ -64,7 +64,7 @@ namespace XH.MvvmPattern.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.MvvmPattern;component/views/scottplotwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.MvvmPattern;V1.0.0.0;component/views/scottplotwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ScottPlotWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

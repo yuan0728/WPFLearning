@@ -54,7 +54,7 @@ namespace XH.MvvmLesson.Mvvm {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.MvvmLesson;component/mvvm/mvvmwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.MvvmLesson;V1.0.0.0;component/mvvm/mvvmwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Mvvm\MvvmWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

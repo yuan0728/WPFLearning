@@ -79,7 +79,7 @@ namespace XH.MvvmLesson.Normal {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.MvvmLesson;component/normal/normalwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.MvvmLesson;V1.0.0.0;component/normal/normalwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Normal\NormalWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

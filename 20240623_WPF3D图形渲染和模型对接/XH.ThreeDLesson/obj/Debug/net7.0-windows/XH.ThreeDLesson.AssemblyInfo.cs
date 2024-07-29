@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.ThreeDLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+257479b4f114b3329b4fdc1f5e50bd18b535e3f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fc29cc7125d74c90968c3093dda3e24adfeaeb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.ThreeDLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.ThreeDLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
