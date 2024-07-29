@@ -7,7 +7,6 @@ namespace XH.Mvvm.Base
         // 收购窗口
         public static void Register<T>(Action<T> action, string key)
         {
-            
             if (!types.ContainsKey(key))
                 types.Add(key, action);
         }  
