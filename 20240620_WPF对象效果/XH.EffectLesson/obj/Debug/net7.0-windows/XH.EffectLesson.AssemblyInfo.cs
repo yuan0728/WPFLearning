@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.EffectLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b13647ec3a45f524ef008cc00dd4568014414be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee1a10bc20e6c144714eb0cc92f1d8ecbff08a07")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.EffectLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.EffectLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
