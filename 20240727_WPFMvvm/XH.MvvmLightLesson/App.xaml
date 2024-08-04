@@ -1,0 +1,12 @@
+﻿<Application x:Class="XH.MvvmLightLesson.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:XH.MvvmLightLesson"
+             xmlns:vm="clr-namespace:XH.MvvmLightLesson.ViewModels"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelCenter x:Key="Center" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

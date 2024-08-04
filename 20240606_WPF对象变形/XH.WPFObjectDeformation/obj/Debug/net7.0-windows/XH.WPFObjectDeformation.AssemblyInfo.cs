@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.WPFObjectDeformation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee1a10bc20e6c144714eb0cc92f1d8ecbff08a07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+611ce5dd96d5fbd1ad82f57ddc45f822acc7d30d")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.WPFObjectDeformation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.WPFObjectDeformation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
