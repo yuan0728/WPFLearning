@@ -6,9 +6,12 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using XH.MvvmLightLesson.Base;
+using XH.MvvmLightLesson.BLL;
 using XH.MvvmLightLesson.DataAccess;
 using XH.MvvmLightLesson.Models;
 
@@ -44,7 +47,9 @@ namespace XH.MvvmLightLesson.ViewModels
         public RelayCommand BtnCommand { get; set; }
         public RelayCommand<object> BtnParamCommand { get; set; }
 
-        public MainViewModel(IDataAccess da)
+        [Dependy("LoginBLL")]
+        public ILoginBLL loginBLL { get; set; }
+        public MainViewModel([Dependy("SqlServerDA")]IDataAccess dataAccess) // SqlServerDA
         {
             // 获取配置数据  数据库  数据接口  耗时操作
             if (this.IsInDesignMode) return;
@@ -85,7 +90,7 @@ namespace XH.MvvmLightLesson.ViewModels
 
         private void DoButtonCommand()
         {
-
+            loginBLL.Login();
         }
 
         private bool DoButtonStatus()
