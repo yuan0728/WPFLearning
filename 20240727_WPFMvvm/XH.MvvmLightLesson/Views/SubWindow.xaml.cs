@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using XH.MvvmLightLesson.ViewModels;
 
 namespace XH.MvvmLightLesson.Views
 {
@@ -22,6 +23,13 @@ namespace XH.MvvmLightLesson.Views
         public SubWindow()
         {
             InitializeComponent();
+        }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            base.OnClosed(e);
+
+            ViewModelCenter.Cleanup<SubViewModel>();
         }
     }
 }

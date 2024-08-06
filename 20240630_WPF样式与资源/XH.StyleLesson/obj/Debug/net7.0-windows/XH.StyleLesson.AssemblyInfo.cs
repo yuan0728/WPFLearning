@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.StyleLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+611ce5dd96d5fbd1ad82f57ddc45f822acc7d30d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3625c1256151618e0816252a2485cb2ddf9eefbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.StyleLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.StyleLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

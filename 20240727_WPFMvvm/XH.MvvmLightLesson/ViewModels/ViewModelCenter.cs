@@ -1,4 +1,5 @@
-﻿using GalaSoft.MvvmLight.Ioc;
+﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Ioc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace XH.MvvmLightLesson.ViewModels
         SimpleIoc _simpleIoc = SimpleIoc.Default;
 
         // 自定义IOC容器
-        XiaohaiIoc _xiaohaiIoc = XiaohaiIoc.Default;
+        static XiaohaiIoc _xiaohaiIoc = XiaohaiIoc.Default;
         public ViewModelCenter()
         {
             // 注册一个Ioc实例
@@ -27,6 +28,7 @@ namespace XH.MvvmLightLesson.ViewModels
             _xiaohaiIoc.RegisterSingle<IDataAccess, MySqlDA>();
             _xiaohaiIoc.RegisterSingle<ILoginBLL, LoginBLL>();
             _xiaohaiIoc.RegisterSingle<MainViewModel>();
+            _xiaohaiIoc.RegisterSingle<SubViewModel>();
 
             // 创建多个实例 untiy  --  key
             // SimpleIoc：不可以重复创建实例
@@ -44,5 +46,11 @@ namespace XH.MvvmLightLesson.ViewModels
         //public SubViewModel SubWin { get => _simpleIoc.GetInstance<SubViewModel>(); }
         public MainViewModel MainWin { get => _xiaohaiIoc.Resolve<MainViewModel>(); }
         public SubViewModel SubWin { get => _xiaohaiIoc.Resolve<SubViewModel>(); }
+
+        // 销毁 退出当前View 的时候，销毁当前ViewModel 
+        public static void Cleanup<T>() where T : ViewModelBase
+        {
+            _xiaohaiIoc.Resolve<T>().Cleanup();
+        }
     }
 }

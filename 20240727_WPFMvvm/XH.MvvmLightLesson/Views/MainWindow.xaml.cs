@@ -42,6 +42,9 @@ namespace XH.MvvmLightLesson.Views
             base.OnClosed(e);
             // 反注册 注销
             Messenger.Default.Unregister<string>(this);
+
+            // 拿到Center 中对应的VM
+            ViewModelCenter.Cleanup<MainViewModel>();
         }
 
         private void ExecuteMessageType(Base.MessageBase obj)

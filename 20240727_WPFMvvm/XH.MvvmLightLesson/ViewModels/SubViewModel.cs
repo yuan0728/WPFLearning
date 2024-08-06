@@ -20,5 +20,10 @@ namespace XH.MvvmLightLesson.ViewModels
         {
             
         }
+
+        public override void Cleanup()
+        {
+            base.Cleanup();
+        }
     }
 }

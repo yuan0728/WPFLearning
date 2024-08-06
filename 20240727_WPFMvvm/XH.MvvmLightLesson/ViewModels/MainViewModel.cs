@@ -112,6 +112,7 @@ namespace XH.MvvmLightLesson.ViewModels
 
         }
 
+
         // 作用：统一执行对象的资源清理 VM的释放
         // View关闭退出的时候 后台线程需要结束
         public override void Cleanup()
