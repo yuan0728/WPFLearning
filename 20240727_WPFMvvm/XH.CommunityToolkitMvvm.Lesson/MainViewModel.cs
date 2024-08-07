@@ -11,7 +11,9 @@ using System.Threading.Tasks;
 namespace XH.CommunityToolkitMvvm.Lesson
 {
     // 同过 partial 把框架中自动生成的和此类合并
-    public partial class MainViewModel : ObservableValidator, IDisposable // ObservableObject
+    // ObservableObject：通知属性 // ObservableValidator：验证属性 // ObservableRecipient：订阅
+    //[ObservableRecipient]
+    public partial class MainViewModel : ObservableRecipient, IDisposable, IRecipient<string>
     {
         // 1、基本通知属性
         private string _value;
@@ -80,8 +82,12 @@ namespace XH.CommunityToolkitMvvm.Lesson
 
         // 命令定义
         public RelayCommand BtnCommand { get; set; }
+
+        // 异步绑定
+        public AsyncRelayCommand AsyncButtonCommand { get; set; }
         public MainViewModel()
         {
+            AsyncButtonCommand = new AsyncRelayCommand(AsyncButtonClick);
             BtnCommand = new RelayCommand(BtnClick);
 
             // 消息订阅 Token 
@@ -97,13 +103,24 @@ namespace XH.CommunityToolkitMvvm.Lesson
             WeakReferenceMessenger.Default.UnregisterAll(this);
 
             this.Name = "Hello";
+
+            // 开启消息接收
+            this.IsActive = true;
+        }
+
+        // 异步执行绑定
+        private Task AsyncButtonClick()
+        {
+            return Task.Run(() => { });
         }
 
         private void BtnClick()
         {
+            Task.Run(() => { });
             // 触发
-            WeakReferenceMessenger.Default.Send<string, string>("One", "One");
-            WeakReferenceMessenger.Default.Send<string, string>("Two", "Two");
+            //WeakReferenceMessenger.Default.Send<string, string>("One", "One");
+            //WeakReferenceMessenger.Default.Send<string, string>("Two", "Two");
+            WeakReferenceMessenger.Default.Send<string>("Hello");
         }
 
         public void Dispose()
@@ -111,7 +128,6 @@ namespace XH.CommunityToolkitMvvm.Lesson
             // 释放资源
 
         }
-
 
         // 关于特性的使用
         // 1、ObservableProperty 通知属性
@@ -135,12 +151,13 @@ namespace XH.CommunityToolkitMvvm.Lesson
         // 页面绑定的是FullName 属性 ，
         private string FullName { get => "xh" + name; }
 
-        [ObservableProperty]
-        [NotifyDataErrorInfo] //NotifyDataErrorInfo：关键的校验特性
-        [Required(ErrorMessage = "必填")]// 必填项目
-        [MinLength(1)] // 最小长度
-        //[NotifyPropertyChangedRecipients] //NotifyPropertyChangedRecipients：当属性发生变化的时候，做广播通知
-        private string inputValue = "123";
+        // 以下特性：需要继承 ObservableValidator 基类处理
+        //[ObservableProperty]
+        //[NotifyDataErrorInfo] //NotifyDataErrorInfo：关键的校验特性
+        //[Required(ErrorMessage = "必填")]// 必填项目
+        //[MinLength(1)] // 最小长度
+        ////[NotifyPropertyChangedRecipients] //NotifyPropertyChangedRecipients：当属性发生变化的时候，做广播通知
+        //private string inputValue = "123";
         // 这个字段所对应的属性 需要进行数据校验
         // 第一步：类继承ObservableValidator
         // 第二步：给字段添加相关校验特性
@@ -150,6 +167,19 @@ namespace XH.CommunityToolkitMvvm.Lesson
         private void DoButton()
         {
 
+        }
+        // 自动生成命令属性
+        //public RelayCommand DoButtonCommand { get; set; }
+
+        // 广播
+        protected override void Broadcast<T>(T oldValue, T newValue, string? propertyName)
+        {
+            base.Broadcast(oldValue, newValue, propertyName);
+        }
+        // 实现接口：IRecipient
+        public void Receive(string message)
+        {
+            //
         }
     }
 

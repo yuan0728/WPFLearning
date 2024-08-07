@@ -1,0 +1,22 @@
+﻿<Window x:Class="XH.MvvmBaseObject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.MvvmBaseObject"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:p="http://prismlibrary.com/"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Transparent">
+        <i:Interaction.Triggers>
+            <i:EventTrigger EventName="MouseLeftButtonDown" >
+                <!--i：里面的参数默认是null，写PassEventArgsToCommand="True"这个才可以和p中的一样默认传参
+                    p：里面的参数，默认是当前事件，object
+                        TriggerParameterPath：事件传参路径-->
+                <p:InvokeCommandAction Command="{Binding BtnCommand}"
+                                       TriggerParameterPath="ButtonState"/>
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+    </Grid>
+</Window>
