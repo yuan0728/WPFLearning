@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="XH.PrismDialog.UCDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:XH.PrismDialog"
+             xmlns:p="http://prismlibrary.com/"
+             mc:Ignorable="d" FontSize="20"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!--控制弹出窗口设置-->
+    <!--<p:Dialog.WindowStyle>
+        <Style TargetType="Window">
+            <Setter Property="Height" Value="300" />
+            <Setter Property="Width" Value="300" />
+            <Setter Property="WindowChrome.WindowChrome">
+                <Setter.Value>
+                    <WindowChrome GlassFrameThickness="-1" />
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </p:Dialog.WindowStyle>-->
+    <StackPanel>
+        <TextBlock Text="弹出窗口内容" />
+        <TextBox Text="{Binding Value,UpdateSourceTrigger=PropertyChanged}"/>
+        <Button Content="Button" Command="{Binding CloseCommand}" />
+    </StackPanel>
+</UserControl>

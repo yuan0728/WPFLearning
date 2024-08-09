@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.LayoutLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa13e2b030195faea9178f08ae38a8a6b4ac04c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0bdefb916b2c45abb1fabdf65ea6086652d4540")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.LayoutLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.LayoutLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

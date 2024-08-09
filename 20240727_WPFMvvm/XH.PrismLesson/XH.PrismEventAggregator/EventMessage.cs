@@ -12,7 +12,7 @@ namespace XH.PrismEventAggregator
     public class EventMessage : PubSubEvent { }
 
     // 参数触发
-    public class EventMessageArgs : PubSubEvent<object> { }
+    public class EventMessageArgs : PubSubEvent<DataModel> { }
 
     // 类型参数触发
     public class EventMessageArgsList<T> : PubSubEvent<T> { }

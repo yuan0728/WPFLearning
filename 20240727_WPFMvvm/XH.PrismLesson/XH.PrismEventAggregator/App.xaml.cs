@@ -14,9 +14,10 @@ namespace XH.PrismEventAggregator
     {
         protected override Window CreateShell()
         {
+            // 静态注入
             Messenger.Defualt = Container.Resolve<IEventAggregator>();
 
-            new SubWindow().Show();
+            //new SubWindow().Show();
             // 第一种
             //var ea = Container.Resolve<IEventAggregator>();
             //return new MainWindow(ea) { Title = "Prism Start" };

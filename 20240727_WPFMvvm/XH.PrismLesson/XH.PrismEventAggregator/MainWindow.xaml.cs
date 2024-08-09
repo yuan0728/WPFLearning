@@ -21,6 +21,8 @@ namespace XH.PrismEventAggregator
         {
             InitializeComponent();
 
+            this.DataContext = new MainViewModel();
+
             // 1、获取消息总线对象 通过注入的方式获取 
 
             // 2、通过消息对象进行订阅或者发布
@@ -52,13 +54,13 @@ namespace XH.PrismEventAggregator
             //});
 
             // 发布
-            Messenger.Defualt.GetEvent<EventMessageArgs>().Publish(new EventAction()
-            {
-                ResultAction = new Action<bool>(state =>
-                {
+            //Messenger.Defualt.GetEvent<EventMessageArgs>().Publish(new EventAction()
+            //{
+            //    ResultAction = new Action<bool>(state =>
+            //    {
 
-                })
-            });
+            //    })
+            //});
 
             #endregion
         }
@@ -76,7 +78,21 @@ namespace XH.PrismEventAggregator
         // 无参数触发 
         private void Receive()
         {
+            // 打开子窗口
+            new SubWindow().Show();
+        }
+        // 触发Sub的订阅
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            // 过滤发布
+            //Messenger.Defualt.GetEvent<EventMessageArgs>().Publish(new DataModel { Id = 2, Text = "Hello" });
 
+            // 基于线程发布
+            // 主线程：UI线程 Thread.CurrentThread.ManagedThreadId = 1
+            Task.Run(() =>
+            {
+                Messenger.Defualt.GetEvent<EventMessageArgs>().Publish(new DataModel { });
+            });
         }
     }
 }

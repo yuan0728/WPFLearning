@@ -1,0 +1,20 @@
+﻿<Window x:Class="XH.PrismDialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.PrismDialog"
+        mc:Ignorable="d" Background="Transparent"
+        Title="MainWindow" Height="450" Width="800">
+    <!--SizeToContent="WidthAndHeight"：窗口大小根据内容大小来摄设置-->
+    <WindowChrome.WindowChrome>
+        <!--关于GlassFrameThickness的设置：Win11可以使用-1    
+                                          Win7/10 :0-->
+        <WindowChrome GlassFrameThickness="-1"/>
+    </WindowChrome.WindowChrome>
+    <StackPanel>
+        <TextBlock Height="100" />
+        <TextBox Text="{Binding Value}" />
+        <Button Content="Button Open" Command="{Binding OpenCommand}" />
+    </StackPanel>
+</Window>
