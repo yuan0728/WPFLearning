@@ -1,0 +1,39 @@
+﻿<Window x:Class="XH.PrismRegion.Navigation.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XH.PrismRegion.Navigation.Views"
+        xmlns:p="http://prismlibrary.com/"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Grid Height="50" DockPanel.Dock="Top" Background="Red">
+            <TextBlock Text="Prism 框架" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 0"/>
+        </Grid>
+        <Grid Width="220" DockPanel.Dock="Left" Background="LemonChiffon">
+            <StackPanel>
+                <Button Content="ViewA" Margin="0 3" Command="{Binding OpenCommand}" CommandParameter="ViewA"/>
+                <Button Content="ViewB" Margin="0 3" Command="{Binding OpenCommand}" CommandParameter="ViewB"/>
+                <Button Content="ViewB" Margin="0 3" Command="{Binding OpenCommand}" CommandParameter="ViewC"/>
+            </StackPanel>
+        </Grid>
+        <Grid Background="White">
+            
+            <!--<ContentControl p:RegionManager.RegionName="ViewRegion"/>-->
+
+            <TabControl p:RegionManager.RegionName="ViewRegion" Name="tb">
+                <TabControl.ItemContainerStyle>
+                    <Style TargetType="TabItem">
+                        <!--TabItem这里的绑定数据源是页面对象
+                            如果需要页面对象的ViewModel 需要写：DataContext
+                            TabItem.DataContext = View 对象
+                            View 对象DataContext = 对应的ViewModel-->
+                        <Setter Property="Header" Value="{Binding DataContext.Title}"/>
+                    </Style>
+                </TabControl.ItemContainerStyle>
+            </TabControl>
+
+        </Grid>
+    </DockPanel>
+</Window>

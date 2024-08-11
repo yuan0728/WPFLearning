@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D01A9E9A-2AF7-451C-9948-237A604C37E1}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\XH.PrismRegion.Base.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.base\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D01A9E9A-2AF7-451C-9948-237A604C37E1}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\XH.PrismRegion.Base.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.base\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D01A9E9A-2AF7-451C-9948-237A604C37E1}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\XH.PrismRegion.Base.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.base\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D01A9E9A-2AF7-451C-9948-237A604C37E1}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\XH.PrismRegion.Base.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.base\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D01A9E9A-2AF7-451C-9948-237A604C37E1}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\XH.PrismRegion.Base.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.base\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D01A9E9A-2AF7-451C-9948-237A604C37E1}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\XH.PrismRegion.Base.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.base\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\viewmodels\\pages\\viewbviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\viewmodels\\pages\\viewbviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\views\\pages\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\views\\pages\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\viewmodels\\pages\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\viewmodels\\pages\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE77CD1-B234-4D2B-802E-98ACBA5D7D69}|20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\XH.PrismRegion.Navigation.csproj|solutionrelative:20240727_wpfmvvm\\xh.prismlesson\\xh.prismregion.navigation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,40 +54,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAIwB0AAAAiAAAA",
+              "DocumentIndex": 3,
+              "Title": "ViewA.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\Pages\\ViewA.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\Pages\\ViewA.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\Pages\\ViewA.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\Pages\\ViewA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-11T04:42:18.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewBViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewBViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewBViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewBViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewBViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T01:43:23.386Z",
+              "WhenOpened": "2024-08-11T03:12:33.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewAViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewAViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewAViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewAViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\Pages\\ViewAViewModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T03:12:29.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\StartUp.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\StartUp.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\StartUp.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\StartUp.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T03:03:40.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAnwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T02:56:54.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\Views\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Navigation\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-11T01:33:45.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StartUp.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\StartUp.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\StartUp.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\StartUp.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.PrismLesson\\XH.PrismRegion.Base\\StartUp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T01:29:36.521Z",
+              "WhenOpened": "2024-08-11T02:56:40.213Z",
               "EditorCaption": ""
             }
           ]

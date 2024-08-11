@@ -32,6 +32,7 @@
             <!--<ListBox />
             <ListView />-->
             <TabControl p:RegionManager.RegionName="ViewRegion"/>
+            
         </Grid>
     </DockPanel>
 </Window>

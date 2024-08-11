@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.WPFBasicControls")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b94e637ab7f2046e8e2dcc080eb5e8e4a95d11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+034a9b794ac63450e847708204fc37360e224f37")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.WPFBasicControls")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.WPFBasicControls")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

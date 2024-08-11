@@ -16,8 +16,8 @@ namespace XH.PrismRegion.Base
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             // 注册需要导航的子页面，只有注册了才能处理
-            containerRegistry.RegisterForNavigation<ViewA>();
-            containerRegistry.RegisterForNavigation<ViewB>();
+            //containerRegistry.RegisterForNavigation<ViewA>();
+            //containerRegistry.RegisterForNavigation<ViewB>();
         }
     }
 }
