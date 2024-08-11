@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:XH.PrismDialog"
              xmlns:p="http://prismlibrary.com/"
              mc:Ignorable="d" FontSize="20"
+             Height="450" Width="800"
              d:DesignHeight="450" d:DesignWidth="800">
     <!--控制弹出窗口设置-->
     <!--<p:Dialog.WindowStyle>

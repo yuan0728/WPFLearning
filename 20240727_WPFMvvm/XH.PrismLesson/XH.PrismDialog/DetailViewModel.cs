@@ -45,7 +45,7 @@ namespace XH.PrismDialog
         // 弹出窗口打开时执行逻辑
         public void OnDialogOpened(IDialogParameters parameters)
         {
-            Value = parameters.GetValue<string>("value").ToString();
+            Value = parameters.GetValue<string>("value");
         }
 
         //public string Value { get; set; }
@@ -60,7 +60,6 @@ namespace XH.PrismDialog
         private void OnClose()
         {
             IDialogResult dialogResult = new DialogResult();
-            dialogResult.Parameters.Add("A", true);
             dialogResult.Parameters.Add("value", Value);
             RequestClose?.Invoke(dialogResult);
         }

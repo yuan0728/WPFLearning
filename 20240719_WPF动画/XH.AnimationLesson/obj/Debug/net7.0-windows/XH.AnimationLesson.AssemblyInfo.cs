@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.AnimationLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0bdefb916b2c45abb1fabdf65ea6086652d4540")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b94e637ab7f2046e8e2dcc080eb5e8e4a95d11")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.AnimationLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.AnimationLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

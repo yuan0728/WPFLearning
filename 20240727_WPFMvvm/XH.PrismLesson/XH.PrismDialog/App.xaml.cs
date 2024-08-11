@@ -22,7 +22,7 @@ namespace XH.PrismDialog
             containerRegistry.RegisterDialog<UCDetail>("Detail");
 
             // 注册弹窗窗口，这句代码会将框架内的默认弹窗窗口替换掉
-            containerRegistry.RegisterDialogWindow<DialogParent>();
+            containerRegistry.RegisterDialogWindow<DialogParent>("win");
         } 
     }
 

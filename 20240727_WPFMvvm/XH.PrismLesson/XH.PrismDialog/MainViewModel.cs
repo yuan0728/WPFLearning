@@ -30,7 +30,7 @@ namespace XH.PrismDialog
 
         IDialogService _dialogService;
 
-        public MainViewModel( IDialogService dialogService)
+        public MainViewModel(IDialogService dialogService)
         {
             _dialogService = dialogService;
             OpenCommand = new DelegateCommand(OnOpen);
@@ -53,10 +53,20 @@ namespace XH.PrismDialog
 
             // 2、获取弹窗关闭时的返回结果
             // ShowDialog(string name, Action<IDialogResult> callback)
-            IDialogParameters dialogParameters = new DialogParameters();
-            dialogParameters.Add("value", Value);
+            //_dialogService.ShowDialog("Detail", OnDialogClosed);
+
+            // 3、弹窗：请求参数
+            // IDialogParameters：传给弹窗的参数信息：键值对
+            IDialogParameters dialogParameters = new DialogParameters
+            {
+                { "value", "Hello" },
+            };
             _dialogService.ShowDialog("Detail", dialogParameters, OnDialogClosed);
 
+            // 4、可以根据注册DialogWindow窗口的名称，使用特定的窗口对象
+            // 注册的窗口名称，如果指定了，必须在容器中必须存在这个名称
+            // 否则报错 
+            //_dialogService.ShowDialog("Detail", dialogParameters, OnDialogClosed,"win");
         }
 
         private void OnDialogClosed(IDialogResult result)
