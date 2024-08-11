@@ -60,7 +60,7 @@ namespace XH.PrismDialog {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.PrismDialog;V1.0.0.0;component/ucdetail.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.PrismDialog;component/ucdetail.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UCDetail.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
