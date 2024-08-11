@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Prism.Regions;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,14 @@ namespace XH.PrismRegion.Self
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow(IRegionManager regionManager)
         {
             InitializeComponent();
+
+            this.Loaded += (o, e) =>
+            {
+                regionManager.RequestNavigate("MainRegion", "RegionView");
+            };
         }
     }
 }

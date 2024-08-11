@@ -27,3 +27,5 @@ D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240727_WPFMvvm\XH.PrismLesson\XH.
 D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240727_WPFMvvm\XH.PrismLesson\XH.PrismRegion.Self\obj\Debug\net7.0-windows\XH.PrismRegion.Self.pdb
 D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240727_WPFMvvm\XH.PrismLesson\XH.PrismRegion.Self\obj\Debug\net7.0-windows\XH.PrismRegion.Self.genruntimeconfig.cache
 D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240727_WPFMvvm\XH.PrismLesson\XH.PrismRegion.Self\obj\Debug\net7.0-windows\ref\XH.PrismRegion.Self.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240727_WPFMvvm\XH.PrismLesson\XH.PrismRegion.Self\obj\Debug\net7.0-windows\RegionView.g.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240727_WPFMvvm\XH.PrismLesson\XH.PrismRegion.Self\obj\Debug\net7.0-windows\RegionView.baml

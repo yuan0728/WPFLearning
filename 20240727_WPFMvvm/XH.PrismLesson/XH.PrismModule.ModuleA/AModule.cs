@@ -4,6 +4,7 @@ using Prism.Modularity;
 
 namespace XH.PrismModule.ModuleA
 {
+    [Module(ModuleName ="AAA",OnDemand =true)]
     public class AModule : IModule
     {
         // ≥ı ºªØ

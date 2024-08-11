@@ -14,7 +14,7 @@ namespace XH.PrismRegion.Self
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
+            containerRegistry.RegisterForNavigation<RegionView>();
         }
     }
 }

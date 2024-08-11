@@ -60,7 +60,7 @@ namespace XH.PrismRegion.NewRegion.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.PrismRegion.NewRegion;V1.0.0.0;component/views/dialogview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.PrismRegion.NewRegion;component/views/dialogview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\DialogView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -11,4 +11,8 @@
     <PackageReference Include="Prism.Unity" Version="8.1.97" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy $(TargetPath) $(SolutionDir)20240727_WPFMvvm\XH.PrismLesson\XH.PrismModule\bin\Debug\net7.0-windows\ModulePath /y" />
+  </Target>
+
 </Project>

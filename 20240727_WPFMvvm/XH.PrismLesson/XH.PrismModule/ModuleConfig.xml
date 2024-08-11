@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<p:ModuleCatalog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:p="clr-namespace:Prism.Modularity;assembly=Prism.Wpf">
+  <p:ModuleInfo ModuleName = "AModule" 
+                ModuleType = "XH.PrismModule.ModuleA.AModule, XH.PrismModule.ModuleA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+</p:ModuleCatalog>

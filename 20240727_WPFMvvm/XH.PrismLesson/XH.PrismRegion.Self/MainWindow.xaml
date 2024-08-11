@@ -16,11 +16,14 @@
             <sys:String>CCCC</sys:String>
         </x:Array>
     </Window.Resources>
-    
-    <DockPanel>
-        <ListBox Width="200" Name="lb" ItemsSource="{StaticResource datas}" />
 
-        <ContentControl p:RegionManager.RegionName="MainRegion" Height="300" Width="300" Background="Green"
-                        p:RegionManager.RegionContext="{Binding ElementName=lb,Path=SelectedItem.Context}"/>
+    <DockPanel>
+        <ListBox Width="200" Name="lb" ItemsSource="{Binding Source= {StaticResource datas}}" />
+
+        <ContentControl p:RegionManager.RegionName="MainRegion"
+                        Height="300" 
+                        Width="300"
+                        Background="Green"
+                        p:RegionManager.RegionContext="{Binding ElementName=lb,Path=SelectedItem}" />
     </DockPanel>
 </Window>
