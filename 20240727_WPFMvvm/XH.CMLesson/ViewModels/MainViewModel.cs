@@ -40,7 +40,19 @@ namespace XH.CMLesson.ViewModels
         // 会影响到以 ButtonText 为名称的按钮的使用状态
         public bool CanButtonTest { get => Value < 60; }
 
-        public void EventAction(int a,int b,int c)
+        public void EventAction(int a,int b,int tb1)
+        {
+
+        }
+
+        // 需要一个参数
+        public void EventAction(object arg)
+        {
+
+        }
+        
+
+        public void AAAAction(int aaa)
         {
 
         }

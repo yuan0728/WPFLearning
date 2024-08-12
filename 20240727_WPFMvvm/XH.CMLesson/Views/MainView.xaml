@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:XH.CMLesson"
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:cm="http://caliburnmicro.com"
-        mc:Ignorable="d" FontSize="40"
+        mc:Ignorable="d" FontSize="20"
         Title="MainView" Height="450" Width="800">
     <StackPanel>
         <TextBlock Text="{Binding Value}" />
@@ -27,9 +27,41 @@
         </Button>
 
         <!--短语法-命令：写法
-                可以方法小括号+参数-->
+                可以方法小括号+参数
+            通过附加属性添加指令-->
         <TextBox Text="12" Name="tb" />
         <Button Content="短语法--命令"
-                cm:Message.Attach="[Event Click] = [Action EventAction(1,2,tb.Text)]"/> 
+                cm:Message.Attach="[Event Click] = [Action EventAction(1,2,tb.Text)]"/>
+        
+        <!--智能对象参数： 
+                        必须使用Name属性
+                        必须参数名称和需要取值的TextBox的Name保持一致-->
+        <TextBox Text="12" Name="aaa" />
+        <Button Content="智能对象参数--命令" Name="AAAAction"/>
+        
+        
+        <!--参数命令类型指令：$ + 命令
+                $eventArgs：事件参数-->
+        <Button Content="短语法--命令--$eventArgs"
+                cm:Message.Attach="[Event Click] = [Action EventAction($eventArgs)]"/>
+
+        <!--$dataContext：当前的DataContext-->
+        <Button Content="短语法--命令--$dataContext"
+                cm:Message.Attach="[Event Click] = [Action EventAction($dataContext)]"/>
+
+        <!--$view：对应的View对象
+                可以直接操作控件-->
+        <Button Content="短语法--命令--$view"
+                cm:Message.Attach="[Event Click] = [Action EventAction($view)]"/>
+        
+        <!--$this：当前界面的ViewModel-->
+        <Button Content="短语法--命令--$this"
+                cm:Message.Attach="[Event Click] = [Action EventAction($this)]"/>
+        
+        <!--自定义参数-->
+        <Button Content="短语法--命令--自定义$xiaoHai"
+                cm:Message.Attach="[Event Click] = [Action EventAction($xiaoHai)]"/>
+
+
     </StackPanel>
 </Window>

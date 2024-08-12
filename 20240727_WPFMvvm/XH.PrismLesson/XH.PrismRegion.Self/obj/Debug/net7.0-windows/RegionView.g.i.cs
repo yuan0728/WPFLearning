@@ -53,7 +53,7 @@ namespace XH.PrismRegion.Self {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XH.PrismRegion.Self;V1.0.0.0;component/regionview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XH.PrismRegion.Self;component/regionview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RegionView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
