@@ -25,6 +25,7 @@ namespace XH.CMLesson.WM
             // 启动ViewModel 的 页面是View 
             // 默认约定 MainViewModel --> MainView
             // 启动
+            // 参数：setting：设置打开窗口的属性
             await DisplayRootViewForAsync<MainViewModel>();
         }
         protected override void Configure()
@@ -33,10 +34,13 @@ namespace XH.CMLesson.WM
             _container = new SimpleContainer();
             // 注册接口和实现
             this._container.Singleton<IEventAggregator, EventAggregator>();
-            this._container.Singleton<IWindowManager, WindowManager>();
+            //this._container.Singleton<IWindowManager, WindowManager>();
+            // 改为自己自定义的的WindowManager对象 统一设置属性
+            this._container.Singleton<IWindowManager, MyWindowManager>();
             // 注册ViewModel
             this._container.PerRequest<MainViewModel>();
             this._container.PerRequest<AViewModel>();
+            this._container.PerRequest<BViewModel>();
         }
 
         protected override object GetInstance(Type service, string key)

@@ -8,6 +8,7 @@
         Title="MainView" Height="450" Width="800">
     <StackPanel>
         <TextBlock Text="{Binding Value}" />
-        <Button Content="Open Wiondow" Name="Open" />
+        <Button Content="Open Wiondow" Name="OpenWindow" />
+        <Button Content="Open Popup" Name="OpenPopup" />
     </StackPanel>
 </Window>

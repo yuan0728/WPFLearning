@@ -3,60 +3,44 @@
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.wm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.wm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.wm\\viewmodels\\aviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.wm\\viewmodels\\aviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.wm\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.wm\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\aviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\aviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.ea\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.ea\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\bviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\bviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.ea\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.ea\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.ea\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.ea\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\bview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\bview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.ea\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.ea\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\cviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\cviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.ea\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.ea\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\aview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\aview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35882FC6-7564-4117-9579-74FAE5A5EFEE}|20240727_WPFMvvm\\XH.CMLesson\\XH.CMLesson.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35882FC6-7564-4117-9579-74FAE5A5EFEE}|20240727_WPFMvvm\\XH.CMLesson\\XH.CMLesson.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\cview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\views\\cview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.ea\\xh.cmlesson.ea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FD0CA861-5AC8-4B13-9A19-88988F25AE46}|20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.ea\\xh.cmlesson.ea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35882FC6-7564-4117-9579-74FAE5A5EFEE}|20240727_WPFMvvm\\XH.CMLesson\\XH.CMLesson.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35882FC6-7564-4117-9579-74FAE5A5EFEE}|20240727_WPFMvvm\\XH.CMLesson\\XH.CMLesson.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35882FC6-7564-4117-9579-74FAE5A5EFEE}|20240727_WPFMvvm\\XH.CMLesson\\XH.CMLesson.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35882FC6-7564-4117-9579-74FAE5A5EFEE}|20240727_WPFMvvm\\XH.CMLesson\\XH.CMLesson.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.wm\\views\\aview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.wm\\views\\aview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.wm\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CD064A21-EAAA-47F3-B486-28046C1DCE4E}|20240727_WPFMvvm\\XH.CMLesson.WM\\XH.CMLesson.WM.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.wm\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\ichildviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAD4CAF-9EE4-42FB-88D0-1A18D5859550}|20240727_WPFMvvm\\XH.CMLesson.MultiPage\\XH.CMLesson.MultiPage.csproj|solutionrelative:20240727_wpfmvvm\\xh.cmlesson.multipage\\viewmodels\\ichildviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,60 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Message.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\Message.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.EA\\Message.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\Message.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.EA\\Message.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T04:38:13.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\App.xaml.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.EA\\App.xaml.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\App.xaml.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.EA\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T04:38:09.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StartUp.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\StartUp.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.EA\\StartUp.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\StartUp.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.EA\\StartUp.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T04:30:52.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainView.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\MainView.xaml.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.EA\\MainView.xaml.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\MainView.xaml.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.EA\\MainView.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T04:29:38.573Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -139,128 +71,127 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:59:08.55Z",
+              "Title": "CView.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\CView.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\CView.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\CView.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\CView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-16T15:18:06.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.EA\\MainViewModel.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\MainViewModel.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.EA\\MainViewModel.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAA1wDoAAAAFAAAA",
+              "Title": "CViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\CViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\CViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\CViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\CViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:59:08.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\AViewModel.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\AViewModel.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\AViewModel.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\AViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T04:01:13.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.WM\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCEAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:57:52.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StartUp.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\StartUp.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.WM\\StartUp.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\StartUp.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.WM\\StartUp.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:57:28.566Z",
+              "WhenOpened": "2024-08-16T15:17:45.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "XH.CMLesson.EA",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.EA\\XH.CMLesson.EA.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-12T04:29:33.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StartUp.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson\\StartUp.cs",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson\\StartUp.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson\\StartUp.cs",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson\\StartUp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Title": "IChildViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\IChildViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\IChildViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\IChildViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\IChildViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T04:27:56.501Z",
+              "WhenOpened": "2024-08-16T15:00:55.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainView.xaml",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson\\Views\\MainView.xaml",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson\\Views\\MainView.xaml",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson\\Views\\MainView.xaml",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson\\Views\\MainView.xaml",
+              "DocumentIndex": 0,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\StartUp.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\StartUp.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\StartUp.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\StartUp.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwB4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:58:13.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:53:21.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BView.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\BView.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\BView.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\BView.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\BView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-12T04:24:24.32Z",
+              "WhenOpened": "2024-08-16T14:52:00.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "AView.xaml",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\AView.xaml",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\AView.xaml",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\AView.xaml",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\AView.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\AView.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\AView.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\AView.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\AView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-12T04:00:44.218Z",
+              "WhenOpened": "2024-08-16T14:51:34.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "MainView.xaml",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\MainView.xaml",
-              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\MainView.xaml",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\MainView.xaml",
-              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.WM\\Views\\MainView.xaml",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\MainView.xaml",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\MainView.xaml",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\Views\\MainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-12T03:58:00.891Z",
+              "WhenOpened": "2024-08-16T14:49:58.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\BViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\BViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\BViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\BViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:49:12.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\AViewModel.cs",
+              "RelativeDocumentMoniker": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\AViewModel.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\AViewModel.cs",
+              "RelativeToolTip": "20240727_WPFMvvm\\XH.CMLesson.MultiPage\\ViewModels\\AViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:49:03.761Z",
               "EditorCaption": ""
             }
           ]

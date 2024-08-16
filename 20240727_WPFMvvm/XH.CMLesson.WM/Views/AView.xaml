@@ -4,11 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XH.CMLesson.WM.Views"
-        mc:Ignorable="d" FontSize="40"
+        mc:Ignorable="d" FontSize="40" Foreground="Green"
         Title="AView" Height="450" Width="800">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="1" />
+    </WindowChrome.WindowChrome>
     <StackPanel>
-        <TextBox Text="{Binding Value}" Foreground="Green"/>
-        <TextBlock Text="{Binding Title}" Foreground="Green"/>
+        <TextBox Text="{Binding Value}" />
+        <TextBlock Text="{Binding Title}" />
         <Button Content="Close" Name="OnClose" />
     </StackPanel>
 </Window>

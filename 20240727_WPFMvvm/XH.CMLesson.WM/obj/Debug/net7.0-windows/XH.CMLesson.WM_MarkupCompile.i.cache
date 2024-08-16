@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240727_WPFMvvm\XH.CMLesson.WM\App.xaml
-21485182405
+31592042887
 
-10-1559869965
+141631476598
 202-813904854
-Views\AView.xaml;Views\MainView.xaml;
+Views\AView.xaml;Views\BView.xaml;Views\MainView.xaml;
 
-True
+False
 
