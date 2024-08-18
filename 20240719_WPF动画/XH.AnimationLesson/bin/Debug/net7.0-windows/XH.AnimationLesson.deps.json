@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "XH.AnimationLesson/1.0.0": {
+        "runtime": {
+          "XH.AnimationLesson.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XH.AnimationLesson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
