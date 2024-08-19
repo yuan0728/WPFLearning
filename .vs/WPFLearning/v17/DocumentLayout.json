@@ -3,12 +3,14 @@
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F3B8727-4288-4951-8774-9282E12E0678}|20240818_Ioc_Aop\\XH.AutofacWPF\\XH.AutofacWPF.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240818_ioc_aop\\xh.autofacwpf\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F3B8727-4288-4951-8774-9282E12E0678}|20240818_Ioc_Aop\\XH.AutofacWPF\\XH.AutofacWPF.csproj|solutionrelative:20240818_ioc_aop\\xh.autofacwpf\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yhl18\\AppData\\Local\\Temp\\daugcefh..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F3B8727-4288-4951-8774-9282E12E0678}|20240818_Ioc_Aop\\XH.AutofacWPF\\XH.AutofacWPF.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240818_ioc_aop\\xh.autofacwpf\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F3B8727-4288-4951-8774-9282E12E0678}|20240818_Ioc_Aop\\XH.AutofacWPF\\XH.AutofacWPF.csproj|solutionrelative:20240818_ioc_aop\\xh.autofacwpf\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F84CC886-94E2-43D4-B9EF-19D91751A600}|20240819_ADO.NET\\XH.AdoNetDemo\\XH.AdoNetDemo.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240819_ado.net\\xh.adonetdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84CC886-94E2-43D4-B9EF-19D91751A600}|20240819_ADO.NET\\XH.AdoNetDemo\\XH.AdoNetDemo.csproj|solutionrelative:20240819_ado.net\\xh.adonetdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yhl18\\AppData\\Local\\Temp\\daugcefh..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +40,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240818_Ioc_Aop\\XH.AutofacWPF\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "20240818_Ioc_Aop\\XH.AutofacWPF\\MainViewModel.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240818_Ioc_Aop\\XH.AutofacWPF\\MainViewModel.cs",
-              "RelativeToolTip": "20240818_Ioc_Aop\\XH.AutofacWPF\\MainViewModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T15:10:02.702Z",
+              "DocumentIndex": 0,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\yhl18\\AppData\\Local\\Temp\\daugcefh..sql",
+              "ToolTip": "SQLQuery2.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-19T03:16:28.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewModelLocator.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240818_Ioc_Aop\\XH.AutofacWPF\\ViewModelLocator.cs",
-              "RelativeDocumentMoniker": "20240818_Ioc_Aop\\XH.AutofacWPF\\ViewModelLocator.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240818_Ioc_Aop\\XH.AutofacWPF\\ViewModelLocator.cs",
-              "RelativeToolTip": "20240818_Ioc_Aop\\XH.AutofacWPF\\ViewModelLocator.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCIAAAArAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetDemo\\Program.cs",
+              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.AdoNetDemo\\Program.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetDemo\\Program.cs",
+              "RelativeToolTip": "20240819_ADO.NET\\XH.AdoNetDemo\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAApwA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T15:01:35.344Z",
+              "WhenOpened": "2024-08-19T02:27:36.915Z",
               "EditorCaption": ""
             }
           ]
