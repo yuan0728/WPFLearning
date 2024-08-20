@@ -1,0 +1,13 @@
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\bin\Debug\net7.0\XH.Interfaces.deps.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\bin\Debug\net7.0\XH.Interfaces.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\bin\Debug\net7.0\XH.Interfaces.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.AssemblyInfoInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.AssemblyInfo.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.csproj.CoreCompileInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.sourcelink.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\refint\XH.Interfaces.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\ref\XH.Interfaces.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.Interfaces\obj\Debug\net7.0\XH.Interfaces.csproj.AssemblyReference.cache
