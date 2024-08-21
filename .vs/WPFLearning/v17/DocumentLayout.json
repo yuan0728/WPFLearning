@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F84CC886-94E2-43D4-B9EF-19D91751A600}|20240819_ADO.NET\\XH.AdoNetDemo\\XH.AdoNetDemo.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240819_ado.net\\xh.adonetdemo\\ercoretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F84CC886-94E2-43D4-B9EF-19D91751A600}|20240819_ADO.NET\\XH.AdoNetDemo\\XH.AdoNetDemo.csproj|solutionrelative:20240819_ado.net\\xh.adonetdemo\\ercoretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04390D28-3FE6-4F92-9257-D33881739E71}|20240819_ADO.NET\\XH.WebApi\\XH.WebApi.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240819_ado.net\\xh.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04390D28-3FE6-4F92-9257-D33881739E71}|20240819_ADO.NET\\XH.WebApi\\XH.WebApi.csproj|solutionrelative:20240819_ado.net\\xh.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6AEACE-32AC-45FB-A8F7-FF7AEC1991B2}|20240819_ADO.NET\\XH.Services\\XH.Services.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ado.net\\xh.services\\scoreinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6AEACE-32AC-45FB-A8F7-FF7AEC1991B2}|20240819_ADO.NET\\XH.Services\\XH.Services.csproj|solutionrelative:20240819_ado.net\\xh.services\\scoreinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6AEACE-32AC-45FB-A8F7-FF7AEC1991B2}|20240819_ADO.NET\\XH.Services\\XH.Services.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ado.net\\xh.services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6AEACE-32AC-45FB-A8F7-FF7AEC1991B2}|20240819_ADO.NET\\XH.Services\\XH.Services.csproj|solutionrelative:20240819_ado.net\\xh.services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892DE7B8-3551-44F9-B946-E07277368CEA}|20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ado.net\\xh.interfaces\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892DE7B8-3551-44F9-B946-E07277368CEA}|20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj|solutionrelative:20240819_ado.net\\xh.interfaces\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A159E6A8-3EFF-4B55-B1EB-EC4DEED228CC}|20240819_ADO.NET\\XH.AdoNetWPF\\XH.AdoNetWPF.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ado.net\\xh.adonetwpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A159E6A8-3EFF-4B55-B1EB-EC4DEED228CC}|20240819_ADO.NET\\XH.AdoNetWPF\\XH.AdoNetWPF.csproj|solutionrelative:20240819_ado.net\\xh.adonetwpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892DE7B8-3551-44F9-B946-E07277368CEA}|20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ado.net\\xh.interfaces\\iscoreinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892DE7B8-3551-44F9-B946-E07277368CEA}|20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj|solutionrelative:20240819_ado.net\\xh.interfaces\\iscoreinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892DE7B8-3551-44F9-B946-E07277368CEA}|20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ado.net\\xh.interfaces\\xh.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{892DE7B8-3551-44F9-B946-E07277368CEA}|20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj|solutionrelative:20240819_ado.net\\xh.interfaces\\xh.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A159E6A8-3EFF-4B55-B1EB-EC4DEED228CC}|20240819_ADO.NET\\XH.AdoNetWPF\\XH.AdoNetWPF.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ado.net\\xh.adonetwpf\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A159E6A8-3EFF-4B55-B1EB-EC4DEED228CC}|20240819_ADO.NET\\XH.AdoNetWPF\\XH.AdoNetWPF.csproj|solutionrelative:20240819_ado.net\\xh.adonetwpf\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,116 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ERCoreTest.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetDemo\\ERCoreTest.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.AdoNetDemo\\ERCoreTest.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetDemo\\ERCoreTest.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.AdoNetDemo\\ERCoreTest.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAQwCwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T16:07:25.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.WebApi\\Program.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.WebApi\\Program.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.WebApi\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T06:41:31.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "XH.Interfaces",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.Interfaces\\XH.Interfaces.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-20T06:10:12.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Services\\BaseService.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.Services\\BaseService.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Services\\BaseService.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.Services\\BaseService.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAEwJoAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:29:44.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBaseService.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Interfaces\\IBaseService.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.Interfaces\\IBaseService.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Interfaces\\IBaseService.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.Interfaces\\IBaseService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAvwBkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:29:00.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScoreInfoService.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Services\\ScoreInfoService.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.Services\\ScoreInfoService.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Services\\ScoreInfoService.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.Services\\ScoreInfoService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:19:35.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IScoreInfoService.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Interfaces\\IScoreInfoService.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.Interfaces\\IScoreInfoService.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.Interfaces\\IScoreInfoService.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.Interfaces\\IScoreInfoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:19:02.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ViewModelLocator.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetWPF\\ViewModelLocator.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.AdoNetWPF\\ViewModelLocator.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetWPF\\ViewModelLocator.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.AdoNetWPF\\ViewModelLocator.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:16:29.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetWPF\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.AdoNetWPF\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.AdoNetWPF\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "20240819_ADO.NET\\XH.AdoNetWPF\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAowC4AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T05:16:21.109Z"
             }
           ]
         },
