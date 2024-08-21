@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12C8932C-4EF9-408F-A23F-95DC2E5FC0B3}|20240819_ADO.NET\\XH.RedisConsole\\XH.RedisConsole.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240819_ado.net\\xh.redisconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12C8932C-4EF9-408F-A23F-95DC2E5FC0B3}|20240819_ADO.NET\\XH.RedisConsole\\XH.RedisConsole.csproj|solutionrelative:20240819_ado.net\\xh.redisconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12C8932C-4EF9-408F-A23F-95DC2E5FC0B3}|20240819_ADO.NET\\XH.RedisConsole\\XH.RedisConsole.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240819_ado.net\\xh.redisconsole\\string\\redisstringtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12C8932C-4EF9-408F-A23F-95DC2E5FC0B3}|20240819_ADO.NET\\XH.RedisConsole\\XH.RedisConsole.csproj|solutionrelative:20240819_ado.net\\xh.redisconsole\\string\\redisstringtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +35,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RedisStringTest.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.RedisConsole\\String\\RedisStringTest.cs",
+              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.RedisConsole\\String\\RedisStringTest.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.RedisConsole\\String\\RedisStringTest.cs",
+              "RelativeToolTip": "20240819_ADO.NET\\XH.RedisConsole\\String\\RedisStringTest.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T04:02:43.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.RedisConsole\\Program.cs",
+              "RelativeDocumentMoniker": "20240819_ADO.NET\\XH.RedisConsole\\Program.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240819_ADO.NET\\XH.RedisConsole\\Program.cs",
+              "RelativeToolTip": "20240819_ADO.NET\\XH.RedisConsole\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:37:56.639Z",
+              "EditorCaption": ""
             }
           ]
         },

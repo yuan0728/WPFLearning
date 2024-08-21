@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.AutofacWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b04608a12c0bd76b0d21d3213983f9bf86f931c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abc1787c2e90b7b4925a86c34c8c36ff9fe9e681")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.AutofacWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.AutofacWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

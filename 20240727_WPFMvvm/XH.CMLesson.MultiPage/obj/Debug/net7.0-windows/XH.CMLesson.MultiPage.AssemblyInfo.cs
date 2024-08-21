@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.CMLesson.MultiPage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e464b45e6a8f148efd4b503a90774a29d311ae7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abc1787c2e90b7b4925a86c34c8c36ff9fe9e681")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.CMLesson.MultiPage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.CMLesson.MultiPage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
