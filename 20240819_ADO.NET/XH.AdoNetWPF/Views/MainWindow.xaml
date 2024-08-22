@@ -15,6 +15,7 @@
         <StackPanel>
             <Button Content="Save" Margin="10" Command="{Binding SaveCommand}"/>
             <Button Content="Export" Margin="10" Command="{Binding ExportCommand}"/>
+            <Button Content="Get" Margin="10" Command="{Binding GetCommand}"/>
         </StackPanel>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>

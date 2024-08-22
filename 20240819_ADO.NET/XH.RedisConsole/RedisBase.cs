@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace XH.RedisConsole
 {
-    public class TestBase
+    public class RedisBase
     {
         ////测试 redis-cluster 不能设置 defaultDatabase
 
@@ -24,7 +24,7 @@ namespace XH.RedisConsole
             TagId = new[] { 1, 3, 3, 3, 3 }
         };
 
-        public TestBase()
+        public RedisBase()
         {
             //rds.NodesServerManager.FlushAll();
         }

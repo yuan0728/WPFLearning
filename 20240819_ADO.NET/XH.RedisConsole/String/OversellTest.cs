@@ -12,7 +12,7 @@ namespace XH.RedisConsole.String
     /// 如果商品保存在数据库中：
     /// 程序设计：a.获取商品数量   b.判断是否还有库存   c.如果有库存---提示秒杀成功--减库存  d.库存再设置上去    注意：防止超卖---10商品参与秒杀，如果下了20个订单~~ 
     /// </summary>
-    public class OversellTest : TestBase
+    public class OversellTest : RedisBase
     {
         private static object Object_locker = new object();
         public void Show()

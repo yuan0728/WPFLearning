@@ -12,8 +12,9 @@
     <PackageReference Include="Autofac" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
     <PackageReference Include="MvvmLight" Version="5.4.1.1" />
+    <PackageReference Include="CSRedisCore" Version="3.8.803" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
@@ -22,7 +23,6 @@
     <ProjectReference Include="..\XH.DbModels\XH.DbModels.csproj" />
     <ProjectReference Include="..\XH.Interfaces\XH.Interfaces.csproj" />
     <ProjectReference Include="..\XH.Services\XH.Services.csproj" />
-    
   </ItemGroup>
 
 </Project>

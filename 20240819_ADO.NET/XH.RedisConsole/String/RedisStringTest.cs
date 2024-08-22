@@ -9,7 +9,7 @@ namespace XH.RedisConsole.String
     /// <summary>
     /// 
     /// </summary>
-    public class RedisStringTest : TestBase
+    public class RedisStringTest : RedisBase
     {
         /// <summary>
         /// 字符串追加

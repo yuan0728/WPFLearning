@@ -10,7 +10,7 @@ namespace XH.RedisConsole.Hash
     /// <summary>
     /// Hash二次封装
     /// </summary>
-    public class RedisHashService : TestBase
+    public class RedisHashService : RedisBase
     {
         #region Hash
         /// <summary>

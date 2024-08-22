@@ -103,3 +103,5 @@ D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.AdoNetWPF\bin\D
 D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.AdoNetWPF\bin\Debug\net7.0-windows\XH.Services.dll
 D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.AdoNetWPF\bin\Debug\net7.0-windows\XH.Interfaces.pdb
 D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.AdoNetWPF\bin\Debug\net7.0-windows\XH.Services.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.AdoNetWPF\bin\Debug\net7.0-windows\CSRedisCore.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240819_ADO.NET\XH.AdoNetWPF\bin\Debug\net7.0-windows\Newtonsoft.Json.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.RedisConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abc1787c2e90b7b4925a86c34c8c36ff9fe9e681")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcdfaabb4c1c9a719f0bfa51404ce184999e9d7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.RedisConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.RedisConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
