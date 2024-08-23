@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "05NifEj/GFdJ4L4tMlU4VkZhiK4Nc3dnUGbwRSbxp8emXhjUjw2JzhRN/iX8uILeHZ9DOKIuw9u+YJRHCa338w==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\yhl18\\Desktop\\WPF学习\\WPFLearning\\20240818_AutofacIoc_Aop\\XH.AutofacIoc\\XH.AutofacIoc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yhl18\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\yhl18\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
