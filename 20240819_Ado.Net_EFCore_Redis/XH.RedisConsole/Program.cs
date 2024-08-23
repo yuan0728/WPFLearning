@@ -8,8 +8,6 @@ namespace XH.RedisConsole
     {
         static void Main(string[] args)
         {
-
-
             //一、程序链接Redis---必然需要C#的驱动程序
             //1.Redis Stack-------只能连接单机
             //2.Redis Exchanges---只能连接单机---要收钱
