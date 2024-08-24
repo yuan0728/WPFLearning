@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +38,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAAABEBAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T02:18:14.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml",
@@ -46,19 +59,6 @@
               "RelativeToolTip": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-23T03:32:47.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "RelativeToolTip": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAgwIcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T03:32:47.465Z",
               "EditorCaption": ""
             }
           ]
