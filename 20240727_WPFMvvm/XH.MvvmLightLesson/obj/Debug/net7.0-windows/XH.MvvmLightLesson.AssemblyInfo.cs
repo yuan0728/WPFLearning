@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.MvvmLightLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a678f5cec1c6b803f6adb6f10500114c5e5aa49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33a694d8afea1d38006690d820217cb29f825b1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.MvvmLightLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.MvvmLightLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

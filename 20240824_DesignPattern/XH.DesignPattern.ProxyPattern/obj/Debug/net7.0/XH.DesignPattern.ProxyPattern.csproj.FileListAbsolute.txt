@@ -1,0 +1,15 @@
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.AssemblyInfoInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.AssemblyInfo.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.csproj.CoreCompileInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.sourcelink.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\bin\Debug\net7.0\XH.DesignPattern.ProxyPattern.exe
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\bin\Debug\net7.0\XH.DesignPattern.ProxyPattern.deps.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\bin\Debug\net7.0\XH.DesignPattern.ProxyPattern.runtimeconfig.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\bin\Debug\net7.0\XH.DesignPattern.ProxyPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\bin\Debug\net7.0\XH.DesignPattern.ProxyPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\refint\XH.DesignPattern.ProxyPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\XH.DesignPattern.ProxyPattern.genruntimeconfig.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ProxyPattern\obj\Debug\net7.0\ref\XH.DesignPattern.ProxyPattern.dll

@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51C13B08-48CF-4915-AD5D-4D0B9D04A1C2}|20240823_Thread\\XH.ThreadDemo\\XH.ThreadDemo.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240823_thread\\xh.threaddemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C13B08-48CF-4915-AD5D-4D0B9D04A1C2}|20240823_Thread\\XH.ThreadDemo\\XH.ThreadDemo.csproj|solutionrelative:20240823_thread\\xh.threaddemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51C13B08-48CF-4915-AD5D-4D0B9D04A1C2}|20240823_Thread\\XH.ThreadDemo\\XH.ThreadDemo.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_thread\\xh.threaddemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{51C13B08-48CF-4915-AD5D-4D0B9D04A1C2}|20240823_Thread\\XH.ThreadDemo\\XH.ThreadDemo.csproj|solutionrelative:20240823_thread\\xh.threaddemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\studentdecoratorvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\studentdecoratorvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\abstractstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\abstractstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\studentdecoratorhomework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\studentdecoratorhomework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\abstractdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\abstractdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\studentdecoratoranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\decorator\\studentdecoratoranswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\studentfree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\studentfree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.decoratorpattern\\studentvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}|20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\XH.DesignPattern.DecoratorPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.decoratorpattern\\studentvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.proxypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.proxypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.proxypattern\\proxysubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.proxypattern\\proxysubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.proxypattern\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.proxypattern\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.proxypattern\\customcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.proxypattern\\customcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.proxypattern\\realsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C4ECB0-8437-4D92-B755-D40B36029F69}|20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\XH.DesignPattern.ProxyPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.proxypattern\\realsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835321F4-8396-4296-98FF-B9CEE310BA7D}|20240824_DesignPattern\\XH.DesignPattern.AdapterPattern\\XH.DesignPattern.AdapterPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.adapterpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835321F4-8396-4296-98FF-B9CEE310BA7D}|20240824_DesignPattern\\XH.DesignPattern.AdapterPattern\\XH.DesignPattern.AdapterPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.adapterpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +66,151 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentFree.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentFree.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentFree.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentFree.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentFree.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:55:09.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDecoratorVideo.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorVideo.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorVideo.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorVideo.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorVideo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:54:34.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentDecoratorHomework.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorHomework.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorHomework.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorHomework.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorHomework.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:54:32.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentDecoratorAnswer.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorAnswer.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorAnswer.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorAnswer.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\StudentDecoratorAnswer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:54:30.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbstractStudent.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\AbstractStudent.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\AbstractStudent.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\AbstractStudent.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\AbstractStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:54:27.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AbstractDecorator.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\AbstractDecorator.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\AbstractDecorator.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\AbstractDecorator.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Decorator\\AbstractDecorator.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwBgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:02:57.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Program.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Program.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Program.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAWwCoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T10:49:50.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentVip.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentVip.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentVip.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentVip.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.DecoratorPattern\\StudentVip.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:54:26.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProxySubject.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ProxySubject.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ProxySubject.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ProxySubject.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ProxySubject.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:48:31.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomCache.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\CustomCache.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\CustomCache.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\CustomCache.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\CustomCache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:49:10.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RealSubject.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\RealSubject.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\RealSubject.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\RealSubject.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\RealSubject.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:47:32.3Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,27 +229,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "RelativeToolTip": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAIBAAAAAAAAAAAAABEBAAAWAAAA",
+              "DocumentIndex": 10,
+              "Title": "ISubject.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ISubject.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ISubject.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ISubject.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\ISubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:18:14.552Z",
+              "WhenOpened": "2024-08-25T11:47:40.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml",
-              "RelativeToolTip": "20240823_Thread\\XH.ThreadDemo\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-23T03:32:47.666Z",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\Program.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\Program.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\Program.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ProxyPattern\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:47:30.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.AdapterPattern\\Program.cs",
+              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.AdapterPattern\\Program.cs",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.AdapterPattern\\Program.cs",
+              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.AdapterPattern\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:35:34.399Z",
               "EditorCaption": ""
             }
           ]

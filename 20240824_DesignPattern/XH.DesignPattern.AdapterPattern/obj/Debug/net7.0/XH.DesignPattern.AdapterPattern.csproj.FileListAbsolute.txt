@@ -1,0 +1,15 @@
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\bin\Debug\net7.0\XH.DesignPattern.AdapterPattern.exe
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\bin\Debug\net7.0\XH.DesignPattern.AdapterPattern.deps.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\bin\Debug\net7.0\XH.DesignPattern.AdapterPattern.runtimeconfig.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\bin\Debug\net7.0\XH.DesignPattern.AdapterPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\bin\Debug\net7.0\XH.DesignPattern.AdapterPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.AssemblyInfoInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.AssemblyInfo.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.csproj.CoreCompileInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.sourcelink.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\refint\XH.DesignPattern.AdapterPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\XH.DesignPattern.AdapterPattern.genruntimeconfig.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.AdapterPattern\obj\Debug\net7.0\ref\XH.DesignPattern.AdapterPattern.dll

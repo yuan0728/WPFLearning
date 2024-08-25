@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.EventLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1da3d7e1cc42562a01b2a342d5b635c9da9c3da6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33a694d8afea1d38006690d820217cb29f825b1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.EventLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.EventLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
