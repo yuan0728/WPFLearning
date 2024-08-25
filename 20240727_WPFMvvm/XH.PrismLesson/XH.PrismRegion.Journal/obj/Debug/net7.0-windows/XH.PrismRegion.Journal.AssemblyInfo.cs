@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.PrismRegion.Journal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33a694d8afea1d38006690d820217cb29f825b1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8160b5f5ff67343cc7838a65686bad4fe73afb23")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.PrismRegion.Journal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.PrismRegion.Journal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

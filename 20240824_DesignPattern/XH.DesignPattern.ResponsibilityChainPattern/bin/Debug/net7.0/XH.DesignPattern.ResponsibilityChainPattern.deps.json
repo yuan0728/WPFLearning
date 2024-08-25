@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "XH.DesignPattern.ResponsibilityChainPattern/1.0.0": {
+        "runtime": {
+          "XH.DesignPattern.ResponsibilityChainPattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XH.DesignPattern.ResponsibilityChainPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

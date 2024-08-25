@@ -159,11 +159,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.ThreadDemo", "20240823_T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20240824_DesignPattern", "20240824_DesignPattern", "{E3B50FAD-F1B9-40B7-857A-A0D79BB75931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.DesignPattern.AdapterPattern", "20240824_DesignPattern\XH.DesignPattern.AdapterPattern\XH.DesignPattern.AdapterPattern.csproj", "{835321F4-8396-4296-98FF-B9CEE310BA7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.DesignPattern.AdapterPattern", "20240824_DesignPattern\XH.DesignPattern.AdapterPattern\XH.DesignPattern.AdapterPattern.csproj", "{835321F4-8396-4296-98FF-B9CEE310BA7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.DesignPattern.ProxyPattern", "20240824_DesignPattern\XH.DesignPattern.ProxyPattern\XH.DesignPattern.ProxyPattern.csproj", "{09C4ECB0-8437-4D92-B755-D40B36029F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.DesignPattern.ProxyPattern", "20240824_DesignPattern\XH.DesignPattern.ProxyPattern\XH.DesignPattern.ProxyPattern.csproj", "{09C4ECB0-8437-4D92-B755-D40B36029F69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.DesignPattern.DecoratorPattern", "20240824_DesignPattern\XH.DesignPattern.DecoratorPattern\XH.DesignPattern.DecoratorPattern.csproj", "{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.DesignPattern.DecoratorPattern", "20240824_DesignPattern\XH.DesignPattern.DecoratorPattern\XH.DesignPattern.DecoratorPattern.csproj", "{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XH.DesignPattern.ResponsibilityChainPattern", "20240824_DesignPattern\XH.DesignPattern.ResponsibilityChainPattern\XH.DesignPattern.ResponsibilityChainPattern.csproj", "{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XH.DesignPattern.ObserverPattern", "20240824_DesignPattern\XH.DesignPattern.ObserverPattern\XH.DesignPattern.ObserverPattern.csproj", "{CDB845F6-4E2B-465F-8654-FB55C3F2F9B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -387,6 +391,14 @@ Global
 		{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB845F6-4E2B-465F-8654-FB55C3F2F9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB845F6-4E2B-465F-8654-FB55C3F2F9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB845F6-4E2B-465F-8654-FB55C3F2F9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB845F6-4E2B-465F-8654-FB55C3F2F9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -455,6 +467,8 @@ Global
 		{835321F4-8396-4296-98FF-B9CEE310BA7D} = {E3B50FAD-F1B9-40B7-857A-A0D79BB75931}
 		{09C4ECB0-8437-4D92-B755-D40B36029F69} = {E3B50FAD-F1B9-40B7-857A-A0D79BB75931}
 		{6D8AB0E4-FFEE-40C5-8AC0-AA0B0BD18997} = {E3B50FAD-F1B9-40B7-857A-A0D79BB75931}
+		{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5} = {E3B50FAD-F1B9-40B7-857A-A0D79BB75931}
+		{CDB845F6-4E2B-465F-8654-FB55C3F2F9B3} = {E3B50FAD-F1B9-40B7-857A-A0D79BB75931}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A97F248-C01D-4403-9708-39DD917AA659}

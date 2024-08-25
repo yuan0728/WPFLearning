@@ -1,0 +1,15 @@
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.AssemblyInfoInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.AssemblyInfo.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.csproj.CoreCompileInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.sourcelink.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\bin\Debug\net7.0\XH.DesignPattern.ObserverPattern.exe
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\bin\Debug\net7.0\XH.DesignPattern.ObserverPattern.deps.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\bin\Debug\net7.0\XH.DesignPattern.ObserverPattern.runtimeconfig.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\bin\Debug\net7.0\XH.DesignPattern.ObserverPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\bin\Debug\net7.0\XH.DesignPattern.ObserverPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\refint\XH.DesignPattern.ObserverPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\XH.DesignPattern.ObserverPattern.genruntimeconfig.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.ObserverPattern\obj\Debug\net7.0\ref\XH.DesignPattern.ObserverPattern.dll
