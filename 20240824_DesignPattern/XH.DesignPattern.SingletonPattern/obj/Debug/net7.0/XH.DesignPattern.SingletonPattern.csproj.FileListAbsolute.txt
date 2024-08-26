@@ -1,0 +1,15 @@
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.AssemblyInfoInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.AssemblyInfo.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.csproj.CoreCompileInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.sourcelink.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\bin\Debug\net7.0\XH.DesignPattern.SingletonPattern.exe
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\bin\Debug\net7.0\XH.DesignPattern.SingletonPattern.deps.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\bin\Debug\net7.0\XH.DesignPattern.SingletonPattern.runtimeconfig.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\bin\Debug\net7.0\XH.DesignPattern.SingletonPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\bin\Debug\net7.0\XH.DesignPattern.SingletonPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\refint\XH.DesignPattern.SingletonPattern.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\XH.DesignPattern.SingletonPattern.genruntimeconfig.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240824_DesignPattern\XH.DesignPattern.SingletonPattern\obj\Debug\net7.0\ref\XH.DesignPattern.SingletonPattern.dll

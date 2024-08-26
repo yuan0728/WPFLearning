@@ -154,8 +154,6 @@ namespace XH.DesignPattern.ResponsibilityChainPattern
 
                 pm.Audit(context);
             }
-
-
         }
     }
 }

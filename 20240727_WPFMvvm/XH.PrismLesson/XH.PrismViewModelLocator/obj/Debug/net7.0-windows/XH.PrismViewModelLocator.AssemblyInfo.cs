@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.PrismViewModelLocator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8160b5f5ff67343cc7838a65686bad4fe73afb23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b24afc4ddfa95a09fae717d985818a0056c4a894")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.PrismViewModelLocator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.PrismViewModelLocator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
