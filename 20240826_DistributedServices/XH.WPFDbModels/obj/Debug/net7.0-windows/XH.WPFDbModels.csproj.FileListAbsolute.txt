@@ -1,0 +1,15 @@
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.AssemblyInfoInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.AssemblyInfo.cs
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.csproj.CoreCompileInputs.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.sourcelink.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\bin\Debug\net7.0-windows\XH.WPFDbModels.deps.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\bin\Debug\net7.0-windows\XH.WPFDbModels.runtimeconfig.json
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\bin\Debug\net7.0-windows\XH.WPFDbModels.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\bin\Debug\net7.0-windows\XH.WPFDbModels.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.csproj.AssemblyReference.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\refint\XH.WPFDbModels.dll
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.pdb
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\XH.WPFDbModels.genruntimeconfig.cache
+D:\Users\yhl18\Desktop\WPF学习\WPFLearning\20240826_DistributedServices\XH.WPFDbModels\obj\Debug\net7.0-windows\ref\XH.WPFDbModels.dll

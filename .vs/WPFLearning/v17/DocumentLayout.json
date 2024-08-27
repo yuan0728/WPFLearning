@@ -3,60 +3,8 @@
   "WorkspaceRootPath": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\singletonprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\singletonprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\factory\\simpbuidlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\factory\\simpbuidlerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\builder\\auditorworkflowsbuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\builder\\auditorworkflowsbuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\builder\\ibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\builder\\ibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\builder\\auditorworkflowsnewbuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CD39C7-59BD-4FC1-8893-D2BDC00BBCC5}|20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\XH.DesignPattern.ResponsibilityChainPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.responsibilitychainpattern\\builder\\auditorworkflowsnewbuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\singletonthird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\singletonthird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\singletonseoncd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\singletonseoncd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\service\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\service\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\service\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\service\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|d:\\users\\yhl18\\desktop\\wpf\u5B66\u4E60\\wpflearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\serializehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\serializehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_designpattern\\xh.designpattern.singletonpattern\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A46CE3AD-3C7C-4916-9E4E-69A1C509A78C}|20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\XH.DesignPattern.SingletonPattern.csproj|solutionrelative:20240824_designpattern\\xh.designpattern.singletonpattern\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E8DFC5B-595F-4A71-BC56-C4C2B84931E9}|20240826_DistributedServices\\XH.CoreWebApi\\XH.CoreWebApi.csproj|D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240826_distributedservices\\xh.corewebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E8DFC5B-595F-4A71-BC56-C4C2B84931E9}|20240826_DistributedServices\\XH.CoreWebApi\\XH.CoreWebApi.csproj|solutionrelative:20240826_distributedservices\\xh.corewebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 81,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,184 +34,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Program.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Program.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Program.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Program.cs",
-              "ViewState": "AQIAAIIAAAAAAAAAAAAQwJcAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T05:17:33.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBuilder.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\IBuilder.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\IBuilder.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\IBuilder.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\IBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T05:20:46.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuditorWorkFlowsBuild.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsBuild.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsBuild.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsBuild.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsBuild.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:30:34.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuditorWorkFlowsNewBuild.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsNewBuild.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsNewBuild.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsNewBuild.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Builder\\AuditorWorkFlowsNewBuild.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T05:26:18.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SimpBuidlerFactory.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Factory\\SimpBuidlerFactory.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Factory\\SimpBuidlerFactory.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Factory\\SimpBuidlerFactory.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.ResponsibilityChainPattern\\Factory\\SimpBuidlerFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T05:33:56.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SingletonPrototype.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonPrototype.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonPrototype.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonPrototype.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonPrototype.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T05:03:12.039Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240826_DistributedServices\\XH.CoreWebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "20240826_DistributedServices\\XH.CoreWebApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240826_DistributedServices\\XH.CoreWebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "20240826_DistributedServices\\XH.CoreWebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T05:07:20.06Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SingletonThird.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonThird.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonThird.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonThird.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonThird.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T04:03:40.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SingletonSeoncd.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonSeoncd.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonSeoncd.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonSeoncd.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SingletonSeoncd.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T03:55:10.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PersonService.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\PersonService.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\PersonService.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\PersonService.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\PersonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T03:46:44.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SingletonBase.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\SingletonBase.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\SingletonBase.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\SingletonBase.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\SingletonBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwB4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T03:46:19.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\UserService.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\UserService.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Service\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T03:46:51.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SerializeHelper.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SerializeHelper.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SerializeHelper.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SerializeHelper.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\SerializeHelper.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T05:56:35.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Program.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Program.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Program.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAJoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:33:32.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Singleton.cs",
-              "DocumentMoniker": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Singleton.cs",
-              "RelativeDocumentMoniker": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Singleton.cs",
-              "ToolTip": "D:\\Users\\yhl18\\Desktop\\WPF\u5B66\u4E60\\WPFLearning\\20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Singleton.cs",
-              "RelativeToolTip": "20240824_DesignPattern\\XH.DesignPattern.SingletonPattern\\Singleton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T02:36:08.359Z"
             }
           ]
         },
