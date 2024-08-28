@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XH.EventLesson")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7548d0316e7755c7aa8849a0a10172dee30fcc37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+310de02f60e09ea4a5f61b7a14de28840dd5393c")]
 [assembly: System.Reflection.AssemblyProductAttribute("XH.EventLesson")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XH.EventLesson")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
